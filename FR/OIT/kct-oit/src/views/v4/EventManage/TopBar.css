@@ -1,0 +1,44 @@
+.saveEventBtnGroup{
+    z-index: 1;
+}
+.topBarBtnGroup .linkCoppierMenu {
+    /* border: 1px solid rgba(59, 59, 59, 0.25); */
+    border-radius: 4px;
+    /* margin: 6px 11px; */
+    padding: 4px 6px;
+    font-size: 0.875rem;
+    width: auto;
+    max-width: 160px;
+    background: #ebeaea;
+    display: flex;
+    justify-content: flex-start;
+}
+.topBarBtnGroup{
+    max-width: 260px;
+}
+.topBarBtnGroup .GroupDropDownList {
+    min-width: unset;
+    padding: 8px;
+}
+.topBarBtnGroup .MainLinkSpan {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.linkComponentWrap {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin:8px 0px;
+}
+.linkComponentWrap>span{
+    margin: 0 14px 0 8px;
+}
+.publishEvent_wrap>span{
+    z-index: 1;
+}
+.inlineFlex{
+    display: inline-flex;
+}

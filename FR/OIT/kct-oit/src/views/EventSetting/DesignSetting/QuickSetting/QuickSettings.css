@@ -1,0 +1,28 @@
+.eventLogoUploader .Img__preview_div {
+  z-index: 0;
+}
+.eventLogoUploader .profileUploader__cropper_wrap {
+  background: aliceblue;
+  height: 103px;
+  z-index: 15;
+  top: 0;
+  position: absolute;
+}
+.eventLogoUploader .Img_cropper_main .selectImg input {
+  position: absolute;
+  width: 180px;
+  height: 103px;
+  background-color: #2e2d2dde;
+  border-radius: 11px;
+  opacity: 0;
+  cursor: pointer;
+}
+.eventLogoUploader .image__uploader {
+  position: relative;
+}
+
+.eventLogoUploader .Img__preview_div {
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+}

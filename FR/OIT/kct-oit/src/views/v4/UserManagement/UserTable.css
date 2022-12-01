@@ -1,0 +1,79 @@
+/* ------------DataGrid Custom css for event lists page-----------*/
+.UserTablePage .userListCustomDataGrid {
+  border: none;
+}
+.UserTablePage .userListCustomDataGrid .MuiDataGrid-main {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.UserTablePage
+  .userListCustomDataGrid
+  .MuiDataGrid-main
+  .MuiDataGrid-columnsContainer {
+  border-bottom: 1px solid rgba(59, 59, 59, 0.5);
+}
+.UserTablePage .userListCustomDataGrid .MuiDataGrid-main .MuiDataGrid-cell {
+  border-bottom: 1px solid rgba(224, 224, 224, 0);
+}
+.UserTablePage .userListCustomDataGrid .MuiDataGrid-columnSeparator {
+  display: none;
+}
+.UserTablePage .userListCustomDataGrid .MuiDataGrid-columnHeaderTitleContainer {
+  padding: 0;
+}
+/* ------------DataGrid Custom css for event lists page-----------*/
+
+.UserTablePage .userListCustomDataGrid .UserList__roleColumnCell {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+.UserTablePage .userListCustomDataGrid .UserList__roleColumnCell svg{
+  margin: 2px;
+}
+.UserTablePage .userListCustomDataGrid .UserList__roleColumnCell .role_icon_cell{
+  max-width: 28px;
+  max-height: 28px;
+}
+.tableRoleDropdownMenu{
+    min-width: 180px;
+}
+.UserTablePage .tableRoleDropdownMenu li {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.tableRoleDropdownMenuBtn .MuiButton-label{
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.EventManageWrap .verticleTab__EventManage .userListTopTabRow .MuiTabs-flexContainer {
+    left: unset;
+    position: unset;
+}
+.userListTopTabRow .userListTabList>div>div.MuiTabs-flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.userListTopTabRow .userListTabList .MuiTabs-flexContainer a {
+    left: -62px;
+}
+.userListTopTabRow{
+    position: relative;
+}
+.userListTopTabRow .searchDeleteBtnRow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+.userListTopTabRow .filledSearchComponent input{
+    padding: 10px 2px;
+    max-height: 44px;
+}

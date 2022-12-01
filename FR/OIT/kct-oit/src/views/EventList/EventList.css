@@ -1,0 +1,128 @@
+.EventListPage > span > svg > path {
+  fill: #0589b8;
+}
+.EventListPage .text_center_eventsList {
+  text-align: left !important;
+}
+.EventListPage > span > svg {
+  position: relative;
+  top: 52px;
+  left: -8px;
+  width: 40px;
+  fill: #0589b8;
+  height: 40px;
+}
+.EventListPage > div > div > div > .MuiTabs-flexContainer {
+  width: 100%;
+  /* margin-left: -80px; */
+  margin-top: 20px;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  align-content: center;
+  justify-content: center;
+}
+.EventListPage > .CreateEveBtn {
+  position: relative;
+  top: 46px;
+  /* background-color: #0589B8; */
+  padding: 4px;
+  float: right;
+}
+/* .EventListPage>.CreateEveBtn:hover{
+    background-color: #076385;
+} */
+.EventListPage .MuiDataGrid-windowContainer {
+  position: absolute;
+  top: 0;
+}
+.EventListPage > div > #nav-tabpanel-0,
+.EventListPage > div > #nav-tabpanel-1,
+.EventListPage > div > #nav-tabpanel-2 {
+  padding: 10px 0;
+}
+.EventListPage > .CreateEveBtn > span > svg {
+  width: 40px;
+  fill: #0589b8;
+  height: 40px;
+}
+.EventListPage > div > div > .MuiBox-root {
+  padding: 0;
+}
+.EventListPage .MuiDataGrid-menuIcon {
+  display: none !important;
+}
+/* .EventListPage .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--withRenderer, .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--editing {
+    justify-content: center;
+} */
+
+
+/* ------------DataGrid Custom css for event lists page-----------*/
+.EventListPage .eventListCustomDataGrid {
+  border: none;
+}
+.EventListPage .eventListCustomDataGrid .MuiDataGrid-main {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.EventListPage
+  .eventListCustomDataGrid
+  .MuiDataGrid-main
+  .MuiDataGrid-columnsContainer {
+  border-bottom: 1px solid rgba(59, 59, 59, 0.5);
+}
+.EventListPage .eventListCustomDataGrid .MuiDataGrid-main .MuiDataGrid-cell {
+  border-bottom: 1px solid rgba(224, 224, 224, 0);
+}
+/* ------------DataGrid Custom css for event lists page-----------*/
+
+
+.EventListPage
+  .MuiDataGrid-root
+  .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--withRenderer,
+.MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--editing {
+  justify-content: flex-start;
+}
+.EventListPage .eventListCustomDataGrid .MuiDataGrid-columnHeader {
+  padding: 0 0px;
+}
+.EventListPage .eventListCustomDataGrid .MuiDataGrid-cell {
+  padding: 0 6px;
+}
+.EventListPage .eventListCustomDataGrid .MuiDataGrid-columnSeparator {
+  display: none;
+}
+.EventListPage .eventListCustomDataGrid .reccCellWithIcon {
+  position: relative;
+}
+.EventListPage .eventListCustomDataGrid .reccCellWithIcon svg {
+  position: absolute;
+  left: -20px;
+  top: 9px;
+  max-width: 15px;
+  max-height: 15px;
+}
+.EventListPage .eventListCustomDataGrid .reccCellWithIcon svg {
+  max-width: 15px;
+  max-height: 15px;
+}
+.EventListPage .eventListCustomDataGrid .tooltipRecIcon  {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.recurrenceCellCustomOverflow {
+  overflow: visible !important;
+}
+.EventListPage .deleteEventCell{
+    display: none;
+}
+.EventListPage .eventListCustomDataGrid .MuiDataGrid-row:hover .deleteEventCell{
+    display: block;
+} 
+.EventListPage .eventListCustomDataGrid .eventNameLink{
+    cursor: pointer;
+    color: #0589b8;
+    font-weight: 400;
+}
+.eventListCustomDataGrid .MuiDataGrid-main .MuiDataGrid-windowContainer>.MuiDataGrid-window{
+  overflow-x: hidden;
+}

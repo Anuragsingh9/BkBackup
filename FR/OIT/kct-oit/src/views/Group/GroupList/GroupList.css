@@ -1,0 +1,138 @@
+.MuiDataGrid-root .MuiDataGrid-main{
+    z-index: 1;
+}
+.GroupListWrap .MuiBox-root.MuiBox-root-32{
+    padding: 0;
+}
+.GroupListWrap .MuiBox-root{
+    padding: 0;
+}
+.GroupListWrap .create_group_btn {
+    position: absolute;
+    right: 0px;
+    top: 44px;
+    z-index: 1;
+    display: flex;
+    height: 38px;
+
+}
+.GroupListWrap .MuiButton-outlinedSizeLarge{
+    /* margin-left: 4px; */
+}
+.GroupListWrap{
+    position: relative;
+    padding-top: 40px;
+}
+.GroupListWrap .MuiTab-wrapper{
+    font-size: 0.875rem;
+}
+.GroupListWrap .MuiTabs-root{
+    margin-bottom: 10px;
+}
+.GroupListWrap .MuiDataGrid-row .MuiDataGrid-cell:nth-child(6){
+    word-wrap: break-word;
+    /* max-width: unset!important; */
+}
+
+.GroupListWrap .custom_group_cell p, .GroupListWrap .custom_group_cell span {
+    margin: 0;
+    height: 20px;
+    position: relative;
+    padding: 0;
+    /* top: -15px; */
+    max-width: 150px;
+    overflow-x: clip;
+}
+.GroupListWrap .custom_group_cell p:only-child ,.GroupListWrap .custom_group_cell span:only-child{
+    margin: 0;
+    height: 20px;
+    position: relative;
+    padding: 0;
+    top: -15px;
+}
+.all_draft_count p{
+    top: -15px;
+}
+.GroupListWrap .custom_group_cell.time{
+    margin: 0;
+    height: 20px;
+    position: relative;
+    padding: 0;
+    top: -26px;
+}
+.GroupListWrap .MuiDataGrid-root .MuiDataGrid-columnHeader--moving{
+    background-color: unset;
+}
+.GroupListWrap .custom_group_cell p:nth-child(2) {
+    width: 158px;
+}
+.overflow_cell{
+    width: 100%;
+}
+.overflow_cell p {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+/* .GroupListWrap .MuiDataGrid-columnHeader:nth-child(1)>.MuiDataGrid-columnSeparator{
+    display: none!important;
+}
+.GroupListWrap .MuiDataGrid-columnHeader:nth-child(2)>.MuiDataGrid-columnSeparator{
+    display: none!important;
+}*/
+.GroupListWrap .MuiDataGrid-columnHeader:nth-child(7)>.MuiDataGrid-columnSeparator{
+    display: none!important;
+} 
+.GroupListWrap .MuiDataGrid-columnHeader:nth-child(8)>.MuiDataGrid-columnSeparator{
+    display: none!important;
+}
+@keyframes showDraftCountDiv {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.event_count:hover .all_draft_count{
+    display: block;
+    animation:showDraftCountDiv 1s forwards;
+    cursor:default;
+}
+.event_count{
+    cursor: pointer;
+}
+.all_draft_count{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    height: 77px;
+    border: 1px solid grey;
+    background-color: white;
+    z-index: 1;
+    top: -45px;
+    bottom: 180px;
+    left: 10px;
+    padding: 6% 2%;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%), 0 8px 12px 0 rgb(0 0 0 / 15%);
+    text-align: center;
+    opacity: 0;
+}
+.Group_table_common .MuiDataGrid-root .MuiDataGrid-main div .MuiDataGrid-windowContainer .MuiDataGrid-window{
+    overflow-y:unset!important;
+    overflow: visible;
+}
+
+.GroupListWrap .MuiOutlinedInput-root {
+
+    margin-right: 10px;
+}
+.GroupListWrap  .MuiInputBase-marginDense .MuiOutlinedInput-marginDense{
+    margin-right: 10px;
+}
+
+.MuiTabs-flexContainer{
+
+}

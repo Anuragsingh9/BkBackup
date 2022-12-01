@@ -1,0 +1,14 @@
+.crop_dialog_content_box {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-width: 550px;
+}
+.show_cropped_img{
+  width: 180px;
+  height: 103px;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}

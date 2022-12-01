@@ -1,0 +1,37 @@
+.RehearsalFlexDiv{
+    display: flex;
+    padding: 10px 0;
+    align-content: center;
+    align-items: center;
+}
+.RehearsalFlexDiv>button{
+    margin: 0 10px;
+}
+.linkCoppier{
+    border: 1px solid rgba(59, 59, 59, 0.25);
+    border-radius: 4px;
+    margin: 0 15px;
+    padding: 5px 6px;
+    font-size: 0.875rem;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.MainLinkSpan{
+    /* width: 144px;
+    overflow: hidden; */
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.iconCoppier{
+    display: flex;
+}
+.iconCoppier a svg{
+    position: relative;
+    top: 2px;
+}
+.iconCoppier button{
+    margin: 0 6px;
+}

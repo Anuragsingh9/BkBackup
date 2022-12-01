@@ -1,0 +1,28 @@
+.less_people_in_grid {
+    left: auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    color: rgb(255, 255, 255);
+}
+.grid-section{
+    position: relative;
+}
+.dummy-user_wrap{
+    position: absolute;
+}
+.grid_title_line{
+    color: rgb(255, 255, 255);
+}
+.two_line_tags{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #fff;
+    text-overflow: ellipsis;
+}
+.grid-section.kct-customization iframe{
+    height: 630px;
+}

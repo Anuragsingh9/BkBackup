@@ -1,0 +1,92 @@
+.SwitchDivRow>.MuiSwitch-root{
+    float: right;
+}
+.TogglerRow{
+    display: flex;
+}
+.SmallSubHeading{
+    font-size: 12px;
+}
+.Flex-2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    font-size: 0.875rem;
+}
+/* .Flex-1{
+    display: flex;
+} */
+.ToggleMainFlex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 12px 0;
+}
+.QuickDesignDiv{
+    width: 100%;
+}
+.QuickDesignDiv input{
+    padding: 9px;
+}
+.QuickDesignDiv .FlexRow{
+    display: flex;
+    align-items: center;
+}
+.SwitchContentChildDiv{
+    width: 100%;
+    padding: 10px 50px;
+}
+.SwitchContentChildDiv .FlexRow{
+    display: flex;
+    align-items: center;
+}
+.customPara{
+    margin: 8px 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.customPara-2{
+    padding: 8px 0;
+}
+.LogoPreviewDiv{
+    border: 1px solid #bdbdbd;
+    /* margin-left: 30px; */
+    padding: 10px 15px;
+    position: relative;
+    /* overflow: hidden; */
+    max-height: 100px;
+    width: 100px;
+    height: 120px;
+    background-size: contain;
+    display: flex;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.LogoPreviewDiv>img{
+    width: 100%;
+}
+.left-50px{
+    padding: 0 0 0 50px ;
+    position: relative;
+}
+.previewCloseIcon{
+    position: absolute;
+    right: -16px;
+    top: -13px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 24px!important;
+}
+.SwitchContentChildDiv .QuickSettingRow{
+    align-items: flex-start;
+}
+.SwitchContentChildDiv .QuickSettingLabel{
+    padding-top: 0;
+    margin-top: 0;
+}

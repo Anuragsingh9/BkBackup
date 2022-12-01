@@ -1,0 +1,41 @@
+.videoUpload_modalBody>div{
+    margin: 0 0 30px 0;
+}
+.videoUpload_modalFooter{
+   align-items: center!important;
+   justify-content: center!important;
+   padding: 8px 0 24px 0!important;
+}
+.videoUpload_modalFooter button{
+    /* align-items: center; */
+    padding: 6px 26px;
+ }
+ .videoUpload_modalBody #demo-simple-select{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.videoUpload_modalBody #demo-simple-select svg{
+    margin-right: 2px;
+}
+.videoUpload_modalBody i.MuiMenuItem-root svg{
+    margin-right: 8px;
+}
+.videoUpload_modalBody .videoUploadModalSelect{
+    margin-bottom: 16px;
+}
+.videoUpload_modalBody .uploadVideo_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.videoUpload_modalBody .uploadVideo_footer button{
+   background-color: #0589B8;
+   padding-left: 24px;
+   padding-right: 24px;
+}
+.videoUpload_modalBody .ThemeInputTag>div>input {
+    /* padding: 5px; */
+    width: 325px;
+    /* margin-bottom: 0px; */
+}

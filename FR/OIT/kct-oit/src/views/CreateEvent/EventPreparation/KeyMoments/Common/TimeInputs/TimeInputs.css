@@ -1,0 +1,65 @@
+.startEndTimeDiv{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* .startEndTimeDiv .common_TimePicker_div:nth-child(1){
+    justify-content: left;
+    align-items: center;
+}
+.startEndTimeDiv .common_TimePicker_div .endTime_subDiv{
+    justify-content: right;
+    align-items: center;
+} */
+.startEndTimeDiv .common_TimePicker_div {
+    display: flex;
+    max-width: 180px;
+    position: unset;
+    justify-content: flex-start;
+}
+.startEndTimeDiv>.common_TimePicker_div:nth-child(3){
+    display: flex;
+    justify-content: flex-end!important;
+}
+.startEndTimeDiv>.common_TimePicker_div:nth-child(2){
+    position: relative;
+    left: 6px;
+}
+.startEndTimeDiv .endTime_subDiv{
+    
+}
+.startEndTimeDiv .schedule_arrow_div{
+    padding: 16px 2px!important;
+}
+/* .startEndTimeDiv>div:nth-child(1){
+    padding-right: 10px;
+} */
+.IconWrapDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: -90px;
+    top: 6px;
+}
+.IconWrapDiv svg:nth-child(2){
+    cursor: pointer;
+}
+.IconWrapDiv .MuiSvgIcon-colorError{
+    width: 36px!important;
+    height: 30px!important;
+    padding: 0;
+}
+.IconWrapDiv svg{
+    padding: 0 6px;
+}
+/* .startEndTimeDiv input{
+    padding-top: 0;
+} */
+
+.full_width{
+    width: 100%;
+}
+.startEndTimeDiv .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    z-index: 0;
+}

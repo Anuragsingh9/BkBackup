@@ -1,0 +1,19 @@
+ .heartIcon{
+    padding-top:12px!important;
+    font-style: italic;
+}
+.questionIcon{
+    padding-bottom:15px!important;
+}
+.nameCol9>p{
+    font-size: 14px;
+}
+.ICOblue, .ICOsrch, .ICOqsnmrk{
+    width:16px!important;
+    height:16px!important;
+    margin-right:20px;
+}
+.proTagHeading, .perTagHeading, .heartIcon, .searchIcon, .questionIcon{
+    color: rgb(30 77 125 / 75%);
+}
+

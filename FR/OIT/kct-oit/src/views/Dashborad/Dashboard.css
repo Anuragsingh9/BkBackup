@@ -1,0 +1,12 @@
+.dashContainer>div>div>.MuiBox-root{
+    padding: 0;
+}
+/* .tab-row>div>div>.MuiTabs-root{
+    width: 20%;
+} */
+.tab-row>div>div>div>.MuiBox-root{
+    padding: 0;
+} 
+.tab-row>div{
+    padding: 0px;
+}

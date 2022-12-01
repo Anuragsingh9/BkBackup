@@ -1,0 +1,89 @@
+image: node:14.15.4
+
+# Workflow Configuration
+
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and Test
+            caches:
+              - node
+            script:
+              - npm install
+        - step:
+            name: Lint the node package
+            script:
+              # Run your linter of choice here
+              - npm install eslint
+            caches:
+              - node
+  branches:
+    develop:
+      - step:
+          name: Build and Test
+          caches:
+            - node
+          script:
+            - export NODE_OPTIONS=--max_old_space_size=3072
+            - export REACT_APP_HE_HOSTNAME="seque.in"
+            - export REACT_APP_HE_SKT_HOSTNAME="seque.in"
+            - export REACT_APP_HE_SKT_PORT="5050"
+            - export REACT_APP_HE_ORIGINTRIAL="Atqkmd1Swmfx3o931uS9zcbd+R13F3aUW3XPSWhZSSbLIqReYKv0ZbtqDVsDK08elK4VeSsyQeYQtg66rkXWVw4AAAByeyJvcmlnaW4iOiJodHRwczovL3NlcXVlLmluOjQ0MyIsImZlYXR1cmUiOiJVbnJlc3RyaWN0ZWRTaGFyZWRBcnJheUJ1ZmZlciIsImV4cGlyeSI6MTY1ODg3OTk5OSwiaXNTdWJkb21haW4iOnRydWV9"
+            - echo $REACT_APP_HE_HOSTNAME
+            - npm install
+            - unset CI
+            - npm run build
+          artifacts:
+            - build/**
+      - step:
+          name: Security Scan
+          script:
+            # Run a security scan for sensitive data.
+            # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
+            - pipe: atlassian/git-secrets-scan:0.5.1
+      - step:
+          name: Deploy artifacts using SCP to DEV Server
+          deployment: Development
+          script:
+            - pipe: atlassian/scp-deploy:0.3.3
+              variables:
+                USER: $USER
+                SERVER: $SERVER
+                REMOTE_PATH: '/var/www/sites/seque.in/public/e'
+                LOCAL_PATH: 'build/*'
+
+    staging:
+      - step:
+          name: Build and Test
+          caches:
+            - node
+          script:
+            - export NODE_OPTIONS=--max-old-space-size=3072
+            - export REACT_APP_HE_HOSTNAME="humannconnect.dev"
+            - export REACT_APP_HE_SKT_HOSTNAME="humannconnect.dev"
+            - export NODE_ENV="development"
+            - export REACT_APP_HE_SKT_PORT="5051"
+            - export REACT_APP_HE_ORIGINTRIAL="AghF6j1fgqAmTUsal1292GGQoMDXUB7Tsw8kxv+PSWkmdBV35zD+3OiPo8UwOop+qc7A74akaf/b0v4tqZAIwAIAAAB7eyJvcmlnaW4iOiJodHRwczovL2h1bWFubmNvbm5lY3QuZGV2OjQ0MyIsImZlYXR1cmUiOiJVbnJlc3RyaWN0ZWRTaGFyZWRBcnJheUJ1ZmZlciIsImV4cGlyeSI6MTY1ODg3OTk5OSwiaXNTdWJkb21haW4iOnRydWV9"
+            - echo $REACT_APP_HE_HOSTNAME
+            - npm install
+            - unset CI
+            - npm run build
+          artifacts:
+            - build/**
+#      - step:
+#          name: Security Scan
+#          script:
+#            # Run a security scan for sensitive data.
+#            # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
+##            - pipe: atlassian/git-secrets-scan:0.5.1
+      - step:
+          name: Deploy artifacts using SCP to DEV Server
+          deployment: Development
+          script:
+            - pipe: atlassian/scp-deploy:0.3.3
+              variables:
+                USER: $USER
+                SERVER: $SERVER
+                REMOTE_PATH: '/var/www/sites/humannconnect.dev/public/e'
+                LOCAL_PATH: 'build/*'

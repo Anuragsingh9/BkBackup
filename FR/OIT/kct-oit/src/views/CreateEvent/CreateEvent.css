@@ -1,0 +1,24 @@
+.CreateEventWrap>div>div>div>.MuiTabs-flexContainer{
+    margin-left: 90px;
+}
+
+.CreateEventWrap>div>div>div>.MuiTabs-flexContainer>.MuiTab-root {
+    width: fit-content;
+}
+.CreateEventWrap>svg{
+    position: relative;
+    top: 52px;
+    left: 21px;
+    width: 40px;
+    fill: #0589B8;
+    height: 40px;
+}
+.CreateEventWrap>div>#nav-tabpanel-0,.CreateEventWrap>div>#nav-tabpanel-1,.CreateEventWrap>div>#nav-tabpanel-3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 0;
+}
+.CreateEventWrap>div>#nav-tabpanel-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px 0;
+    min-height: 290px;
+}

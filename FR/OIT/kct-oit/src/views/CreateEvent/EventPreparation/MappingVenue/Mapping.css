@@ -1,0 +1,48 @@
+.VenueTypeRadioBtn{
+    display: flex;
+    flex-wrap: nowrap!important;
+    flex-direction: row!important;
+}
+.MappingMainDiv>.MuiGrid-root{
+    align-items: center;
+}
+.VeneuTypeTxt{
+    display: flex;
+    margin: 8px 0;
+}
+.AddDisTxt{
+    padding: 0 8px;
+}
+.spaceHostDropDown>div>div>.MuiOutlinedInput-adornedEnd{
+    width: 346px;
+    padding: 0;
+}
+.spaceHostDropDown>div>div>label{
+    position: absolute;
+    top: -10px;
+}
+.MappingMainDiv .BottomActionButtonDiv>button{
+    margin: 15px 15px 15px 0;
+}
+.modify_add_btn{
+    margin: 16px 10px 16px 0!important;
+}
+.scenery_wrap_div .scenery_main_selector{
+    min-width: 150px;
+    max-width: 220px;
+}
+.MappingMainDiv .MuiGrid-root.MuiGrid-item.MuiGrid-grid-lg-3>p{
+    display: flex;
+}
+.scenery_wrap_div .scenery_child_wrap{
+    display: -webkit-inline-box;
+}
+.scenery_wrap_div_opacity .MuiSlider-thumbColorPrimary{
+    top: 70%!important;
+}
+.scenery_wrap_div_opacity .SliderSpan{
+    margin: 0;
+}
+.scenery_child_wrap .SliderSpan .MainSliderPadding{
+    display: -webkit-inline-box;
+}

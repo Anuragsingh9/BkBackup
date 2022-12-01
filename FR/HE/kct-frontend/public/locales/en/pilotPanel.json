@@ -1,0 +1,9 @@
+{
+  "AT": "AT ",
+  "TO": "TO ",
+  "REHEARSAL_MODE": "EVENT IS IN REHEARSAL MODE",
+  "LIVE_MODE": "EVENT IS LIVE",
+  "REHEARSAL_MODE_DESC" : "Share the reheasersal link with your team to connect with them before the actual event starts.",
+  "LIVE_MODE_DESC": "Share the event link with the participants to invite them to event.",
+  "COPIED_TO_CLIP": "Copied to clipboard"
+}

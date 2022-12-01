@@ -1,0 +1,118 @@
+.ImgSliderWrap {
+  border: 1px solid #3b3b3b;
+  width: 140px;
+  height: 80px;
+  border-radius: 6px;
+  display: flex;
+  margin: 0px 22px;
+  justify-content: center;
+  align-items: center;
+}
+.ImgSliderWrap .scenery_custom_ImgSelector {
+  border: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #3b3b3b15;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.ImgSliderWrap .scenery_custom_ImgSelector:focus-visible {
+  outline: none !important;
+}
+.img_scenery {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-width: 140px !important;
+  min-height: 110px !important;
+}
+.ImgSliderWrap
+  .scenery_custom_ImgSelector
+  .MuiSelect-select.MuiSelect-outlined {
+  border: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #3b3b3b15;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.ImgSliderWrap .MuiSelect-nativeInput + svg {
+  position: absolute;
+  right: -30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.imgsliderwrap .scenery_custom_ImgSelector:hover {
+  border: none;
+}
+.ImgSliderWrap ul.MuiList-root {
+  padding: 0;
+  margin: 6px 0;
+}
+.Scenery_li_item {
+  min-width: 140px !important;
+  min-height: 80px !important;
+  margin: 4px 4px 4px 4px!important;
+  position: relative;
+  padding: 0 !important;
+  border-radius: 6px !important;
+  border: 1px solid #a5a5a5 !important;
+}
+ul.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding: 0 !important;
+}
+.MuiList-root.MuiList-padding.MuiMenu-list.css-r8u8y9 {
+  padding: 4px 0;
+}
+div.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  div.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  /* box-shadow: none; */
+  max-height: 432px;
+  margin-left: 0px !important;
+  overflow: auto;
+}
+
+div.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  div.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(36, 36, 36, 0.75) rgb(36 36 36 / 0%);
+}
+
+div.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  div.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 1px;
+}
+
+div.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  div.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+
+div.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  div.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper::-webkit-scrollbar-track {
+  position: absolute;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+div.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  div.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper::-webkit-scrollbar-thumb {
+  background: rgb(36 36 36 / 60%);
+  border-radius: 10px;
+  border-right: 3px rgba(255, 255, 255, 0) solid !important;
+  border-left: 3px rgba(255, 255, 255, 0) solid !important;
+  background-clip: padding-box !important;
+}
+
+div.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root
+  div.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper::-webkit-scrollbar-thumb:hover {
+  background: rgb(36 36 36 / 76%);
+  border-right: 3px rgba(255, 255, 255, 0) solid !important;
+  border-left: 3px rgba(255, 255, 255, 0) solid !important;
+  background-clip: padding-box !important;
+}

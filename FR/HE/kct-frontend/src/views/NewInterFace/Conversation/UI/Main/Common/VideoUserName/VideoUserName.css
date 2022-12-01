@@ -1,0 +1,62 @@
+.videoUserNameDiv {
+    display: flex;
+    padding: 4px 6px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: rgb(0 0 0 / 62%);
+    color: #fff;
+    position: absolute;
+    bottom: 2px;
+    margin-left: 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.otherToSHVideo .videoUserNameDiv{
+    bottom: 8px;
+}
+.selfSimpleVideo .videoUserNameDiv{
+    bottom: 55px;
+}
+.SHSelfVideoFrame .videoUserNameDiv {
+    bottom: 62px;
+    margin-left: 25px;
+}
+.SHSelfVideoFrame .other-users-badge.space-host-video .videoUserNameDiv {
+    bottom: 10px;
+    margin-left: 10px;
+}
+.userNameMicStatus-fl{
+    width: 20px;
+    height: 20px;
+}
+
+.userNameMicStatus svg{
+    width: 20px;
+    height: 11px;
+    margin-top: 2px;
+}
+
+.userNameMicStatus-fl .unmuted, .userNameMicStatus .unmuted{
+    fill: rgb(12, 178, 12);
+}
+.userNameMicStatus-fl .muted path, .userNameMicStatus .muted path{
+    fill: rgb(254, 25, 25);
+}
+.userNameMicStatus-fl svg {
+    max-width: 17px;
+    max-height: 17px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.micFillUser {
+    background: #00FF00 !important;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    opacity: 0.3;
+}

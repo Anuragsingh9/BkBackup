@@ -1,0 +1,109 @@
+{
+  "question_types": {
+    "open_text": {
+      "type": "text",
+      "options": "null"
+    },
+    "yes_no": {
+      "type": "radio",
+      "options": {
+        "yes": 0,
+        "no": 1
+      }
+    },
+    "single_option_text": {
+      "type": "radio",
+      "allow_user_to_add_answer": 0,
+      "is_mandatory": 0,
+      "options": {
+        "option1": "option label",
+        "option2": "option label",
+        "option3": "option label"
+      }
+    },
+    "multiple_option_text": {
+      "type": "checkbox",
+      "allow_user_to_add_answer": 0,
+      "is_mandatory": 0,
+      "options": {
+        "option1": "option label",
+        "option2": "option label",
+        "option3": "option label"
+      }
+    },
+    "trends": {
+      "type": "checkbox",
+      "options": {
+        "down": 0,
+        "straight": 1,
+        "up": 0
+      }
+    },
+    "numeric": {
+      "type": "text",
+      "options": null
+    },
+    "percentage": {
+      "type": "text",
+      "options": null
+    },
+    "numerical_1_10_slider": {
+      "type": "text",
+      "options": null
+    },
+    "numerical_1_100_slider": {
+      "type": "text",
+      "options": null
+    },
+    "date": {
+      "type": "date",
+      "options": null
+    },
+    "drag_drop_ranking": {
+      "type": "text",
+      "is_manual": 0,
+      "is_mandatory": 0,
+      "options": {
+        "option1": {
+          "text": "as as asa",
+          "order": 1
+        },
+        "option2": {
+          "text": "axcxs asas accsa",
+          "order": 2
+        },
+        "option3": {
+          "text": "adsds accxs adsdssa",
+          "order": 3
+        }
+      }
+    },
+    "column_fields": {
+      "type": "text",
+      "options": {
+        "column": {
+          "column1": "column one",
+          "column2": "column two"
+        },
+        "line": {
+          "line1": "line one",
+          "line2": "line two"
+        }
+      }
+    }
+  },
+  "reinvent": {
+    "title": "page title",
+    "description": "page description",
+    "logo": "org logo",
+    "website": "org website",
+    "twitter": "org twitter url",
+    "linkedin": "org linkedin url",
+    "facebook": "org facebook url",
+    "instagram": "org instagram url",
+    "graphics": "graphic data in json cast",
+    "replay_text": "replay_text",
+    "section_line_one": "section line to show on page",
+    "section_line_two": "section line to show on page"
+  }
+}

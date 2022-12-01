@@ -1,0 +1,35 @@
+{
+   
+    "Validate":"Validate",
+   
+    "Image size is too large !" :"Image size is too large !",
+    "Upload File" : "Upload File",
+    "First name":"First name",
+    "Last name":  "Last name",
+    "required" : " required",
+    "Company" : "Company",
+    "Update" :"Update",
+    "My Profile" : "My Profile",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Union" : "Union",
+    "Union position" : "Union Position",
+    "InternalId": "Internal Id",
+    "Mobile": "Mobile",
+    "emailErr":"Email is not correct",
+    "isAlpha" :"This field must be contain alpha numarical value",
+   
+    "ismax":"Id should be greater than 3 and less than 10 characters",
+    "ischar":"Invalid, it must be only  Character",
+    "ComPos": "Company Position",
+    "uniPos":"Union Position",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "allGrade": "All Grade",
+    "manager": "Manager",
+    "employee": "Employee",
+    "executive": "Executive"
+
+}

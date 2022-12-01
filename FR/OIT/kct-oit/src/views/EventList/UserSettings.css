@@ -1,0 +1,28 @@
+.userSettingTabs>div>div>div>.MuiTabs-flexContainer {
+    width: 100%;
+    margin-left: -62px;
+    display: flex;
+    justify-content: center;
+}
+/* .userSettingTabs>div>div>div>.MuiTabs-flexContainer>a{
+    padding: 0;
+} */
+.userSettingTabs>svg{
+    position: relative;
+    top: 52px;
+    left: 21px;
+    width: 40px;
+    fill: #0589B8;
+    height: 40px;
+}
+.userSettingTabs>div>div>div>.PrivateTabIndicator-colorSecondary-4 {
+    background-color: #0589B8;
+}
+.userSettingTabs>div>#nav-tabpanel-0>.MuiBox-root{
+    padding: 0;
+}
+.userSettingTabs>div>#nav-tabpanel-0,.userSettingTabs>div>#nav-tabpanel-1{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    margin: 20px 0;
+    padding: 0;
+}

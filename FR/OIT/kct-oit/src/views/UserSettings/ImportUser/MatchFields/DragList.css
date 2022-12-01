@@ -1,0 +1,9 @@
+.DragDropDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DragDropDiv .DragDropDivSub {
+    display: flex;
+    justify-content: space-evenly;
+}

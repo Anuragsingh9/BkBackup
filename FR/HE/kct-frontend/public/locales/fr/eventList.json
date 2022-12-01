@@ -1,0 +1,28 @@
+{
+    "Event Name": "Nom de l'évènement",
+    "Event Date": "Date",
+    "Start Time": "Heure de début" ,
+    "End Time": "Heure de fin",
+    "Organizer": "Organisateur",
+    "My Roles": "Mes rôles", 
+    "Action" : "Action",
+    "Search" : "Rechercher",
+    "You are a presenter for that event" : "Vous êtes présentateur pour cet événement",
+    "You are not a presenter for that event":"Vous n'êtes pas présentateur pour cet événement",
+    "You are a moderator for that event": "Vous êtes modérateur de cet événement",
+    "You are not a moderator for that event":"Vous n'êtes pas modérateur de cet événement",
+    "You are a host for that event in space" : "Vous êtes l'hôte de cet événement dans l'espace",
+    "You are a not host for that event in space" : "Vous n'êtes pas l'hôte de cet événement dans l'espace", 
+    "You are an attendee for the conference" : "Vous êtes un participant à la conférence",
+    "keepcontact networking post-event": "Vous êtes invité au post-événement de réseautage keepcontact",
+    "You are banned for this event" : "Vous êtes banni de cet événement" ,
+    "Access" : "Acceder", 
+    "Register":  "S'inscrire", 
+    "Join" : "Rejoindre" ,
+    "There is no data to display" : "Pas de données" ,
+    "Events List" : "Liste des événements",
+    "Future Events" :"Événement futur" ,
+    "Past Events" :"Evénement passé",
+    "Event Type":"Type d'événement"
+   
+}

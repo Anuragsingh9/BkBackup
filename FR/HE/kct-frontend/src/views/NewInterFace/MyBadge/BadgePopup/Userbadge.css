@@ -1,0 +1,23 @@
+.PertagHeadingUserbadge,.ProtagHeadingUserbadge{
+    color:#000;
+}
+.PertagHeadingUserbadgeDiv{
+    margin-top:20px;
+}
+.PertagHeadingUserbadgeDiv #preview-tag .pop-tags, .ProtagTextColor #preview-tag .pop-tags{
+    color: white !important;
+}
+.wigywig-block10{
+    padding: 0 0 0 15px;
+}
+.ProPerDiv{
+    padding-bottom: 0px;
+}
+.professional-pop-tags>span.fa {
+    cursor: pointer;
+    margin-left: 4px;
+}
+.personal-pop-tags>span.fa {
+    cursor: pointer;
+    margin-left: 4px;
+}

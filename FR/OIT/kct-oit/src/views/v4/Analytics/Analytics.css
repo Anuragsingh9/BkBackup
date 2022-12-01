@@ -1,0 +1,35 @@
+.analyticsGroupDropdown {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.analyticsGroupDropdown > div {
+  min-width: 136px;
+  background-color: #0589b0 !important;
+  color: #fff;
+  border-radius: 4px;
+}
+.analyticsGroupDropdown svg {
+  fill: #fff;
+}
+.analyticsGroupDropdown > div:hover,
+.analyticsGroupDropdown > div:focus,
+.analyticsGroupDropdown > div:active {
+  background-color: #067394 !important;
+}
+.analyticsGroupDropdown .EventlistIcoDrop .MuiSelect-select {
+    padding-right: 32px;
+    max-height: 44px;
+    padding: 12px 30px 12px 12px;
+    box-sizing: border-box;
+}
+.flexDiv_middle_xy {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.flexDiv_middle_xy .MuiBadge-root{
+    position: relative;
+    top: -2px;
+}

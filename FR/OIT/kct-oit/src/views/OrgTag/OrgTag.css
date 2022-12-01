@@ -1,0 +1,105 @@
+.enterTagNameInput{
+    display: flex;
+}
+.entertagNameDiv>div>div>input{
+    padding: 9px 8px;
+    min-width: 300px;
+}
+.entertagNameDiv{
+    margin-right: 20px;
+}
+.entertagNameDiv>div>.text-danger{
+    color: rgb(255, 0, 0);
+}
+.tagName>.orgTagDisabled svg{
+    fill: #fff;
+}
+.tagName>.orgTagEnabled{
+    background-color: #0589b8;
+    color: #fff;
+    border-radius: 6px;
+    margin: 6px;
+}
+.tagName>.orgTagEnabled:hover{
+    background-color: #0589b8;
+    color: #fff;
+}
+.tagName>.orgTagDisabled{
+    background-color: rgb(5 137 184 / 50%);
+    color: #fff;
+    border-radius: 6px;
+    margin: 6px;
+}
+.tagName>.orgTagDisabled:hover{
+    background-color: rgb(5 137 184 / 50%);
+}
+.tag-space{
+    padding: 0px 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.tag-space>.tagName{
+    display: inline-block;
+    padding: 2px;
+    color: #fff;
+}
+.tag-space>.tagName>div>svg{
+    color: #fff;
+}
+.tagName>:first-child{
+    position: absolute;
+    z-index: 1;
+    transform: translate(8px, 10px);
+}
+.tagName>.MuiChip-root{
+    padding-left: 20px;
+}
+.tag-space>.MuiChip-root>svg{
+    fill: #fff;
+}
+.OrgtagDivMain{
+    padding: 0px 0;
+}
+.OrgtagDivMain>form>.row {
+    display: flex;
+    padding: 4px 10px;
+    justify-content: flex-start;
+}
+.OrgTagsWrap #nav-tabpanel-0{
+    /* border: 1px solid #b0b0b0; */
+    margin: 10px 0;
+}
+.OrgTagsWrap>div>div>div>.MuiTabs-flexContainer {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* left: -62px; */
+    border-bottom: 1px solid lightgrey;
+}
+.OrgTagsWrap>div>div>div>.MuiTabs-flexContainer>a{
+    padding: 0;
+}
+.OrgTagsWrap>svg{
+    position: relative;
+    top: 52px;
+    left: 21px;
+    width: 40px;
+    fill: #0589B8;
+    height: 40px;
+}
+.OrgtagDivMain .loading-button>button{
+    padding: 6px 30px;
+}
+.WhiteCross>svg>g>path{
+    fill: #fff !important;
+    width: 15px;
+}
+.TagIconMain #Icon_awesome-tags {
+    stroke: #0589b8;
+}
+.OrgTagsWrap #nav-tabpanel-0 div.MuiBox-root{
+    padding: 0;
+}

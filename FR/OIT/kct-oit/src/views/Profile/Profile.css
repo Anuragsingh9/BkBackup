@@ -1,0 +1,15 @@
+.tab-row>div>div>.MuiTabs-root{
+    margin-left: 50px;
+    width: fit-content;
+}
+.tab-row>div>svg{
+    position: relative;
+    top: 48px;
+    width: 40px;
+    height: 40px;
+    fill: #0589B8;
+    left: 5px;
+}
+.PrivateTabIndicator-colorPrimary-3 {
+    background-color: #0589B8;
+}

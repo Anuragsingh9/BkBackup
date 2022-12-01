@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateSceneryCategoryAssetsTable extends Migration {
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up() {
+        Schema::create('scenery_category_assets', function (Blueprint $table) {
+            $table->id();
+            $table->unsignedBigInteger('category_id');
+            $table->string('asset_path')->nullable();
+            $table->integer('asset_type');
+            $table->timestamps();
+            $table->foreign('category_id')->on('scenery_categories')->references('id')->cascadeOnDelete();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down() {
+        Schema::dropIfExists('scenery_category_assets');
+    }
+}

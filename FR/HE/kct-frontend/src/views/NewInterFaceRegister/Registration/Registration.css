@@ -1,0 +1,175 @@
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.emailInstructionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  /* Glassmorphism CSS */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.OTPBtnWrap{
+  display: flex;
+}
+.emailInstructionDiv p {
+  width: 76%;
+  color: #3b3b3b;
+  text-align: center;
+}
+.emailInstructionDiv svg g{
+  stroke: #3b3b3b;
+}
+.emailInstructionDiv svg text{
+  fill: #3b3b3b;
+}
+.emailInstructionDiv button {
+  color: #fff;
+  margin: 0 6px;
+  min-width:150px;
+  /* text-decoration: underline; */
+}
+.emailInstructionDiv button:focus {
+  outline: none;
+}
+.emailInstructionDiv button:hover {
+  color: #3b3b3b;
+  text-decoration: underline;
+}
+.welcome-sign {
+  width: 535px;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding: 20px 50px;
+  box-shadow: 0px 0px 15px rgb(112 124 135 / 42%);
+  background: rgb(239, 244, 250);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(239, 244, 250, 1) 0%,
+    rgba(255, 255, 255, 1) 49%,
+    rgba(236, 241, 249, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(239, 244, 250, 1) 0%,
+    rgba(255, 255, 255, 1) 49%,
+    rgba(236, 241, 249, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(239, 244, 250, 1) 0%,
+    rgba(255, 255, 255, 1) 49%,
+    rgba(236, 241, 249, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eff4fa",endColorstr="#ecf1f9",GradientType=1);
+}
+.welcome-sign .text-danger {
+  font-size: 14px;
+}
+.box-event {
+  border: 13px solid #f3f8f7;
+  border-radius: 66px;
+  text-align: center;
+  height: 140px;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+.start-time-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.easy-bg {
+  background-color: white;
+  border-radius: 20px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forget-pass a {
+  color: #3b3b3b;
+}
+.enter-note {
+  text-align: center;
+  margin: 20px 0 0;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+.nxt-btn button {
+  background-color: transparent;
+}
+.nxt-btn .pb-container .pb-button {
+  background: transparent;
+  border-color: transparent;
+}
+.nxt-btn button > span {
+  background: transparent !important;
+}
+.nxt-btn button span {
+  text-align: center;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px !important;
+  background: #4275b7;
+  margin: 0 auto;
+  padding: 3px 35px;
+  line-height: 20px;
+}
+.nxt-btn p {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 16px;
+  color: #4275b7;
+}
+.form-regi .form-control:focus,
+.form-regi .form-control {
+  outline: 0px solid #2d8cff !important;
+  outline-offset: 0px !important;
+  box-shadow: none !important;
+  transition: none !important;
+}
+.register-ac .form-control:focus {
+  border: 2px solid #e7eaee;
+}
+.field-img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.have-log a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #3b3b3b;
+  font-size: 14px;
+  display: block;
+}
+.have-log a:hover {
+  text-decoration: underline;
+}
+.have-log h5 {
+  font-size: 14px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.welcome-sign .form-style2 .pb-container.loading .pb-button {
+  border-color: #007aff !important;
+}

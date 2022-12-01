@@ -1,0 +1,72 @@
+
+.mangeRolesDropdownDiv{
+    position: relative;
+    border: 1px solid #e5e2e2;
+    padding: 16px;
+}
+.mangeRolesDropdownDiv .selectCustom>.MuiSelect-select {
+    padding: 10px;
+}
+.mangeRolesDropdownDiv .SelectRolesRow{
+    border-bottom: 1px solid #e5e2e2;
+    display: flex;
+    padding: 0px 0px 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.group_eventsName{
+    display: flex;
+}
+.group_eventsName p{
+    padding: 0px 10px;
+}
+.mangeRolesDropdownDiv .row>.InputFlex-Div>.MuiFormControl-root {
+    margin: 0 8px 0 0 ;
+}
+.mangeRolesDropdownDiv .rolesSearchBar{
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mangeRolesDropdownDiv>div>.MuiGrid-grid-lg-10{
+    border-left: 1px solid #e5e2e2;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+.HeadingSideDiv_1>.heading{
+    font-size: 0.875rem;
+    /* font-weight: 700; */
+    cursor: pointer;
+}
+.HeadingSideDiv_1>.participantsList.heading.selected_Heading{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #0589b8;
+}
+.selectedSubHead{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #0589b8;
+}
+.HeadingSideDiv_1>.teamList.heading.selected_Heading{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #0589b8;
+}
+.HeadingSideDiv_2 p{
+    margin: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+.HeadingSideDiv_2{
+    padding: 20px 0;
+}
+.mangeRolesDropdownDiv .MuiStepper-root {
+    display: flex;
+    padding: 24px 0;
+}
+.mangeRolesDropdownDiv .MuiStep-horizontal {
+    padding-left: 0;
+    padding-right: 8px;
+}

@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.NavBar {
+  height: 62px;
+  display: flex;
+  background-color: rgb(253, 253, 253);
+  flex-wrap: nowrap;
+  align-items: center;
+  /* padding: 0 20px; */
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 6%);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.NavBar .header__dropdownButton {
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.header__dropdownButton svg {
+  padding-right: 0;
+}
+.NavBar .header__dropdownButton:hover {
+  background-color: unset;
+}
+.header_leftDiv {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  align-items: center;
+}
+.header_leftDiv svg.EventlistIcoDrop {
+    padding: 0;
+    position: relative;
+    right: -5px;
+}
+.header_leftDiv .headerLogo {
+  padding: 6px 40px 6px 6px;
+}
+.header_leftDiv .EventlistIcoDrop {
+  min-width: unset !important;
+  padding: 6px 2px;
+  height: 100%;
+}
+.header_leftDiv > button {
+  border-bottom: 2px solid #05898b00;
+  border-radius: 0;
+}
+.header_leftDiv > button:hover {
+  border-radius: 0;
+  border-bottom: 2px solid #0589b8;
+  color: #0589b8;
+}
+
+/* @media not all and (min-resolution:.001dpcm) { @media {
+
+    .noResultDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}} */
+.NavBar > .MuiContainer-root > .MuiGrid-root > .MuiGrid-root {
+  display: flex;
+  align-items: center;
+}
+.navLogo {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+.HeaderLogo svg {
+  height: auto;
+  cursor: pointer;
+  width: 180px;
+  display: inline-block;
+  margin: auto;
+}
+.NavBarUser {
+  background-color: orangered;
+}
+.profilePictureRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.profilePictureRow > .MuiAvatar-circular {
+  border-radius: 40px;
+}
+.loggedInUserName {
+  font-size: 0.875rem;
+  color: #3b3b3b;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  font-style: normal;
+  padding-left: 6px;
+}
+/* header .profileDiv>div{
+    transform: translate3d(1434px, 70px, 0px)!important;
+} */
+
+@media only screen and (max-width: 1300px) {
+  .profileDiv > div {
+    /* transform: translate3d(1110px, 80px, 0px)!important; */
+  }
+}
+@media only screen and (max-width: 800px) {
+  .profileDiv > div {
+    /* transform: translate3d(650px, 80px, 0px)!important; */
+  }
+}
+.profileDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+.profileDiv > button {
+  /* width:100%; */
+  padding: 0;
+}
+.profileDiv > div {
+  z-index: 1;
+}
+.profileDiv > button:hover,
+.profileDiv > button:focus {
+  background: none;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Resilience",
+    "alias": "resilience",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Resilience\\Providers\\ResilienceServiceProvider",
+        "Modules\\Resilience\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

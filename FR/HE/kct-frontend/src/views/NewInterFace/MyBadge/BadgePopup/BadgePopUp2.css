@@ -1,0 +1,383 @@
+.img-close-btn span{
+    position: absolute;
+    top: -8px;
+    right: -7px;
+    cursor: pointer;
+    background-color: azure;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    line-height: 22px;
+    z-index: 15;
+    text-align: center;
+}
+.badge2-body.modal-body{
+    padding: 0!important;
+    border: 1px solid rgb(30 77 125 / 100%);
+}
+.modify-badge {
+    text-align: center;
+    /* margin-bottom: 7px; */
+    font-size: 11px;
+    padding: 5px;
+    background: rgb(30 77 125 / 50%);
+    font-weight: 600;
+    color: #ffffff!important;
+}
+.badge-block .badge2-body{
+    position: absolute;
+    top: -24px;
+    /* right: -460px; */
+    max-height: 70vh;
+}
+
+.badge2-body {
+    position: absolute;
+    padding: 25px !important;
+    width: 378px;
+    overflow-x: hidden;
+    font-size: 12px;
+    top: -170px;
+    z-index: 20;
+    right: 80px;
+    max-height: 95vh;
+    overflow-y: auto;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: rgb(128 128 128 / 25%) 0px 0px 17px 4px;
+    /* background: rgb(220,230,235);
+    background: -moz-linear-gradient(90deg, rgba(220,230,235,1) 0%, rgba(241,246,251,1) 50%, rgba(220,230,235,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(220,230,235,1) 0%, rgba(241,246,251,1) 50%, rgba(220,230,235,1) 100%);
+    background: linear-gradient(90deg, rgba(220,230,235,1) 0%, rgba(241,246,251,1) 50%, rgba(220,230,235,1) 100%); */
+    background: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dce6eb",endColorstr="#dce6eb",GradientType=1);
+}
+/* custom scrollbar for mozilla  */
+.badge2-body{
+    scrollbar-width: thin;
+    scrollbar-color: rgb(30 77 125 / 75%) rgb(30 77 125 / 0%);
+    /* border-right: 2px rgba(255, 255, 255, 0) solid!important;
+    border-left: 2px rgba(255, 255, 255, 0) solid!important;
+    background-clip: padding-box!important; */
+}
+/* custom scrollbar for mozilla  */
+
+
+/* custom scrollbar for a div */
+    .badge2-body::-webkit-scrollbar {
+            width: 10px;
+            margin-right: 1px;
+        }
+
+        /* Track */
+    .badge2-body::-webkit-scrollbar-track {
+            /* box-shadow: inset 0 0 2px grey;  */
+            border-radius: 0px;
+        }
+        /* Track */
+        .badge2-body::-webkit-scrollbar-track {
+            /* box-shadow: inset 0 0 5px grey;  */
+            border-radius: 0;
+            background-color: #fff;
+        }
+
+        /* Handle */
+    .badge2-body::-webkit-scrollbar-thumb {
+            background: rgb(30 77 125 / 75%); 
+            border-radius: 10px;
+            border-right: 2px rgba(255, 255, 255, 0) solid!important;
+            border-left: 2px rgba(255, 255, 255, 0) solid!important;
+            background-clip: padding-box!important;
+            /* border-right: 2px solid rgba(255, 255, 255, 0.9);
+            border-left: 2px solid rgba(255, 255, 255, 0.9); */
+        }
+
+        /* Handle on hover */
+    .badge2-body::-webkit-scrollbar-thumb:hover {
+            background: rgb(30 77 125 / 100%);
+            border-right: 2px rgba(255, 255, 255, 0) solid!important;
+            border-left: 2px rgba(255, 255, 255, 0) solid!important;
+            background-clip: padding-box!important;
+        }
+/* custom scrollbar for a div */
+
+.badge2-body .trash-btn{
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 3;
+    padding-left: 15px;
+    position: relative;
+    right: -13px;
+    top: 9px;
+}
+.eye-mt {
+    margin-top: 55px;
+    margin-left: 66px;
+}
+.badge2-body .form-control, .selected-valuebox, .value-bx{
+    border: 2px solid rgb(30 77 125 / 75%);
+    padding: 3px 10px;
+    color: rgb(30 77 125 / 75%);
+    margin-bottom: 12px;
+    background: transparent;
+    max-width: 258px;
+    width: 258px;
+    height: 30px;
+    font-size: 12px;
+}
+.badge2-body .form-control:focus {
+    box-shadow: none;
+}
+.badge2-position input::placeholder,.badge2-body .form-control::placeholder,.badge2-body .selected-valuebox::placeholder,.badge2-body .value-bx::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #467abb;
+    opacity: 1; /* Firefox */
+}
+  
+.badge2-position input:-ms-input-placeholder {
+    color: #467abb;
+}
+  
+.badge2-position input::-ms-input-placeholder {
+    color: #467abb;
+}
+.badge2-body label {
+    font-weight: 500;
+    color: #000;
+    font-size: 12px;
+}
+.badge2-body .css-yk16xz-control, .badge2-body .css-1pahdxg-control{
+    border: 2px solid rgb(30 77 125 / 75%);
+    }
+    
+.badge2-body .css-yk16xz-control,.badge2-body .css-1pahdxg-control{
+    border: 2px solid rgb(30 77 125 / 75%);
+    border-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: transparent;
+    width: 258px;
+    max-width: 258px;
+    min-height: 30px !important;
+    max-height: 30px !important;
+    font-size: 12px;
+}
+.badge2-body .editable-select .css-yk16xz-control,.badge2-body .editable-select .css-1pahdxg-control {
+    border-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-bottom: 12px;
+    color: rgb(30 77 125 / 75%);
+   
+    background: transparent;
+ }
+ .badge2-body .form-control, .badge2-body .selected-valuebox, .badge2-body .value-bx, .badge2-body .css-yk16xz-control, .badge2-body .css-1pahdxg-control{
+     border: 2px solid rgb(30 77 125 / 75%);
+ }
+.badge2-body .css-1uccc91-singleValue, .badge2-body .editable-select .css-yk16xz-control input,.badge2-body .editable-select .css-1pahdxg-control input{
+    color: rgb(30 77 125 / 75%);
+    top: 40% !important;
+}
+.badge2-body .eyepop {
+    padding-left: 0;
+    color: rgb(30 77 125 / 100%);
+    margin: 0;
+    fill: rgb(30 77 125 / 100%);
+}
+.badge2-body hr {
+    margin-bottom: 20px;
+    border-top: 1px solid rgba(211, 211, 211, 0);
+    margin-left: -13px;
+    margin-top: 0;
+}
+.pop-tags {
+    padding: 4px 7px;
+    background: #467abb;
+    display: inline-block;
+    margin: 5px 5px 2px 0;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.badge2-body .pop-tags:hover{
+    opacity: 0.5;
+}
+.pop-tags span.fa {
+    cursor: pointer;
+    margin-left: 4px;
+}
+.badge2-body .pop-tags:hover span.fa{
+    opacity: 1;
+}
+.plus-select .pb-container {
+    min-width: unset;
+    width: 42px;
+}
+.plus-select .pb-container .pb-button {
+    height: 30px;
+    line-height: 0px;
+    background: rgb(30 77 125 / 75%);;
+    margin: 0 10px;
+}
+.wigywig-block1, .wigywig-block2, .wigywig-block3, .wigywig-block5, .wigywig-block6{
+    padding: 0 30px;
+}
+
+.pop-close-btn {
+    position: absolute;
+    top: 0px;
+    right: 6px;
+    cursor: pointer;
+    background-color: #467abb;
+    width: 28px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    border-radius: 4px;
+}
+.badge-inner .imgUploadeStyle1 .picUpload_parent avatar-image.picUpload_div > div:not(:first-child) div[name="action-con"] button{
+    margin-right: 3px;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+    color: black;
+    text-transform: capitalize;
+    background-color: white;
+}
+.noUserPicTxt {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 1;
+}
+.userPicName {
+    background: rgba(30,77,125,0.3);
+    border: 1px solid rgba(30,77,125,1);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding: 5px 2px;
+    display: table-cell !important;
+    border-radius: 50%;
+}
+#user-img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 8px;
+    vertical-align: middle;
+}
+.badge2-body .imgUploadeStyle1 .noUserPicTxt #user-img {
+    width: 140px;
+    height: 140px;
+    margin: -1px 0px 0px -1px;
+}
+.badge2-body .eyeposition1 svg {
+    width: 24px;
+    fill: rgb(30 77 125 / 100%);
+    height: 24px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.badge2-body .eyeposition2 svg{
+    width: 24px;
+    height: 24px;
+}
+/* .badge2-body .eyeposition2 svg *,.badge2-body .eyeposition3 svg *,.badge2-body .eyeposition1 svg *{
+    fill: #467abb !important;
+} */
+.badge2-body select.form-control option{
+    padding: 10px;
+}
+.pop-close-btn:hover {
+    opacity: 0.8;
+}
+.eyeposition1{
+    margin-left: 14px !important;
+}
+.eyeposition2 {
+    bottom: -23px;
+    margin-left: -5px;
+    left: 13px;
+    position: relative;
+}
+.eyeposition3 {
+    margin: 4px;
+    padding-left: 30px !important;
+}
+.trash-btn.fa-trash::before {
+    position: absolute;
+    top: 15px;
+}
+.popover.right>.arrow {
+    top: -3%;
+    transform: rotate(90deg);
+    left: 253px;
+    margin-top: -11px;
+    border-left-width: 0;
+    border-right-color: #999;
+    border-right-color: rgba(0,0,0,0.25);
+}
+.popover {
+    position: absolute;
+    top: 41px;
+    left: -258px;
+    padding: 10px;
+    width: 280px;
+}
+#show-more {
+    cursor: pointer;
+    float: right;
+}
+.badge2-body .picUpload_parent {
+    width: 140px !important;
+    height: 140px !important;
+}
+.badge2-body .eyeposition3 svg {
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+    margin-top: 54px;
+}
+.badge2-body #show-more:hover {
+    opacity: 1;
+}
+.badge2-body #show-more:hover span.fa {
+    opacity: 0;
+}
+.badge2-body #preview-tag {
+    max-width: 250px;
+}
+.badge2-body .form-group {
+    margin-bottom: 2px;
+    max-width: 302px;
+}
+.badge-inner .picUpload_parent,.badge-inner #user-img {
+    width: 195px;
+    height: 195px;
+    background-repeat: no-repeat !important;
+    object-fit: fill;
+    background-size: cover !important;
+}
+.badge2-body span.svgicon svg {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.mt-6{
+    margin-top: 6px;
+}
+.badge2-body .css-1wa3eu0-placeholder{
+    color: #467abb;
+}
+.badge2-body{
+    background-color: #fff!important;
+}
+.bagdeWhiteWrapDiv{
+    background-color: #fff;
+}

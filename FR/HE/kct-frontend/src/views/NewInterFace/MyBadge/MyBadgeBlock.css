@@ -1,0 +1,80 @@
+.BadgeDetailDiv .col .nav-tabs li{
+    font-size: 11px;
+    color:#fff;
+}
+.BadgeDetailDiv .col .nav-tabs li a{
+    font-size: 11px;
+    color:#fff;
+}
+.BadgeDetailDiv .col .nav-tabs li a:hover{
+    background-color: #ecf0f3;
+    border:1px solid #ecf0f3;
+    border-radius: 0px;
+    
+}
+.BadgeDetailDiv .col .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: rgb(157, 180, 255);
+    cursor: default;
+    border-radius: 0px;
+    margin: 0;
+    border:1px solid #ecf0f3;
+    background: #ecf0f3;
+}
+.BadgeDetailDiv .col .nav>li>a {
+    position: relative;
+    display: block;
+    font-size: 11px;
+    padding: 5px 8px;
+}
+.BadgeDetailDiv .col .nav-tabs {
+    border-bottom: none;
+    height:26px;
+    background-color: rgb(30 77 125 / 50%);
+    color:#fff;
+}
+.audioVideoBtn svg{
+    max-width: 21px;
+    max-height: 21px;
+    fill: #3b3b3b;
+}
+.audioVideoBtn svg path{
+    fill: #3b3b3b;
+}
+.audioVideoBtn svg.receptonIconColor{
+    max-width: 21px;
+    max-height: 21px;
+    fill: #3b3b3b;
+}
+.audioVideoBtn svg.receptonIconColor path{
+    fill: #3b3b3b;
+}
+.audioVideoBtn{
+    margin-left: 10px;
+}
+ .userBadgeBtnFlex{
+    display: flex;
+}
+@media (max-width: 1300px) {
+        .WigyDis-md{
+            position: absolute;
+            bottom: -30px;
+            left:16px;
+        }
+        .WigyButton-md{
+            position: absolute;
+            bottom: -30px;
+            left:30px;
+        }
+        .content-middle-alignment-md{
+            display: flex!important;
+            align-items: flex-start!important;
+            padding-top:10px;
+            margin-top: 20px!important;
+            height: 300px;
+        }
+    }
+
+   .userBadgeBtnFlex button:disabled svg, .userBadgeBtnFlex
+button[disabled] svg{
+  opacity: 0.5;
+}

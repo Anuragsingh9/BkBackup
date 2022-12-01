@@ -1,0 +1,34 @@
+.GroupDropDownList {
+    min-width: 340px;
+    /* min-height: 300px; */
+}
+.EventlistIcoDrop>span{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+.GroupDropDownList>.EventListHeading{
+    font-weight: 500!important;
+    /* padding: 12px 12px 2px 16px; */
+    margin: 2px auto -4px auto;
+}
+.GroupDropDownList>li,.GroupDropDownList>div>li{
+    padding: 4px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.GroupDropDownList  .DisabledBlack{
+    color: #3b3b3b;
+    font-weight: 651!important;
+    padding: 5px 17px;
+}
+.GroupDropDownList .ListSaprator{
+    border-top: 0px solid #e8e6e6;
+}
+.GroupDropDownList .CreateSvg{
+    display: flex;
+    justify-content: space-between;
+}
+.GroupDropDownList .CreateSvg svg{
+    fill: #3b3b3bd9;
+    width: 18px;
+}

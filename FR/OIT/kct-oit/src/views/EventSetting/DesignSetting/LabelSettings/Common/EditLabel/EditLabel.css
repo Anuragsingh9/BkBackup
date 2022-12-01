@@ -1,0 +1,17 @@
+.labelContentDiv{
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+}
+.labelContentDiv>div{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.labelContentDiv label{
+    font-size: 1rem;
+    color: #3b3b3b;
+    font-weight: 800;
+    padding-right: 8px;
+}
+

@@ -1,0 +1,13 @@
+{
+    "name": "KctAdmin",
+    "alias": "kctadmin",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\KctAdmin\\Providers\\KctAdminServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

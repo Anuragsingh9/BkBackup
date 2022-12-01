@@ -1,0 +1,61 @@
+/* .ThemeInputTag > div > input {
+  width: unset;
+} */
+.manageEventRecPopup .MuiFilledInput-underline:before {
+  border: none !important;
+}
+.manageEventRecPopup .MuiFilledInput-underline:after {
+  border-bottom: none !important;
+}
+.manageEventRecPopup .recTypeRow .MuiFormControl-root {
+  width: 48.50%;
+}
+.manageEventRecPopup .radioBtnRow .MuiFormControl-root {
+  width: 100%;
+}
+.manageEventRecPopup .recurrencePopupSpecing .MuiGrid-item {
+  padding: 2px 0px 2px 0px!important;
+}
+.manageEventRecPopup .recurrencePopupSpecing .MuiGrid-item {
+  padding: 2px 0px;
+}
+.manageEventRecPopup .ThemeInputTag > div > input {
+  width: 100%;
+}
+.manageEventRecPopup .radioBtnRow,
+.manageEventRecPopup .recTypeRow {
+  padding: 0;
+}
+.manageEventRecPopup .MuiFilledInput-root {
+  max-height: 44px;
+  border-radius: 4px;
+  width: 100%;
+}
+.manageEventRecPopup .MuiFilledInput-root .MuiFilledInput-inputMarginDense {
+  padding: 12px;
+  margin: 0;
+}
+.manageEventRecPopup .noPadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.manageEventRecPopup .v4_colorTheme.endDate.event_rec_start_date {
+    padding-bottom:6px;
+}
+.manageEventRecPopup .SubDivTextMain-1 {
+    padding: 0px 4px 0px 0;
+    width: 48.50%;
+}
+.manageEventRecPopup .SubDivTextMain-1 .MuiButtonBase-root.MuiIconButton-root{
+    padding: 6px;
+}
+.manageEventRecPopup .SubDivTextMain-1 .MuiFilledInput-adornedEnd {
+    padding-right: 0px;
+}
+.manageEventRecPopup .SubDivTextMain-1 .MuiFilledInput-inputMarginDense {
+    padding: 12px 10px;
+}
+.recurrencePopupSpecing.manageEventRecPopup{
+  margin: 0;
+}
+

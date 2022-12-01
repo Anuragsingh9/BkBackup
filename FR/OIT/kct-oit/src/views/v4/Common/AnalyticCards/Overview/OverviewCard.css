@@ -1,0 +1,30 @@
+.overview-item h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.overview-item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.bgIconWrap svg,
+.bgIconWrap svg path,
+.bgIconWrap svg ellipse,
+.bgIconWrap svg g {
+  fill: #8dc9e1 !important;
+  stroke: #8dc9e1 !important;
+}
+.bgIconWrap {
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+}
+.bgIconWrap svg {
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    max-width: 170px;
+    max-height: 170px;
+}

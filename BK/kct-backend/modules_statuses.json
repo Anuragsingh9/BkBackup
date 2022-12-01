@@ -1,0 +1,6 @@
+{
+    "SuperAdmin": true,
+    "KctAdmin": true,
+    "KctUser": true,
+    "UserManagement": true
+}

@@ -1,0 +1,66 @@
+.SubMenuBar>div>div>button:hover, .SubMenuBar>div>div>button:focus{
+    background: none;
+ }
+ .SubMenuBar>div>.MuiGrid-item{
+     padding: 0;
+ }
+ .SubMenuBar>div>.MuiGrid-root, .SubMenuBar>.MuiGrid-root, .SubMenuBar>div>div>.MuiGrid-root{
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.setting-submenu>div{
+   /* transform: translate3d(1184px, 140px, 0px)!important; */
+   z-index: 5;
+}
+@media only screen and (max-width: 1300px) {
+   .setting-submenu>div{
+      /* transform: translate3d(1146px, 140px, 0px)!important; */
+   }
+ }
+ @media only screen and (max-width: 800px) {
+   .setting-submenu>div{
+      /* transform: translate3d(660px, 140px, 0px)!important; */
+   }
+ }
+ .SubMenuBar{
+    background-color: #3b3b3b;
+    color: #fff;
+    height: 45px;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+ }
+ .px-6{
+    padding: 0 6px;
+ }
+ .submenu-div>button:nth-child(1){
+     color: #fff;
+     text-decoration: none;
+     text-transform: unset;
+     font-size: 0.875rem;
+     padding: 0;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+ }
+ .submenu-div>button:nth-child(2){
+   color: #fff;
+   text-decoration: none;
+   text-transform: unset;
+   font-size: 0.875rem;
+   padding: 0!important;
+  font-weight: 400;
+  min-width: 10px;
+  /* display: flex;
+  justify-content: flex-end; */
+}
+ .setting-submenu>button{
+    color: #fff;
+ }
+ .setting-submenu{   
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+ }

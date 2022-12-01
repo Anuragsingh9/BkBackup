@@ -1,0 +1,121 @@
+.block{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(59,59,59,0.15);
+    /* border-top: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b; */
+    border-right: 1px solid #c9c9c9; 
+    border-left: 1px solid #c9c9c9; 
+}
+.block:first-child{
+    width: 100%;
+    height: 50px;
+    border-left: 0px solid #3b3b3b;
+}
+.block:last-child{
+    width: 100%;
+    height: 50px;
+    border-right: 0px solid #3b3b3b;
+}
+
+.slidercontainer{
+    display: flex;
+    border: 1px solid rgba(59,59,59,1);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 0;
+    margin-bottom:  24px;
+}
+.RangeDivWrap{
+    position: relative;
+}
+
+div.start-mark{
+    background-color:rgba(59,59,59,1);
+   position: relative;
+}
+
+div.start-mark.SelectedContent{
+    background-color: #0589B8;
+    position: relative;
+
+}
+
+div.end-mark{
+    position: relative;
+}
+.start_tooltip{
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    width: max-content;
+    background: #d7d7d7;
+    border-radius: 4px;
+    padding: 2px 8px;
+    text-align: center;
+    font-size: 11px;
+}
+.start_tooltip svg{
+    position: absolute;
+    right: -4px;
+    bottom: -20px;
+    width: 36px;
+    fill: #d7d7d7;
+    height: 36px;
+}
+.end_tooltip{
+    position: absolute;
+    top: -30px;
+    right: -50px;
+    width: max-content;
+    background: #d7d7d7;
+    border-radius: 4px;
+    padding: 2px 8px;
+    text-align: center;
+    font-size: 11px;
+}
+.end_tooltip svg{
+    position: absolute;
+    left: -4px;
+    bottom: -20px;
+    width: 36px;
+    fill: #d7d7d7;
+    height: 36px;
+}
+.selectedDiv{
+    background-color: rgba(59,59,59,1);
+    
+}
+
+.selectedDiv.SelectedContent{
+    background-color: #0589B8;
+}
+
+.startRangeMarker{
+    top: 25%;
+    position: relative;
+    left: -12px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+}
+
+.endRangeMarker{
+    top: 25%;
+    cursor: pointer;
+    position: relative;
+    left: -14px;
+    width: auto;
+    height: auto;
+}
+.rangeSliderLabel{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    bottom: -30px;
+    width: 100%;
+    position: absolute;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

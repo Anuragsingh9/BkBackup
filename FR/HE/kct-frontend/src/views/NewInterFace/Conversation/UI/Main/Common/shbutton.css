@@ -1,0 +1,10 @@
+/* .space-host-buttons{
+    margin-left: 121px !important;
+}
+ */
+ .contentVolumeSlider {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 105px);
+    top: 10px;
+}

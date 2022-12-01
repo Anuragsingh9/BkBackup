@@ -1,0 +1,29 @@
+.bodyLayout {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-height: calc(100vh - 62px);
+    height: calc(100vh - 62px);
+}
+.sidebarWrap {
+    max-width: 90px;
+    width: 90px;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    height: calc(100vh - 62px);
+}
+.bodyLayout .bodyWrap{
+    /* max-width: calc(100% - 80px); */
+    overflow: auto;
+    width: 100%;
+    display: block;
+    padding-left: 50px;
+}
+.CustomContainer.bodyWrap>div:first-child{
+    min-height: calc(100vh - 62px - 65px);
+}
+.CustomContainer.bodyWrap>nav+div:nth-child(2){
+    min-height: calc(100vh - 171px);
+} 

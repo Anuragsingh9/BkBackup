@@ -1,0 +1,11 @@
+{
+    "texture_square_corners":"Sharp Corners",
+    "texture_remove_frame":"Remove Frame",
+    "texture_remove_shadows":"Remove Shadow",
+    "sh_hide_on_off":"Hide Section If Offline",
+    "selected_spaces_square":"Selected Space Design",
+    "unselected_spaces_square":"Unselected Space Design",
+    "extends_color_user_guide":"Extend Color to User's Grid",
+    "invite_attendee":" Allow Participant to Invite Users",
+    "video_explainer" : "Show Product Intro Video"
+}

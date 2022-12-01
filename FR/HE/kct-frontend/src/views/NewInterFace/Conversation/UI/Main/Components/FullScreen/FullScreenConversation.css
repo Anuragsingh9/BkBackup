@@ -1,0 +1,103 @@
+.fullScreen_wrap .fs-single-grid {
+  min-height: auto;
+  float: none;
+  margin: 0;
+  padding: 2px;
+  display: flex; 
+  max-height: 50vh;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+  /* border: 1px solid rgb(20, 20, 20); */
+}
+
+.fullScreen_wrap .fs-real-video > video {
+  margin-top: unset;
+  width: auto;
+  height: 100% !important;
+  border-radius: 5px;
+  aspect-ratio: 16 / 9;
+}
+
+.fullScreen_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.fs-video-grid {
+  width: 100%;
+  height: calc(100% - 60px);
+}
+.fs-video-grid .fullScreen_wrap,
+.fs-video-grid .container-fluid {
+  height: 100%;
+}
+.full-screen-conv-btn.col-md-8 .video-control {
+  padding-bottom: 10px;
+}
+.fullScreen_wrap .fs-dummy-video .DummyVideoDiv .video-react > video {
+  margin-top: 0px;
+}
+.fullScreen_wrap .DummyVideoDiv .video-react-controls-enabled {
+  padding: 0 !important;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.fullScreen_wrap .fs-single-grid .DummyVideoDiv {
+  width: 100% !important;
+  height: 100%;
+}
+.fullScreen_wrap .fs-other-btn {
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  /* display: none; */
+}
+.overlay-static + div > .badge2-body {
+  position: absolute;
+  top: 420px;
+  right: 100px;
+  max-height: 450px !important;
+}
+.overlay-static .fs-exit-btn {
+  right: -10px;
+}
+.fullScreen_wrap .other-user-badge-popup .badge-popup-video {
+  top: -254px;
+  text-align: left;
+  left: -350px;
+  position: absolute;
+}
+.fs-other-btn {
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+}
+.fs-other-btn > .video-control > button {
+  /* display:none; */
+  visibility: hidden;
+}
+.fs-single-grid:hover > .fs-other-btn > .video-control > button {
+  /* display: block; */
+  visibility: visible;
+}
+/* .fullScreen_wrap .fs-single-grid{
+    height: 50%;
+} */
+/* .fullScreen_wrap .video-react-video {
+    width: auto;
+    height: 100%;
+} */
+
+.fullScreen_wrap .DummyVideoDiv .video-react-video {
+  width: auto !important;
+  height: 100%;
+}
+

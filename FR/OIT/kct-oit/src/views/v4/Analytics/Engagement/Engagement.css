@@ -1,0 +1,45 @@
+.analyticsTopflexDiv {
+    display: flex;
+    padding-bottom: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.analyticsTopflexDiv > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.analyticsTopflexDiv > div input {
+    padding: 14px 0;
+    max-height: 44px;
+}
+
+.userListCustomDataGrid .MuiDataGrid-pinnedRows {
+    /* background-color: #0589b0; */
+    font-weight: 600;
+    color: #3b3b3b;
+    background-color: #dfe1e1;
+}
+
+.reccCellWithIcon {
+    position: relative;
+}
+
+.reccCellWithIcon svg {
+    /*position: absolute;*/
+    /*left: px;*/
+    top: 9px;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.reccCellWithIcon svg {
+    max-width: 15px;
+    max-height: 15px;
+}

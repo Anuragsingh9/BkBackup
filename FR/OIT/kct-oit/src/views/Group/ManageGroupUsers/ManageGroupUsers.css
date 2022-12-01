@@ -1,0 +1,55 @@
+.ManageAllListDiv{
+ position: relative;
+}
+.ManageAllListDiv .TableSearchBar {
+    position: relative;
+    top: unset;
+    right: unset;
+}
+.ManageAllListDiv .MuiDataGrid-columnHeaderTitle svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #3b3b3b;
+}
+.Fav_star_col{
+    text-align: center;
+}
+/* .ManageAllListDiv .MuiDataGrid-columnSeparator{
+    display: none!important;
+}
+.ManageAllListDiv .MuiDataGrid-columnHeaderWrapper{
+    background-color: #d7d7d7;
+} */
+.ManageAllListDiv .MuiDataGrid-cell {
+    display: block;
+    position: relative;
+    text-align: center!important;
+}
+.ManageAllListDiv .MuiDataGrid-root .MuiDataGrid-cell{
+    overflow: unset;
+}
+.ManageAllListDiv .MuiDataGrid-cell{
+    display: flex;
+    justify-content: center!important;
+}
+.ManageAllListDiv .TableSearchBar {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.ManageAllListDiv .TableSearchBar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.ManageAllListDiv .MuiOutlinedInput-input {
+    padding: 10.5px 14px;
+}
+.ManageAllListDiv .MuiDataGrid-renderingZone .MuiDataGrid-row div:nth-child(2){
+    color: #0589b0;
+}

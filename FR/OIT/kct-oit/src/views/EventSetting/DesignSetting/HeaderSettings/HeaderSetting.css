@@ -1,0 +1,28 @@
+.HeaderDesignDiv{
+    width: 100%;
+}
+.longInput>div>input{
+    padding: 5px;
+    min-width: 300px;
+    font-size: 0.875rem;
+    margin: 5px;
+}
+.HeaderDesignDiv input{
+    padding: 9px;
+}
+.HeaderDesignDiv .FlexRow{
+    display: flex;
+    align-items: center;
+}
+.SwitchContentChildDiv{
+    width: 100%;
+    padding: 10px 50px;
+}
+.customPara{
+    margin: 8px 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.customPara-2{
+    padding: 8px 0;
+}

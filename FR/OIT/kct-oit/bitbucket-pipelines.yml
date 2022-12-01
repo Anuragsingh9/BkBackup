@@ -1,0 +1,84 @@
+image: node:14.15.4
+
+# Workflow Configuration
+
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Build and Test
+            caches:
+              - node
+            script:
+              - npm install
+        - step:
+            name: Lint the node package
+            script:
+              # Run your linter of choice here
+              - npm install eslint
+            caches:
+              - node
+  branches:
+    develop:
+      - step:
+          name: Build and Test
+          caches:
+            - node
+          script:
+            - export REACT_APP_HO_HOSTNAME="seque.in"
+            - export REACT_APP_MUI_PRO_KEY="990e284e479d34349e78d12a4eaee94aTz01MDkxNyxFPTE2OTQ4NTY3MzY3NDEsUz1wcm8sTE09c3Vic2NyaXB0aW9uLEtWPTI="
+            - echo $REACT_APP_HO_HOSTNAME
+            - echo $REACT_APP_MUI_PRO_KEY
+            - npm install
+            - unset CI
+            - npm run build
+            -
+          artifacts:
+            - build/**
+      - step:
+          name: Security Scan
+          script:
+            # Run a security scan for sensitive data.
+            # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
+            - pipe: atlassian/git-secrets-scan:0.5.1
+      - step:
+          name: Deploy artifacts using SCP to DEV Server
+          deployment: Development
+          script:
+            - pipe: atlassian/scp-deploy:0.3.3
+              variables:
+                USER: $USER
+                SERVER: $SERVER
+                REMOTE_PATH: '/var/www/sites/seque.in/public/oit'
+                LOCAL_PATH: 'build/*'
+    staging:
+      - step:
+          name: Build and Test
+          caches:
+            - node
+          script:
+            - export REACT_APP_HO_HOSTNAME="humannconnect.dev"
+            - export REACT_APP_MUI_PRO_KEY="990e284e479d34349e78d12a4eaee94aTz01MDkxNyxFPTE2OTQ4NTY3MzY3NDEsUz1wcm8sTE09c3Vic2NyaXB0aW9uLEtWPTI="
+            - echo $REACT_APP_MUI_PRO_KEY
+            - echo $REACT_APP_HO_HOSTNAME
+            - npm install
+            - unset CI
+            - npm run build
+          artifacts:
+            - build/**
+      - step:
+          name: Security Scan
+          script:
+            # Run a security scan for sensitive data.
+            # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
+            - pipe: atlassian/git-secrets-scan:0.5.1
+      - step:
+          name: Deploy artifacts using SCP to DEV Server
+          deployment: Development
+          script:
+            - pipe: atlassian/scp-deploy:0.3.3
+              variables:
+                USER: $USER
+                SERVER: $SERVER
+                REMOTE_PATH: '/var/www/sites/humannconnect.dev/public/oit'
+                LOCAL_PATH: 'build/*'

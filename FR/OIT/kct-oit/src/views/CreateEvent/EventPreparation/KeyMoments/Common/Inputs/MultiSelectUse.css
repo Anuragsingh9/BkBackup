@@ -1,0 +1,11 @@
+.absoluteLabelDiv .css-bmh510{
+    padding: 4px!important;
+}
+.labelAbsolute{
+    position: absolute;
+    left: -184px;
+}
+.FullWidthInput{
+    width: 352px;
+    position: relative;
+}

@@ -1,0 +1,9 @@
+.SwitchContentChildDiv-2  button{
+    margin: 5px;
+}
+.SwitchContentChildDiv-2,.SwitchContentChildDiv-2{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

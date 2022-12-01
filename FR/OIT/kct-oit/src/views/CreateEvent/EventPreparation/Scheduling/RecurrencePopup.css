@@ -1,0 +1,24 @@
+.recurrencePopupSpecing .MuiGrid-item {
+  padding: 3px 4px;
+}
+.recurrencePopupSpecing.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 4px 0;
+}
+.recurrencePopupSpecing .rightRadioBtn {
+  text-align: center;
+  /* padding-left: 20px; */
+}
+.rightRadioBtn .MuiFormControlLabel-label{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.occurLabel {
+    margin: 0;
+    padding-left: 15px;
+    text-align: center;
+    padding-right: 15px;
+    font-size: 1rem!important;
+    /* display: flex; */
+    font-weight: 400!important;
+    color: #3b3b3b
+}

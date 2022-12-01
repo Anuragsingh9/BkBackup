@@ -1,0 +1,167 @@
+.profileImgDiv{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+    padding: 0px 0 86px 0;
+    justify-content: center;
+    align-items: center;
+}
+.profileImgDiv>.MuiAvatar-root{
+    border-radius: 6px;
+}
+.profileImgDiv>div{
+    width: 152px;
+    height: 152px;
+}
+.profileCardDiv>div>.profileImgDiv {
+    margin: 0 0 68px 0;
+}
+.numberField>.MuiFormControl-root{
+    width: 316px;
+    width: 316px;
+    margin: 4px 0 4px 0;
+}
+.inputFlexDiv>div>div>.MuiOutlinedInput-root>input{
+    padding: 8px;
+    width: 300px;
+}
+.inputFlexDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.inputFlexDiv .MuiFormHelperText-root.Mui-error{
+    position: absolute;
+    bottom: -18px;
+}
+.contactNumberDiv>div>.MuiGrid-grid-sm-2{
+    margin-left: 19px;
+}
+.contactNumberDiv>div>.MuiGrid-grid-sm-10{
+    margin-left: 14px;
+}
+.contactNumberDiv>div>.MuiGrid-grid-sm-2>div>input{
+    padding: 5px;
+    width: 40px;
+}
+.contactNumberDiv>div>.MuiGrid-grid-sm-10>div>input{
+    padding: 5px;
+    width: 255px;
+    display: inline-block;
+}
+.contactNumberDiv>.MuiGrid-container{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.leftLabel{
+    width: 100px;
+    font-weight: 400;
+}
+.leftLabel>p{
+    font-weight: 500;
+}
+.inputFlexDiv>div>input{
+    padding: 5px;
+    width: 325px;
+}
+.profileCardDiv{
+    padding: 35px 140px;
+    border: 2px solid #c4c4c4;
+}
+.profileCardDiv>.MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.profileButtonDiv{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.profileButtonDiv>button{
+    padding: 8px 40px;
+}
+.updateBtn{
+    padding: 0 15px;
+    background-color: #0589B8;
+}
+.inputFlexDiv-2>div{
+    min-width: 316px;
+    height: 45px;
+}
+.inputFlexDiv-2>div>div>.MuiOutlinedInput-root{
+    padding: 4px!important;
+
+}
+.ImgDivRelative{
+    position: relative;
+    text-align: center;
+}
+.ImgDivRelative .uploadePicCrop + svg{
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background: #fff;
+    border-radius: 100px;
+    z-index: 8;
+}
+.AutoCompleteIput .MuiInputBase-root{
+    height: 35px;
+    padding: 4px;
+}
+.AutoCompleteDiv>div>div{
+    margin: 4px 0;
+}
+.inputFlexDiv .MuiFormControl-marginDense{
+    margin: 4px 0;
+}
+.internalIdDiv p.Mui-error {
+    bottom: -44px!important;
+}
+.inputFlexDiv>.MuiFormControl-root{
+    width: 100%;
+}
+.inputFlexDiv>.MuiFormControl-root .MuiFormLabel-root.MuiInputLabel-root{
+    left: 14px;
+    top: -6px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .inputFlexDiv>div>input{
+        padding: 5px;
+        width: 250px;
+    }
+    .profileCardDiv{
+        padding: 35px 120px;
+    }
+    .contactNumberDiv>div>.MuiGrid-grid-sm-10>div>input{
+        width: 188px;
+    }
+    .contactNumberDiv>div>.MuiGrid-grid-sm-10{
+        margin-left: 14px;
+    }
+  }
+  @media only screen and (max-width: 835px) {
+    .inputFlexDiv>div>input{
+        padding: 5px;
+        width: 180px;
+    }
+    .profileCardDiv{
+        padding: 35px;
+    }
+    .contactNumberDiv>div>.MuiGrid-grid-sm-10>div>input {
+        width: 130px;
+    }
+  }

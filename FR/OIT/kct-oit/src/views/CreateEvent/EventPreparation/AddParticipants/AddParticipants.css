@@ -1,0 +1,21 @@
+.AddParticipantsStepper{
+    display: flex;
+    align-items: center;
+}
+.AddParticipantsStepper .MuiSelect-root{
+    padding: 8px;
+    font-size: 0.875rem;
+}
+.AddParticipantsStepper>.customPara{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.AddParticipantsStepper>.customPara>svg{
+    padding: 8px;
+}
+.AddParticipantsStepper>div>.makeStyles-selectEmpty-13{
+    margin-top: 4px;
+}

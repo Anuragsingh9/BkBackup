@@ -1,0 +1,106 @@
+.manageUserListDiv > .theme-btn {
+  margin-top: 10px;
+  background-color: #0589b8;
+}
+.manageUserListDiv .text_primary_col {
+  cursor: pointer;
+  font-weight: 400;
+  color: #0589b8;
+}
+/* .ThreeDotDiv>div{
+    right: 0!important;
+    position: unset!important;
+    left: unset!important;
+} */
+
+.ThreeDotDiv {
+  display: flex;
+}
+.manageUserListDiv .MuiDataGrid-menuIcon {
+  display: none !important;
+}
+.manageUserListDiv
+  .MuiDataGrid-root
+  .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--withRenderer,
+.MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--editing {
+  justify-content: left;
+}
+.manageUserListDiv {
+  position: relative;
+  padding: 0 0 24px 0;
+}
+/*---------------------- custom hide input box border------------------------ */
+.manageUserListDiv .MuiFilledInput-underline:before,
+.manageUserListDiv .MuiFilledInput-underline::after,
+.manageUserListDiv .MuiFilledInput-underline:hover:before {
+  border: none;
+}
+/*---------------------- custom hide input box border------------------------ */
+.manageUserListDiv .TableSearchBar {
+  position: absolute;
+  top: -74px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0 0 0;
+}
+.TableSearchBar .MuiGrid-root {
+  position: relative;
+}
+.TableSearchBar .MuiGrid-root:nth-child(1) {
+  bottom: 2px;
+}
+.manageUserListDiv .manage_user_drop_down {
+  min-width: 200px;
+}
+.manageUserListDiv .manage_user_drop_down > div {
+  padding: 14px;
+  max-height: 44px;
+  box-sizing: border-box;
+}
+.manageUserListDiv .filledSearchComponent input {
+  padding: 21px;
+  max-height: 44px;
+  box-sizing: border-box;
+}
+.manageUserListDiv .add_user_manually,
+.manageUserListDiv .add_user_import {
+  padding: 20px 16px;
+  min-height: 260px;
+}
+.hover_delete_grid {
+  display: none;
+}
+.MuiDataGrid-row:hover .hover_delete_grid {
+  display: block;
+}
+
+/* ------------DataGrid Custom css for event lists page-----------*/
+.manageUserListDiv .eventListCustomDataGrid {
+  border: none;
+}
+.manageUserListDiv .eventListCustomDataGrid .MuiDataGrid-main {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.manageUserListDiv
+  .eventListCustomDataGrid
+  .MuiDataGrid-main
+  .MuiDataGrid-columnsContainer {
+  border-bottom: 1px solid rgba(59, 59, 59, 0.5);
+}
+.manageUserListDiv
+  .eventListCustomDataGrid
+  .MuiDataGrid-main
+  .MuiDataGrid-cell {
+  border-bottom: 1px solid rgba(224, 224, 224, 0);
+}
+.manageUserListDiv .eventListCustomDataGrid .MuiDataGrid-columnSeparator {
+  display: none;
+}
+/* ------------DataGrid Custom css for event lists page-----------*/
+
+/* .manageUserListDiv.ManageAllListDiv .TableSearchBar + div>div{
+    height: 450px;
+  } */

@@ -1,0 +1,15 @@
+.assignlicButton{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.assignlicButton svg{
+    padding-left: 12px;
+}
+.flexRow{
+    padding: 10px 0;
+}
+.py-10{
+    padding: 10px 0;
+}

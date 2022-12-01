@@ -1,0 +1,42 @@
+.editor-toolbar{
+    position: absolute;
+    left: 15%;
+    bottom: 0%;
+    z-index: 300;
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+    padding: 18px 25px 10px 15px;
+    background: rgb(236,242,249);
+    background: -moz-linear-gradient(180deg, rgba(236,242,249,1) 0%, rgba(236,238,239,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(236,242,249,1) 0%, rgba(236,238,239,1) 100%);
+    background: linear-gradient(180deg, rgba(236,242,249,1) 0%, rgba(236,238,239,1) 100%);
+}
+
+.toolbar-profile-input{
+    width: 100%;
+}
+
+.tab-row{
+    flex-direction: column;
+}
+
+.editor-main{
+    width: 80%;
+}
+
+.toolbar-save{
+    height: 22px;
+    width: 100%;
+}
+
+.toolbar-close-btn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.toolbar-close-img{
+    height: 18px !important;
+}

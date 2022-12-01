@@ -1,0 +1,39 @@
+.primaryHeading{
+    color: #0589b8;
+    font-weight: 500;
+}
+/* .licenseBlockWrap>.licenseBlock:not(:last-child){
+    padding: 10px 0;
+    border-bottom: 1px solid #d3d3d3;
+} */
+.licenseBlockWrap_main>.licenseBlockWrap:not(:first-child){
+    padding-top: 16px;
+    margin-top: 16px;
+}
+.licenseBlockWrap_main>.licenseBlockWrap:nth-child(1){
+    padding-bottom: 32px;
+    margin-bottom: 0px;
+}
+.licenseBlockWrap_main>.licenseBlockWrap:not(:last-child){
+    border-bottom: 1px solid #d3d3d3;
+}
+.licenseBlockWrap.customPara-2 {
+    padding: 0;
+}
+.removeAcBtn{
+    padding: 0 50px;
+}
+.removeAcBtn .subFlexRow{
+    display: flex!important;
+}
+.linkAcBtn{
+    padding: 0 32px;
+}
+.linkAcBtn .subFlexRow{
+    display: flex!important;
+}
+.subFlexRow .customPara{
+    padding-left: 12px;
+    color: #0589b8;
+    cursor: text;
+}

@@ -1,0 +1,132 @@
+.new-interface-footer {
+    height: 65px;
+    width: 100%;
+    border-radius: 20;
+    background-color: #ffffff;
+    bottom: 0;
+    color: #3b3b3b;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.footerDiv-1  .languageSelectorWrap {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.languageSelectorWrap>svg.MuiSvgIcon-root{
+    padding: 0 12px 0 0;
+}
+.App{
+    position: relative;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.lan-select-input{
+    font-size: 0.875rem!important;
+}
+.App>.tab-row, .content-wrap-main{
+    padding-bottom: 100px;
+}
+.App>.MuiContainer-root {
+    padding-bottom: 120px;
+    height: calc(100vh - 65px);
+}
+.footer-powerby {
+    text-align: right;
+}
+.footer-powerby .text{
+    font-style: italic;
+    font-size: 0.875rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.wonder-svg-footer{
+    vertical-align: middle;
+    display: inline-block;
+}
+.App>.tab-row{
+    padding-bottom: 100px;
+}
+.footer-powerby img{
+    margin: auto;
+}
+.wonder-svg-footer svg {
+    height: auto;
+    width: 135px;
+    display: inline-block;
+    margin: auto;
+}
+.footerDiv-3{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footerDiv-1,.footerDiv-2,.footerDiv-4{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.footerDiv-1{
+    justify-content: flex-start;
+}
+.footerDiv-2>ul>li{
+    display: inline;
+    padding: 0 20px;
+}
+.footerDiv-2>ul>li>a{
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: #3b3b3b;
+}
+.footerDiv-2>ul{
+    padding: 0;
+}
+.footerDiv-2>ul>li:nth-child(1) {
+    border-right: 2px solid gray;
+}
+.Div-4-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.lan-select-input {
+    height: auto;
+    width: 102px;
+    overflow: hidden;
+    min-height: 1.1876em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+@media screen and (max-width: 835px) {
+    .new-interface-footer{
+      /* height:95px;
+      width: 100%;;
+      border-radius: 20;
+      background-color: #ffffff;
+      position: absolute;
+      bottom: 0; */
+      font-size: 12px;
+    }
+    .footerDiv-2>ul>li>a{
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .footerDiv-2>ul>li{
+        display: inline;
+        width: 50%;
+        padding: 0 5px;
+    }
+    .lan-select-input {
+        width: 78px;
+  }
+}

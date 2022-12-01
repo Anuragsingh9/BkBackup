@@ -1,0 +1,15 @@
+{
+    "Participant is not available now": "Participant is not available now",
+    "Host is not currently available" : " is not currently available",
+    "Host currently available": "I am your host",
+    "Conversation Isolated" : "Conversation Isolated",
+    "Broke Isolation successfully": "Broke Isolation successfully",
+    "See/Update my Badge" : "See/Update my Badge",
+    "Mute my microphone": "Mute my microphone",
+    "Unmute my microphone": "Unmute my microphone",
+    "Quit conversation" : "Quit conversation",
+    "Conversation Private" : "Make the conversation private",
+    "Conversation Not Private" : "Make the conversation public",
+    "Call spaceHost" : "Call Space Host",
+    "Host in another call": " is in another call"
+}

@@ -1,0 +1,25 @@
+.userSettingTabs>div>div>div>.MuiTabs-flexContainer{
+    width: 42%;
+    margin-left: 90px;
+}
+/* .userSettingTabs>div>div>div>.MuiTabs-flexContainer>a{
+    padding: 0;
+} */
+.userSettingTabs>svg{
+    position: relative;
+    top: 52px;
+    left: 21px;
+    width: 40px;
+    fill: #0589B8;
+    height: 40px;
+}
+.userSettingTabs>div>div>div>.PrivateTabIndicator-colorSecondary-4 {
+    background-color: #0589B8;
+}
+.userSettingTabs h3{
+    position: absolute;
+    top: -4px;
+}
+.userSettingTabs{
+    position: relative;
+}

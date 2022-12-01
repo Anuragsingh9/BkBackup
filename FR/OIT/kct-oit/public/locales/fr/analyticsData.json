@@ -1,0 +1,24 @@
+{
+  "eventTitle":"FR:Event Name",
+  "eventType":"FR:Event Type",
+  "zoomMeeting":"FR:Zoom Meeting",
+  "zoomWebinar":"FR:Zoom Webinar",
+  "mediaVideo":"FR:Media-Video",
+  "mediaImage":"FR:Media-Image",
+  "totalAttendees":"FR:Total-Attendees",
+  "totalConv":"FR:Total Conv",
+  "convOf2":"FR:Conv of 2",
+  "convOf3":"FR:Conv of 3",
+  "convOf4":"FR:Conv of 4",
+  "totalDuration":"FR:Total Duration",
+  "SHConv":"FR:SH Conv",
+  "SHConvDuration":"FR:SH Conv Duration",
+  "date":"FR:Date",
+  "tOnlineUsers":"FR:Current Online Users",
+  "tAttendee":"FR:Total Attendee Users",
+  "currentOnlineUsers":"FR:Total Attendee",
+  "tReg":"FR:Total Registrations",
+  "tVidPlayed":"FR:Total Videos Played",
+  "tImgPlayed":"FR:Total Images Played"
+
+}

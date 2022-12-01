@@ -1,0 +1,442 @@
+.fullScreenWrapper + div > .modal-body.badge2-body {
+  position: fixed;
+  top: 15vh;
+  right: calc(50% - 190px);
+  /* left: -33vw; */
+}
+.fs-video-grid {
+  width: 100%;
+  height: calc(100% - 60px);
+  /* margin-top: 60px; */
+}
+.fullScreen_wrap .badge-popup-video {
+  width: 338px;
+  height: 212px;
+}
+@media only screen and (max-width: 1920px) {
+  .fs-video-grid {
+    padding: 0 11%;
+  }
+  .fs-video-grid.fullScreenCount-4 {
+    padding: 4.8% 5%;
+  }
+  .fs-video-grid.fullScreenCount-5 {
+    padding: 4.8% 5%;
+  }
+  .fs-video-grid.fullScreenCount-1 {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .fs-video-grid {
+    padding: 0 8%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .fs-video-grid {
+    padding: 0 7% !important;
+  }
+}
+
+.fs-video-grid .fullScreen_wrap,
+.fs-video-grid .container-fluid {
+  height: 100%;
+}
+.fullScreen_wrap .fs-real-video > div:first-child {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+.fullScreen_wrap .fs-real-video .site-loader {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: unset;
+  width: 100%;
+  height: 100%;
+}
+.fullScreen_wrap.fullScreenCount-5
+  .fullScreen_wrap
+  .fs-real-video
+  > div:first-child {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+.fullScreen_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.fullScreen_wrap .fs-single-grid {
+  min-height: unset;
+  aspect-ratio: 16/9 !important;
+}
+.fullScreen_wrap .fs-single-grid .DummyVideoDiv,
+.fullScreen_wrap .fs-single-grid .DummyVideoDiv > div,
+.fullScreen_wrap .fs-single-grid .DummyVideoDiv > div video {
+  width: 100% !important;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.full-screen-conv-btn.col-md-8 .video-control {
+  padding: 6px;
+  /* margin: 2px 0; */
+}
+.fullScreen_wrap .video-control .video-buttons {
+  height: 34px;
+  width: 34px;
+  margin-right: 4px;
+}
+.fullScreen_wrap .video-control .video-buttons svg {
+  height: 16px;
+  width: 16px;
+}
+.fullScreenCount-5 .fs-other-btn {
+  right: 24px !important;
+  bottom: 8px !important;
+}
+.fullScreen_wrap.fullScreenCount-8 > div,
+.fullScreen_wrap.fullScreenCount-7 > div,
+.fullScreen_wrap.fullScreenCount-6 > div,
+.fullScreen_wrap.fullScreenCount-5 > div,
+.fullScreen_wrap.fullScreenCount-4 > div,
+.fullScreen_wrap.fullScreenCount-3 > div,
+.fullScreen_wrap.fullScreenCount-2 > div {
+  padding: 0 1px;
+}
+
+.fullScreen_wrap .other-user-badge-popup .badge-popup-video {
+  top: -23vh;
+  text-align: left;
+  left: -350px;
+  position: absolute;
+}
+.fullScreen_wrap .fs-exit-btn {
+  right: 0%;
+}
+.fullScreen_wrap .fs-real-video > video {
+  width: 100%;
+}
+.fs-real-video > video {
+  border: 2px solid #3e3e3e !important;
+}
+.fullScreen_wrap .DummyVideoDiv > div video {
+  border: 2px solid #3e3e3e;
+}
+/*.fullScreen_wrap .other-user-badge-popup .badge-popup-video {*/
+/*  top: -254px;*/
+/*  text-align: left;*/
+/*  left: -350px;*/
+/*  position: absolute;*/
+/*}*/
+/*.fullScreen_wrap  .fs-exit-btn {*/
+/*  right: 0%;*/
+/*}*/
+
+/* for 2 user in fullscreen */
+.fullScreen_wrap.fullScreenCount-1 .fs-single-grid:nth-child(1),
+.fullScreen_wrap.fullScreenCount-1 .fs-single-grid:nth-child(2) {
+  aspect-ratio: 16/9;
+  padding: 1px;
+}
+.fullScreen_wrap.fullScreenCount-1 .fs-real-video > video {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.fullScreen_wrap .fs-other-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.fs-other-btn > .video-control > button {
+  visibility: hidden;
+}
+.fs-single-grid:hover > .fs-other-btn > .video-control > button {
+  visibility: visible;
+}
+
+/* for 3 user in fullscreen */
+.fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(1),
+.fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(2),
+.fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(3) {
+  aspect-ratio: 16/10;
+  padding: 1px;
+}
+.fullScreen_wrap.fullScreenCount-2 .fs-real-video > video {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+}
+
+.fullScreen_wrap.fullScreenCount-2 .DummyVideoDiv > div video {
+  width: 100% !important;
+  height: 100%;
+  aspect-ratio: 16/9;
+  padding: 0;
+  margin: 0;
+}
+/* .fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(1) {
+  display: flex;
+  justify-content: flex-end;
+} */
+/* .fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+}
+.fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(3) {
+  display: flex;
+  justify-content: center;
+} */
+/* .fullScreen_wrap.fullScreenCount-2
+  .fs-single-grid:nth-child(2)
+  .DummyVideoDiv
+  > div {
+  display: flex;
+  justify-content: flex-start;
+}
+.fullScreen_wrap.fullScreenCount-2
+  .fs-single-grid:nth-child(3)
+  .DummyVideoDiv
+  > div {
+  display: flex;
+  justify-content: center;
+} */
+.fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(2) .fs-other-btn {
+  right: 8px;
+}
+.fullScreen_wrap.fullScreenCount-2 .fs-single-grid:nth-child(3) .fs-other-btn {
+  right: 10px;
+}
+
+/* for 4 user in fullscreen */
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(1),
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(2),
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(3),
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(4) {
+  aspect-ratio: 16/9;
+  padding: 1px;
+}
+.fullScreen_wrap.fullScreenCount-3 .fs-real-video > video {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+}
+
+.fullScreen_wrap.fullScreenCount-3 .DummyVideoDiv > div video {
+  width: 100% !important;
+  height: 100%;
+  aspect-ratio: 16/9;
+  padding: 0;
+  margin: 0;
+}
+/* .fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(1) {
+  display: flex;
+  justify-content: flex-end;
+}
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+}
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(4) {
+  display: flex;
+  justify-content: flex-start;
+}
+.fullScreen_wrap.fullScreenCount-3
+  .fs-single-grid:nth-child(2)
+  .DummyVideoDiv
+  > div {
+  display: flex;
+  justify-content: flex-start;
+}
+.fullScreen_wrap.fullScreenCount-3
+  .fs-single-grid:nth-child(3)
+  .DummyVideoDiv
+  > div {
+  display: flex;
+  justify-content: flex-end;
+}
+.fullScreen_wrap.fullScreenCount-3
+  .fs-single-grid:nth-child(4)
+  .DummyVideoDiv
+  > div {
+  display: flex;
+  justify-content: flex-start;
+} */
+/* .fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(2) .fs-other-btn {
+  right: 230px;
+} */
+.fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(3) .fs-other-btn {
+  right: 8px;
+}
+/* .fullScreen_wrap.fullScreenCount-3 .fs-single-grid:nth-child(4) .fs-other-btn {
+  right: 230px;
+} */
+
+/* for 5 user in fullscreen */
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(1),
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(2),
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(3),
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(4),
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(5) {
+  aspect-ratio: 16/10;
+  padding: 2px 4px 4px 4px;
+}
+.fullScreen_wrap.fullScreenCount-4 .fs-real-video > video {
+  margin-top: 0;
+  height: 100% !important;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+}
+
+.fullScreen_wrap.fullScreenCount-4 .DummyVideoDiv > div video {
+  height: 100% !important;
+  width: 100% !important;
+  aspect-ratio: 16/9;
+  padding: 0;
+  margin: 0;
+}
+/* .fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid {
+  display: flex;
+  justify-content: unset;
+  align-items: flex-end;
+}
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(4),
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(5) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.fullScreen_wrap.fullScreenCount-4
+  .fs-single-grid:nth-child(1)
+  .DummyVideoDiv
+  > div,
+.fullScreen_wrap.fullScreenCount-4
+  .fs-single-grid:nth-child(2)
+  .DummyVideoDiv
+  > div,
+.fullScreen_wrap.fullScreenCount-4
+  .fs-single-grid:nth-child(3)
+  .DummyVideoDiv
+  > div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.fullScreen_wrap.fullScreenCount-4
+  .fs-single-grid:nth-child(4)
+  .DummyVideoDiv
+  > div,
+.fullScreen_wrap.fullScreenCount-4
+  .fs-single-grid:nth-child(5)
+  .DummyVideoDiv
+  > div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+} */
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(2) .fs-other-btn,
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(3) .fs-other-btn,
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(4) .fs-other-btn,
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid:nth-child(5) .fs-other-btn {
+  right: 8px;
+  bottom: 10px;
+}
+
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid .DummyVideoDiv,
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid .DummyVideoDiv > div:not(.nameAudioBar),
+.fullScreen_wrap.fullScreenCount-4 .fs-single-grid .DummyVideoDiv > div video {
+  width: 100% !important;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.fs-pre-slider {
+  width: 150px !important;
+}
+.fullScreen_wrap .fs-real-video {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #393a3f1c;
+  border: 1px solid #393a3f1c;
+  align-content: center;
+  box-sizing: border-box;
+}
+.fullScreen_wrap .fs-dummy-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #393a3f1c;
+  border: 1px solid #393a3f1c;
+  align-content: center;
+  box-sizing: border-box;
+}
+.fullScreen_wrap.fullScreenCount-5 .fs-real-video > div:first-child {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  background: #393a3f1c;
+  border: 1px solid #393a3f1c;
+  align-content: center;
+  box-sizing: border-box;
+}
+.fullScreen_wrap.fullScreenCount-5 .fs-real-video > div > video {
+  border-radius: 4px;
+}
+.fullScreen_wrap.fullScreenCount-5 .fs-real-video > div:first-child {
+  width: auto;
+  height: 100%;
+  aspect-ratio: 16/9;
+}
+.fullScreen_wrap.fullScreenCount-6 .fs-real-video > div:first-child {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+.fullScreen_wrap .fs-dummy-video .DummyVideoDiv {
+  width: 100% !important;
+  height: 100%;
+}
+.fullScreenWrapper .row.fullScreen_wrap .nameAudioBar {
+  position: absolute;
+  bottom: 10px;
+  display: flex !important;
+  justify-content: unset !important;
+  align-items: unset;
+  left: 5px;
+  margin-left: 10px !important;
+  background-color: rgb(0 0 0 / 62%);
+  color: #fff;
+  width: max-content !important;
+  max-width: 220px;
+  padding: 4px 10px !important;
+  max-height: 30px;
+  border-radius: 2px;
+}
+.my_badgeBlock .fullScreenWrapper + .spaceContainer {
+  z-index: 0;
+}

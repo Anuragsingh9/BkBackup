@@ -1,0 +1,81 @@
+.invitation_info_wrap{
+    padding: 10px 50px;
+    font-size: 0.875rem;
+}
+.invitationTemplate .FlexRow {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.registrationWindow form{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.registrationWindow .rightArrowIcon {
+    padding: 2px 10px 2px 0;
+    position: relative;
+    left: -13px;
+    top: 4px;
+}
+.startTimeWrap, .endTimeWrap{
+    display: flex;
+}
+.startTimeWrap .MuiOutlinedInput-adornedEnd {
+    padding-right: 0px;
+}
+.startTimeWrap>.MuiFormControl-root{
+    min-width: 160px;
+    margin-right: 10px;
+}
+.endTimeWrap>.MuiFormControl-root{
+    min-width: 160px;
+    margin-right: 10px;
+}
+.endTimeWrap .MuiOutlinedInput-adornedEnd{
+    padding-right: 0;
+}
+.rightArrowIcon{
+    padding: 2px 10px 2px 0;
+}
+.TimeIndicator, .DateIndicator{
+    max-width: 150px;
+}
+.DateIndicator .MuiInputAdornment-root>button{
+    padding: 0;
+}
+.viewAll_button{
+    display: flex;
+    align-items: center;
+}
+.gray_saprator{
+    border-bottom: 1px solid #d3d3d3;
+    width: calc(100% - 80px);
+    margin-left: 10px;
+}
+.viewAll_txt {
+    margin: 8px 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #0589B8;
+}
+.FlexRow.agendaFlex_row{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+.fullInfoWrap{
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 16px;
+}
+.startEndTime{
+    margin: 2px 0;
+}
+.registrationWindow{
+    display: flex;
+    flex-direction: row;
+}

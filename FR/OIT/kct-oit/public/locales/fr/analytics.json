@@ -1,0 +1,11 @@
+{
+    "custom":"Custom - FR",
+    "today":"Today - FR",
+    "yesterday":"Yesterday - FR",
+    "last Week":"Last Week - FR",
+    "last_month":"Last Month - FR",
+    "last_7_days":"Last 7 Days - FR",
+    "last_30_days":"Last 30 Days - FR",
+    "no_conversation_in_occurrence": "FR No Conversation in this recurrence",
+    "no_data_in_occurrence": "No Data in this recurrence - FR"
+}

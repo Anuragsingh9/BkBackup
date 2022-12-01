@@ -1,0 +1,49 @@
+.volume_progress .progress {
+    overflow: hidden;
+    height: 6px;
+    margin-bottom: 6px;
+    background-color: #adadad;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.volume_progress .progress-bar {
+    float: left;
+    width: 0%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #41EA40;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.volume_progress .custom_layout_specing>div{
+    padding-right: 0;
+}
+.custom_layout_specing p {
+    margin: 0;
+}
+.custom_layout_specing .progressWrap .progress{
+    max-width: 274px;
+}
+.custom_layout_specing .progressWrap{
+    padding-left: 4px;
+}
+.custom_layout_specing {
+    padding: 12px 17px;
+}
+.test_audioWrap svg{
+    max-width: 22px;
+    max-height: 22px;
+}
+.test_audioWrap>.col-lg-2{
+    padding-right: 0;
+}
+.testAudioBtn{
+    color: #0589b8;
+}

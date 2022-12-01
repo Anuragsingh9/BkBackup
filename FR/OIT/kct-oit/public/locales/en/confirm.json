@@ -1,0 +1,11 @@
+{
+    "sure": "Are you sure want to remove?",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "proceedNext": "Changes will lost without save, Continue ?",
+    "confirmMessage": "Are you sure you want to perform this action ?",
+    "successDelete": "Record Delete SuccessFully",
+    "successRoleUpdate": "Role Update SuccessFully"
+}

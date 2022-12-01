@@ -1,0 +1,16 @@
+{
+    "name": "Qualification",
+    "alias": "qualification",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Qualification\\Providers\\QualificationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "KctUser",
+    "alias": "kctuser",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\KctUser\\Providers\\KctUserServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

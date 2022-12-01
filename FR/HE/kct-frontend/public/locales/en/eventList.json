@@ -1,0 +1,28 @@
+{
+    "Event Name": "Event Name",
+    "Event Date": "Event Date",
+    "Start Time":"Start Time",
+    "End Time" : "End Time",
+    "Organizer" :"Organizer",
+    "My Roles":"My Roles",
+    "Action": "Action",
+    "Search": "Search",
+    "You are a presenter for that event" : "You are a presenter for that event",
+    "You are not a presenter for that event": "You are not a presenter for that event",
+    "You are a moderator for that event" : "You are a moderator for that event",
+    "You are not a moderator for that event": "You are not a moderator for that event",
+    "You are a host for that event in space" : "You are a host for that event in space",
+    "You are a not host for that event in space" : "You are a not host for that event in space",
+    "You are an attendee for the conference" : "You are an attendee for the conference" ,
+    "keepcontact networking post-event" : "You are invited to the keepcontact networking post-event",
+    "You are banned for this event" : "You are banned for this event",
+    "Access" : "Access",
+    "Register" : "Register",
+    "Join" : "Join",
+    "There is no data to display" : "There is no data to display",
+    "Events List" : "Events List",
+    "Future Events" : "Future Events",
+    "Past Events" : "Past Events",
+    "Event Type":"Event Type"
+    
+}

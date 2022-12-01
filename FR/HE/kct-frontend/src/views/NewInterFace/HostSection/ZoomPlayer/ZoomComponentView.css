@@ -1,0 +1,62 @@
+div#zoomComponentViewSection {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+div#zoomComponentViewSection .MuiPaper-root.in-sharing.MuiPaper-elevation1.MuiPaper-rounded {
+    width: min(80vw,1184px);
+    height: 700px;
+}
+
+#suspension-view-tab-thumbnail-minimized, #suspension-view-tab-thumbnail-ribbon {
+    display: none;
+}
+
+.drag-video {
+    cursor: inherit;
+}
+
+div#suspension-view-tabpanel-speaker .MuiBox-root .in-sharing:nth-child(2) {
+    width: 240px;
+}
+.join_audio_btn_wrap{
+    width: 100%;
+    max-width: 1188px;
+    max-height: 756px;
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #111111d0;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(7px);
+}
+.join_audio_btn_wrap button{
+    padding: 8px 14px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body div#aria-notify-area ~ div{
+    z-index: 16!important;
+}
+.zoom__waiting-txt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.zoom__waiting-txt p{
+    margin-top: 100px;
+}
+
+

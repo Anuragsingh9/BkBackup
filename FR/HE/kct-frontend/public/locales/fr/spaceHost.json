@@ -1,0 +1,14 @@
+{
+    "Participant is not available now": "Le participant n'est pas disponible pour le moment",
+    "Host is not currently available": " n'est pas disponible actuellement",
+    "Host currently available": "Je suis votre hôte",
+    "Conversation Isolated" : "La conversation est maintenant isolée",
+    "Broke Isolation successfully" : "Isolement rompu avec succès",
+    "See/Update my Badge": "Voir/Mettre à jour mon Badge",
+    "Mute my microphone": "Couper mon microphone" ,
+    "Unmute my microphone": "Réactiver mon microphone",
+    "Quit conversation" : "Quitter la conversation",
+    "Conversation Private" : "Rendre la conversation privée",
+    "Conversation Not Private" : "Make the conversation public",
+    "Call spaceHost" : "Appeler l’hôte ou demander de l’aide"
+}

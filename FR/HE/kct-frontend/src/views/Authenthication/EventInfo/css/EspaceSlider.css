@@ -1,0 +1,14 @@
+
+  .spaces-select {
+    -webkit-box-shadow: 15px 0px 30px -10px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 0px 30px -10px rgba(0, 0, 0, 0.4);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .spaces-unselect {
+    background-color: #738c9d;
+    border-color: #738c9d;
+  }
+  

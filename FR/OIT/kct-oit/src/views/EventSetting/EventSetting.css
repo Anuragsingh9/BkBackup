@@ -1,0 +1,39 @@
+.DesignSettingWrap > div > div > div > .MuiTabs-flexContainer {
+  margin-left: 00px;
+  justify-content: center;
+  position: relative;
+  left: -62px;
+  border-bottom: 1px solid lightgray;
+}
+/* .DesignSettingWrap>div>div>div>.MuiTabs-flexContainer>a{
+    padding: 0;
+} */
+.DesignSettingWrap > div > div > div > .MuiTabs-flexContainer > .MuiTab-root {
+  width: fit-content;
+}
+.DesignSettingWrap > svg {
+  position: relative;
+  top: 52px;
+  left: 21px;
+  width: 40px;
+  fill: #0589b8;
+  height: 40px;
+}
+/* .DesignSettingWrap > div > #nav-tabpanel-0,
+.DesignSettingWrap > div > #nav-tabpanel-1,
+.DesignSettingWrap > div > #nav-tabpanel-2,
+.DesignSettingWrap > div > #nav-tabpanel-3,
+.DesignSettingWrap > div > #nav-tabpanel-4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px 0;
+} */
+.TechnicalSettingsContentDiv .MuiFormControl-fullWidth {
+  width: 300px;
+}
+.DesignSettingWrap .makeStyles-root-1 div.MuiTabs-root .MuiTabs-flexContainer {
+    display: flex;
+    left: -62px;
+    position: relative;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}

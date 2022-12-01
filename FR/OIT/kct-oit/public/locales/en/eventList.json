@@ -1,0 +1,18 @@
+{
+    "eventTitle":"Event Name",
+    "org":"Organizer",
+    "type":"Type",
+    "date":"Date",
+    "st": "Start Time",
+    "et":"End Time",
+    "modify":"Modify",
+    "remove":"Remove",
+    "future":"FUTURE EVENTS",
+    "past":"PAST EVENTS",
+    "create":"Create New Event",
+    "reccEvent":"This is a Recurring Event",
+
+    "cafeteria_event":"Cafeteria Event",
+    "executive_event":"Executive Event",
+    "manager_event":"Manager Event"
+}

@@ -1,0 +1,18 @@
+{
+    "req":"Space host required",
+    "modHead":"Modify Header Info:",
+    "headLine1":"Event Header line 1:",
+    "placeHead1":"Enter Event Header line 1",
+    "headLine2":"Event Header line 2:",
+    "placeHead2":"Enter Event Header line 2",
+    "monoSpace" : "MonoSpace",
+    "space": "Space",
+    "booth":"Booths into Aisles",
+    "max":"Max Capacity:",
+    "cap":"Capacity",
+    "spaceHost":"Space Host:",
+    "save":"Save",
+    "Save and Next": "Save and Next",
+    "modify header":"Modify the header lines",
+    "venue type": "Networking spaces configuration"
+}

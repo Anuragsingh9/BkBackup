@@ -1,0 +1,73 @@
+.row>.InputFlex-Div>div>div>input{
+    padding: 8px;
+}
+.row>.InputFlex-Div>.MuiFormControl-root{
+    margin: 0 8px;
+}
+.InputFlex-Div{
+    display: flex;
+    flex-direction: column;
+}
+.InputFlex-Div>.text-danger{
+    color: rgb(235, 15, 15);
+    padding-left: 8px;
+    font-size: 12px;
+}
+.userSettingTabs>div>#nav-tabpanel-1>div>p>div>div{
+    height: max-content!important;
+}
+.row{
+    display: flex;
+    padding: 4px 0;
+    justify-content: center;
+}
+.removeBtnDiv>button{
+    position: absolute;
+    
+}
+.removeBtnDiv{
+    display: flex;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    flex-direction: column;
+}
+.removeBtnDiv>.theme-btn{
+    position: absolute;
+    padding-top: 5px;
+}
+.black-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.black-btn>button{
+    margin: 12px 5px;
+}
+.addedUserRow{
+    padding: 4px 0;
+    position: relative;
+}
+.addedUserRow .row{
+    justify-content: flex-start;
+}
+.AddUserBtns{
+    justify-content: flex-start;
+}
+.addedUserRow .custom_email_tag {
+    /* position: absolute; */
+    min-width: 200px;
+    margin-right: 10px;
+    width: 100%;
+    /* left: 412px;
+    top: 8px; */
+}
+.addedUserRow .custom_email_tag  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"][class*="MuiOutlinedInput-marginDense"]{
+    padding: 4px;
+}
+.autoCompleteInput_wrap{
+    margin-right: 10px;
+}
+.autoCompleteInput input{
+    padding-right: 45px!important;
+    /* text-overflow: ellipsis!important; */
+}

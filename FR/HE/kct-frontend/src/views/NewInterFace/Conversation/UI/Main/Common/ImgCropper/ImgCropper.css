@@ -1,0 +1,47 @@
+
+  
+  .Img_cropper_main .selectImg input {
+    width: 195px;
+    height: 195px;
+    background-color: #0202022f;
+    border-radius: 6%;
+  }
+  .Img_cropper_main .selectImg input#file-input-button {
+    width: 195px !important;
+    height: 195px;
+    background-color: #0202022f;
+    border-radius: 6%;
+  }
+  .Img_cropper_main ::file-selector-button {
+    display: none;
+  }
+  .Img_cropper_main ::-webkit-file-upload-button {
+    display: none;
+  }
+  .Img_cropper_main .ReactCrop.Img_cropper_tool{
+      /* position: absolute; */
+      max-width: 100%;
+      height: auto;
+      max-height: 300px;
+      /* border-radius: 12px; */
+      /* border: 16px solid rgb(43, 157, 250); */
+  }
+  .Img_cropper_main .btn_outline_dark {
+    border: 1px solid #0589b8;
+    background-color: #0589b8;
+    color: #fff;
+    padding: 6px 18px;
+    display: inline-flex;
+    align-items: center;
+}
+.Img_cropper_main .ImgBtn_absolute {
+  position: relative;
+  left: 168px;
+  min-width: 81px;
+  display: flex;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+}

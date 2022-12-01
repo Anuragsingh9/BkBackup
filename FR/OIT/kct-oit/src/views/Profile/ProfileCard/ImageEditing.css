@@ -1,0 +1,106 @@
+.picUpload_parent>.picUpload_div{
+    background-color: rgba(59, 59, 59)!important;
+    width: 100%;
+    border-radius: 6px;
+}
+.picUpload_parent{
+    width: 152px;
+    height: 152px;
+}
+.picUpload_div:nth-child(1)>div,.uploadePicCrop,.picUpload_parent {
+    border-radius: 6px;
+  }
+.picUpload_div:nth-child(2) {
+background-color: rgb(34 34 34 / 0%)!important;
+}
+.img-close-btn>svg{
+    fill: #fff;
+}
+.profileImgDiv{
+    position: relative;
+}
+.img-close-btn{
+    position: relative;
+    top: 0;
+    display: none;
+    right: 0;
+}
+.uploadePicCrop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* overflow: hidden; */
+    border-radius: 8px;
+    /* background-color: rgba(59, 59, 59)!important; */
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.picUpload_parent {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border-radius: 6%;
+    background-color: rgba(59, 59, 59, 0.50) !important;
+    border: none;
+    background-position: center !important;
+}
+.picUpload_parent .picUpload_div {
+    background-color: transparent !important;
+}
+.uploadePicCrop:hover .picUpload_parent .picUpload_div svg,.badge-inner .uploadePicCrop:hover span.upload-file, .picUpload_parent:hover span.upload-file{
+    display: block !important;
+    transition-delay: 2s!important;
+  }
+  
+  .uploadePicCrop .picUpload_parent .picUpload_div svg , span.upload-file,.picUpload_div>div>div>div>svg {
+    color: white !important;
+    display: none !important;
+    margin: auto;
+  }
+  .badge-inner .imgUploadeStyle1 .picUpload_parent .picUpload_div > div:not(:first-child) div[name="action-con"] button{
+    margin-right: 3px;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+    color: black;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+/* no user pic. text */
+#user-img {
+    width: 150px;
+    height: 140px;
+    display: inline-block;
+    background-size: cover;
+    border-radius: 8px;
+    vertical-align: middle;
+}
+.badge2-body .imgUploadeStyle1 .noUserPicTxt #user-img {
+    width: 140px;
+    height: 140px;
+    margin: -1px 0px 0px -1px;
+}
+/* .noUserPicTxt:hover{
+    opacity: 0.1;
+} */
+.noUserPicTxt{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.userPicName {
+    background: rgba(59, 59, 59, 0.5);
+    border: 1px solid rgba(59, 59, 59, 1);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding: 5px 2px;
+    display: table-cell !important;
+    /* border-radius: 50%; */
+}

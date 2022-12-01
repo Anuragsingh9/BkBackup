@@ -1,0 +1,92 @@
+.banpop-inner .close{
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+.banpop-inner h4{
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: #3b6da9;
+}
+.ban-content{
+    max-width: 410px;
+    text-align: left;
+    margin: auto;
+}
+.ban-content ul li{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.ban-content ul li:first-of-type{
+    margin-left: 0px;
+}
+.ban-content ul li label{
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.ban-content ul li input{
+    cursor: pointer;
+}
+.ban-content select{
+    border: 1px solid #cdc1c1;
+    border-radius: 3px;
+    /* text-indent: 5px;  */
+    /* margin-left: 15px; */
+}
+.ban-content p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.ban-con{
+    color: white;
+    background-color: #1e4d7d;
+    padding: 10px 30px;
+    margin-right: 20px;
+}
+.ban-con:hover,.ban-con:active,.ban-con:focus{
+    color: white;
+}
+.ban-can{
+    color: #1e4d7d;
+    background-color: white;
+    padding: 10px 30px;
+    border-color: #1e4d7d;
+    border: 2px solid #1e4d7d;
+}
+.ban-can:hover,.ban-can:active,.ban-can:focus{
+    color: #1e4d7d;
+}
+.member-ban-popup .modal-dialog{
+    width: 450px;
+    box-shadow: rgb(128 128 128 / 25%) 0px 0px 17px 4px;
+    border: none;
+}
+.other-field textarea {
+    width: 208px;
+    margin-right: 0px;
+    border: 1px solid #cdc1c1 !important;
+    border-radius: 3px;
+}
+.other-field{
+    text-align: end;
+}
+.host-outer .username-slider-dp{
+    margin: auto;
+    height: 195px;
+    width: 198px;
+    font-size: 80px;
+    line-height: 183px;
+}
+.ban-content .custom_select{
+    min-height: 100%;
+}
+.ban-content .custom_textarea{
+    margin: 0;
+    width: 100%;
+}

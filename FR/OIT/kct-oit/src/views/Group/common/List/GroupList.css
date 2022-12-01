@@ -1,0 +1,27 @@
+.Group_table_common .MuiDataGrid-columnHeaderTitle svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #3b3b3b;
+}
+.Fav_star_col{
+    text-align: center;
+}
+/* .Group_table_common .MuiDataGrid-columnSeparator{
+    display: none!important;
+}
+.Group_table_common .MuiDataGrid-columnHeaderWrapper{
+    background-color: #d7d7d7;
+} */
+.Group_table_common .MuiDataGrid-cell {
+    display: block;
+    position: relative;
+    text-align: center!important;
+}
+.Group_table_common .MuiDataGrid-root .MuiDataGrid-cell{
+    overflow: unset;
+}
+.Group_table_common .MuiDataGrid-cell{
+    display: flex;
+    justify-content: center!important;
+}

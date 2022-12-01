@@ -1,0 +1,66 @@
+.submenu-div>div{
+    z-index: 12;
+    padding: 0;
+   
+    /* transform: translate3d(166px, 140px, 0px)!important; */
+}
+.submenu-div{
+    display: flex;
+    padding: 0 6px;
+}
+.customIco{
+    padding: 0 6px;
+    height: 24px;
+}
+.EventDropDownList {
+    min-width: 340px;
+    max-height: 260px;
+}
+.skeletonWrapper span{
+    margin: 4px 12px;
+}
+.EventlistIcoDrop>span{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+.EventDropDownList>.EventListHeading{
+    font-weight: 500!important;
+    /* padding: 12px 12px 2px 16px; */
+    margin: 2px auto -4px auto;
+}
+.EventDropDownList>li,.EventDropDownList>div>li{
+    padding: 4px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.EventDropDownList  .DisabledBlack{
+    color: #3b3b3b;
+    font-weight: 651!important;
+    padding: 5px 17px;
+}
+.EventDropDownList .ListSaprator{
+    border-top: 0px solid #e8e6e6;
+}
+.EventDropDownList .CreateSvg{
+    display: flex;
+    justify-content: space-between;
+}
+.EventDropDownList .CreateSvg svg{
+    fill: #3b3b3bd9;
+    width: 18px;
+}
+.dashboradIcon {
+    display: flex;
+}
+.viewAllItem{
+    font-weight: 500!important;
+}
+.viewAllItem li{
+    font-weight: 500!important;
+}
+.e_drw_rec_icon svg{
+    width: 13px!important;
+    height: 13px!important;
+    padding-left: 6px;
+    /* margin-left: -40px!important; */
+}

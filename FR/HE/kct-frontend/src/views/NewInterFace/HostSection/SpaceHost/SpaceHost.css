@@ -1,0 +1,246 @@
+.bring-down {
+  width: 80%;
+  text-align: center;
+  background-color: #dde7ec;
+  height: 26px;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+.bring-down span {
+  font-size: 20px;
+  color: black;
+  background-color: #f1f6fb;
+  padding: 0px 40px;
+  border-radius: 54px;
+  margin: 2px;
+  display: inline-block;
+  height: 22px;
+  cursor: pointer;
+}
+.videoframe {
+  padding: 15px 20px;
+  height: 400px;
+  background: rgb(220, 230, 235);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(220, 230, 235, 1) 0%,
+    rgba(241, 246, 251, 1) 50%,
+    rgba(220, 230, 235, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(220, 230, 235, 1) 0%,
+    rgba(241, 246, 251, 1) 50%,
+    rgba(220, 230, 235, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(220, 230, 235, 1) 0%,
+    rgba(241, 246, 251, 1) 50%,
+    rgba(220, 230, 235, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dce6eb",endColorstr="#dce6eb",GradientType=1);
+  border-radius: 10px;
+  margin-top: 28px;
+  box-shadow: -1px 2px 6px 6px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: -1px 2px 6px 6px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: -1px 2px 6px 6px rgba(0, 0, 0, 0.09);
+}
+.bluejeans-height {
+  height: 681px;
+  z-index: 0;
+}
+.host-video-frame {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.private-btn {
+  background-color: white;
+  position: absolute;
+  left: -49px;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.private-btn .svgicon {
+  padding: 4px 2px;
+}
+
+/* .grey-private-btn .svgicon svg,.grey-private-btn .svgicon svg *{
+    fill: gray !important;
+} */
+.conversation-control .badge2-body {
+  right: -390px;
+}
+.host-section-slide-down {
+  padding: 50px 0 0px;
+  margin-bottom: -53px;
+}
+.hostpop .badge-popup-video {
+  left: -52px;
+}
+.hosticons .badge-right-content {
+  text-align: left !important;
+}
+.hostphoto {
+  height: 197px;
+  width: 197px;
+  /* object-fit: none; */
+  border-radius: 10px;
+}
+.host-reception .svgicon {
+  background-color: white;
+  padding: 8px 8px 9px;
+  border-radius: 6px;
+}
+.host-reception button {
+  background: none;
+}
+.main-host
+  > .host-outer
+  > .video-meeting
+  > .row
+  > .profile-img
+  > .video-control
+  > .no-texture
+  > .grey-private-btn
+  > .svgicon {
+  background-color: #fff;
+  border-radius: 4px;
+}
+/* non isolate btn */
+.main-host
+  > .host-outer
+  > .video-meeting
+  > .row
+  > .profile-img
+  > .video-control
+  > .no-texture
+  > .grey-private-btn
+  > .svgicon
+  > svg {
+  padding: 0 4px;
+}
+/* isolate btn */
+.main-host
+  > .host-outer
+  > .video-meeting
+  > .row
+  > .profile-img
+  > .video-control
+  > .no-texture
+  > .private-btn-color2
+  > .svgicon
+  > svg {
+  padding: 0 4px;
+}
+/* .Sh_block_row{
+    display: flex;
+    justify-content: center;
+} */
+.Sh_block_row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.container_videoBlock{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container_videoBlock,
+.container_hostBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.volume_adjuster_wrap {
+  display: flex;
+  padding-top: 26px;
+}
+.volume_adjuster_wrap .custom_adjuster_position {
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.custom_adjuster_position .dropdown-menu.dropdown-menu-right {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  left: 34px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+.custom_adjuster_position .drop-btn.dropdown-toggle::after {
+  display: none;
+}
+.custom_adjuster_position .dropdown-item:hover {
+  text-decoration: none !important;
+  background-color: rgba(182, 202, 224, 0) !important;
+}
+.custom_adjuster_position.dropdown {
+  float: right;
+  margin: 0px auto 0 !important;
+}
+.custom_adjuster_position .pannel_controllerBtn {
+  background-color: #fff;
+  border: 1px solid #3b3b3b;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  margin: 0 4px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hostIndicator {
+  display: flex;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  padding: 2px 10px 5px 10px;
+  background: #00000033;
+  border-radius: 2px;
+  /*padding: 4px 6px;*/
+  /*width: 100px;*/
+  /*height: 100px;*/
+}
+
+.receptonIconColor path{
+  fill: #FFF;
+}
+
+.hostIndicator span svg{
+  width: 18px;
+  height: 18px;
+}
+
+/* .custom_adjuster_position .Slider {
+    -webkit-appearance: none;
+    height: 8px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .custom_adjuster_position .Slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background-color: rgb(255, 120, 0);
+    overflow: visible;
+    cursor: pointer;
+  } */
+

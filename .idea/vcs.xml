@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BK/kct-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BK/ops-laravel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FR/HE/kct-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FR/OIT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FR/OIT/kct-oit" vcs="Git" />
+  </component>
+</project>

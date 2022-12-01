@@ -1,0 +1,117 @@
+.deleteIconWrapper {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* .deleteIconWrapper svg{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+} */
+.custom_imgUploader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+input[type="file"].custom_imgUploader  {
+  font-size: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.parantImageWrapper {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* position: relative; */
+  align-items: center;
+}
+.singleImageWrapper {
+  width: 128px;
+  border: 1px solid #3b3b3b;
+  height: 80px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  /* margin: 10px; */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
+.parantImageWrapper>div{
+  margin: 4px 16px 4px 0;
+}
+
+.singleImageWrapper:hover .deleteIconWrapper {
+  display: flex;
+  cursor: pointer;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.deleteIconWrapper{
+    display: none;
+}
+.deleteIconWrapper svg path{
+    fill: #0589b8;
+}
+/* .upload_videoBtn{
+  width: 120px;
+  height: 80px;
+}
+.upload_videoBtn svg{
+  width: 120px;
+  height: 80px;
+  display: block;
+} */
+.eventLiveSection{
+  margin: 0px 30px;
+  padding: 0 35px;
+  padding-bottom: 30px;
+  border-left: 1px solid #d9d9d9;
+}
+.eventDisTxtDynamic{
+  color: #0589b8;
+  padding: 8px 0 14px;
+}
+.pointer{
+  cursor: pointer;
+}
+.eventLiveSection .add_demo_assetsBtn {
+  padding: 4px 12px;
+  background-color: #0589b8;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.eventLiveSection .add_demo_assetsBtn:hover{
+  padding: 4px 12px;
+  background-color: #0589b8;
+}
+ .add_demoLoaders{
+  max-width: 20px;
+  max-height: 20px;
+  color: #fff;
+}
+.mediaTabHeading{
+  padding: 0 10px;
+}
+.mediaTabFlexRow {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  padding: 12px 0 4px 0;
+  align-items: center;
+}

@@ -1,0 +1,53 @@
+.SubColorPicker {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+/* .SubColorPicker .MuiSlider-root{
+    margin-left: 15px;
+} */
+.CoverColorpicker{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.PickerPopOver{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+.SubColorPicker>div{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 19%);
+    margin: 0;
+}
+.SubColorPicker{
+    padding: 10px 0;
+}
+.ColorPickerLabelDiv{
+    box-shadow: none;
+    display: flex;
+}
+.ColorPickerLabelDiv {
+    /* position: absolute; */
+    box-shadow: none;
+    color: #989898;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.SliderSpan{
+    width: 100%;
+    margin-right: 20px;
+    font-size: 0.875rem;
+}
+.SliderSpan .MainSliderPadding{
+    padding: 10px 0;
+}
+.desLayoutrow .MuiSlider-sizeSmall.MuiSlider-root{
+    padding: 2px 0;
+}

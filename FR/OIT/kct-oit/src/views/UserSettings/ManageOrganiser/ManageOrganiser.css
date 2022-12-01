@@ -1,0 +1,151 @@
+.manageOrgDiv>button{
+    margin: 8px 0;
+    background-color: #0589B8;
+}
+.manageOrgDiv>.button:hover{
+    background-color: #0579a3;
+}
+.manageOrgDiv .OrgListLink{
+    padding: 0px 26px 12px;
+    display: block;
+}
+.manageOrgDiv .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--withRenderer, .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--editing{
+    justify-content: center;
+}
+/* .manageOrgDiv .MuiPaper-root .MuiPaper-elevation1 .MuiPaper-rounded{
+
+} */
+.manageOrgDiv>form .removeBtnDiv>.theme-btn{
+    margin: 0;
+}
+.manageOrgDiv .MuiDataGrid-menuIcon{
+    display: none!important;
+}
+.manageOrgDiv .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--withRenderer, .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--editing {
+    justify-content: center;
+}
+.manageOrgDiv{
+    position: relative;
+}
+.manageOrgDiv form{
+    padding: 20px 0 6px 20px;
+}
+/* .TableSearchBar{
+    position: absolute;
+    top: -50px;
+    right: 0;
+} */
+.ActionTab>.MuiDataGrid-columnHeaderDraggableContainer{
+    display: none!important;
+}
+.ThreeDotDiv>div:nth-child(2){
+    z-index: 1;
+}
+/* .theme-btn{
+    margin: 10px;
+} */
+
+.manageOrgDiv .MuiDataGrid-cell{
+    display: flex;
+    /* justify-content: center!important; */
+}
+/* .manageOrgDiv .TableSearchBar {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+} */
+/* .manageOrgDiv .TableSearchBar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+} */
+.manageOrgDiv .MuiOutlinedInput-input {
+    padding: 10.5px 14px;
+}
+.manageOrgDiv .MuiDataGrid-renderingZone .MuiDataGrid-row div:nth-child(2){
+    color: #0589b0;
+}
+.manageOrgDiv .role_icon_cell {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+/* .manageOrgDiv .MuiDataGrid-columnSeparator{
+    display: none!important;
+}
+.manageOrgDiv .MuiDataGrid-columnHeaderWrapper{
+    background-color: #d7d7d7;
+} */
+.manageOrgDiv .MuiDataGrid-cell {
+    display: block;
+    position: relative;
+    /* text-align: center!important; */
+}
+.manageOrgDiv .MuiDataGrid-root .MuiDataGrid-cell{
+    overflow: unset;
+}
+.manageOrgDiv .TableSearchBar {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    position: absolute;
+    top: -60px;
+}
+.ManageOrgListDiv .makeStyles-root-1 .MuiTabs-root{
+    border-bottom: 1px solid lightgray;
+}
+.manageOrgDiv .TableSearchBar div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    max-height: 44px;
+    /* padding-top: 14px;
+    padding-bottom: 14px; */
+}
+.manageOrgDiv .table-re{
+ display : flex;
+}
+
+.dropdown-alignment {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor:pointer;
+}
+.dropdown-alignment p {
+    margin :0;
+    padding-right: 8px;
+}
+.dropdown-alignment .filter-svg {
+    position: relative;
+    top: 4px;
+}
+.mangerole{
+    display: flex;
+}
+.mangerole>div{
+    padding: 8px 10px;
+}
+
+.manage_user_drop_down .MuiSelect-select:focus {
+    border-radius: 0;
+    background-color: rgb(0 0 0 / 0%);
+}
+.ManageOrgListDiv  .manage_user_drop_down .MuiSelect-filled{
+    padding: 14px 30px 14px 14px;
+    max-height: 44px;
+}
+
+

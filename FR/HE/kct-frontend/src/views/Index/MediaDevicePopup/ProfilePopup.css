@@ -1,0 +1,256 @@
+.profilePopup .profilePopup_wrap {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+.profilePopup_title {
+  font-size: 1.2rem;
+  color: #3b3b3b;
+  font-weight: 800;
+}
+.profilePopup .picCapture_div,
+.profilePopup .noUserPicTxt {
+  display: none;
+}
+.profilePopup .picUpload_parent avatar-image.picUpload_div input {
+  height: 100% !important;
+}
+.profilePopup .picUpload_div > div > div > div svg {
+  position: absolute;
+  top: 46px;
+  right: calc(50% - 12px);
+}
+.profilePopup .picUpload_div > div > div > div .upload-file {
+  position: relative;
+  top: 10px;
+  right: 0px;
+  /* border-bottom: 1px solid #9b9595; */
+  font-size: 0.9rem;
+}
+.profilePopup .picUpload_parent {
+  width: 180px;
+  height: 180px;
+}
+.profilePopup .picUpload_parent .picUpload_div_icon div.icon_upload svg,
+.profilePopup .picUpload_parent:hover span.upload-file,
+.profilePopup
+  .picUpload_parent:hover
+  .badge-inner
+  .uploadePicCrop
+  .picUpload_parent
+  avatar-image.picUpload_div
+  svg {
+  display: block !important;
+}
+.profilePopup span.upload-file {
+  display: block;
+}
+.profilePopup .picUpload_parent:hover .white_bg_div {
+  background-color: #0589b8;
+  opacity: 0.8;
+  border-radius: 6%;
+}
+.profilePopup .picUpload_parent:hover #Icon_material-file-upload {
+  stroke: #fff;
+}
+.profilePopup .picUpload_parent:hover span.upload-file {
+  color: #fff !important;
+}
+
+/* capture btn design  */
+.profilePopup .profilePopup_captureBtn {
+  width: 180px;
+  height: 180px;
+  border-radius: 6%;
+  background: #eeeeee;
+}
+.profilePopup .profilePopup_captureBtn button {
+  width: 100%;
+  height: 100%;
+  border-radius: 6%;
+  color: #3b3b3b;
+}
+.profilePopup .profilePopup_captureBtn:hover {
+  background: #0589b8;
+}
+.profilePopup .profilePopup_captureBtn button:hover {
+  width: 100%;
+  height: 100%;
+  border-radius: 6%;
+  color: #fff;
+}
+.profilePopup .profilePopup_captureBtn button:hover .icon_capture svg {
+  fill: #fff;
+}
+.profilePopup .profilePopup_captureBtn .icon_capture svg {
+  max-width: 30px;
+}
+.profilePopup div[name="action-con"] > button {
+  color: #fff;
+  padding: 0px 2px;
+  border-left: 1px solid #3b3b3b;
+}
+.profilePopup div[name="action-con"] > button:hover {
+  background-color: #0589b8;
+  border-radius: 4px;
+}
+
+/* mode 3 - update profile CSS */
+.updateProfile_mode .profile-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updateProfile_mode {
+  padding: 10px 0 0 0;
+}
+.updateProfile_mode .profile-wrap .username-slider-dp {
+  width: 195px;
+  height: 195px;
+  background-color: rgb(30 77 125 / 75%);
+  border-radius: 6px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  line-height: 193px;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 57%);
+  text-transform: uppercase;
+}
+.updateProfile_mode .profilePopup_title {
+  position: absolute;
+  top: -6px;
+}
+.updateProfile_mode .footer-wrap {
+  display: flex;
+  padding: 20px 0 0 0;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.updateProfile_mode .footer-wrap button {
+  background: #0589b8;
+  color: #fff;
+  border-radius: 6px;
+  /* min-width: 90px; */
+  padding: 12px 20px;
+  margin: 4px;
+}
+/* .updateProfile_mode .footer-wrap button:hover{
+  background: #06526e;
+} */
+/* .updateProfile_mode .footer-wrap button:hover {
+  background: #075774;
+} */
+
+/* custom input for select image */
+
+.updateProfile_mode [type="file"] {
+	height: 42px;
+	overflow: hidden;
+	width: 169px;
+	background-color: aquamarine;
+	position: absolute;
+	left: 215px;
+	z-index: 1;
+	opacity: 0;
+  cursor: pointer;
+	border-radius: 6px;
+}
+
+[type="file"] + label {
+  background: #0589b8;
+  border: none;
+  font-size: 13px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  /* font-weight: 500; */
+  margin-bottom: 0rem;
+  outline: none;
+  /* min-width: 90px; */
+  padding: 12px 20px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+}
+[type="file"] + label:hover {
+  background: #06526e;
+}
+
+
+
+/* .updateProfile_mode .footer-wrap .custom-file-input {
+  width: 90px;
+  height: 42px;
+}
+.updateProfile_mode
+  .footer-wrap
+  .custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+ .custom-file-input:hover .custom-file-input::before{
+  background-color: #075774;
+}
+.custom-file-input::before {
+  content: "Upload";
+  display: inline-block;
+  background: #0589b8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+} */
+.updateProfile_mode .Img_cropper_main>div{
+    max-width: 400px;
+    max-height: 400px;
+}
+.updateProfile_mode .Img_cropper_main {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.updateProfile_mode .Img_cropper_main .ImgBtn_absolute {
+    position: unset;
+    /* left: 168px; */
+    max-width: 140px;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 8px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    background: #0589b8;
+    border: 1px soild #0589b8!important;
+}
+.updateProfile_mode .Img_cropper_main .ImgBtn_absolute:hover {
+    position: unset;
+    max-width: 140px;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 8px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    background: #074258;
+    border: 1px soild #0589b8!important;
+}
+.updateProfile_mode .ReactCrop__image{
+    max-height: 300px;
+}

@@ -1,0 +1,100 @@
+.call-toolbar{
+    position:absolute;
+    padding:10px;
+    height:150px;
+    top:0%;
+    z-index:20;
+    background-color:#E1EBF2;
+    border-radius: 20px;
+    border: 2px solid #051094;
+}
+
+.badge-arrow-2{
+    position: absolute;
+    top: 05px;
+    font-size: 23px;
+    z-index: 3;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 15px;
+}
+.first-name-btn {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.first-name-btn>button{
+    background-color: rgba(70, 123, 187, 0);
+}
+.second-name-btn {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.third-name-btn {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fourth-name-btn {
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.user-btn{
+    display: block;
+}
+.grid-user-dp-name{
+    width: 88px;
+    height: 88px;
+    background-color: cornflowerblue;
+    border-radius: 6px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 88px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 57%);
+    text-transform: uppercase;
+}
+.team-user,.simple-vip,.expert-user,.dummy_user_wrap {
+    position: relative;
+    width: 88px;
+}
+.team-user .svgicon,.simple-vip .svgicon,.expert-user .svgicon,.dummy_user_wrap .svgicon {
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    fill: #497ebe;
+}
+img.no-texture+.team-user>.svgicon, img.no-texture+.simple-vip>.svgicon,img.no-texture+.expert-user>.svgicon{
+    bottom: 1px;
+}
+.team-user>.svgicon>.customRoleIcon,.simple-vip>.svgicon>.customRoleIcon,.expert-user>.svgicon>.customRoleIcon{
+    bottom: -1px;
+    position: absolute;
+}
+div.svgicon{
+    width: 24px!important;
+    height: 24px!important;
+}
+.simple-vip .svgicon{
+    fill: #d7b976;
+}
+.last-user-photo .team-user, .last-user-photo .simple-vip, .last-user-photo .expert-user,.last-user-photo .dummy_user_wrap{
+    width: unset;
+}
+.last-user-photo .team-user .svgicon,.last-user-photo .simple-vip .svgicon,.last-user-photo .expert-user .svgicon {
+    top: 63px;
+}
+.user-profile .svgicon>.customRoleIcon{
+    width: 24px !important; 
+   height: 24px !important;
+
+}
+.user-toolbar .AltImage {
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    right: 0;
+}
+    

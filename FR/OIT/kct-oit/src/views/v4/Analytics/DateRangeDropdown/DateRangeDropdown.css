@@ -1,0 +1,12 @@
+.DateRangeDropdown>div{
+    min-width: 150px;
+    background-color: #0589b0!important;
+    color: #fff;
+    border-radius: 4px;
+}
+.DateRangeDropdown svg{
+fill: #fff;
+}
+.DateRangeDropdown>div:hover,.DateRangeDropdown>div:focus,.DateRangeDropdown>div:active{
+    background-color: #067394!important;
+}

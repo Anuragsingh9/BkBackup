@@ -1,0 +1,6 @@
+.CreateEventWrap .MuiTab-root, .DesignSettingWrap .MuiTab-root, .ManageOrgListDiv .MuiTab-root, .userSettingTabs .MuiTab-root, .EventListPage .MuiTab-root{
+    min-width: unset;
+}
+.ProfileNavTabWrap .MuiTab-root,.OrgTagsWrap .MuiTab-root, .CreateEventWrap .MuiTab-root, .DesignSettingWrap .MuiTab-root, .ManageOrgListDiv .MuiTab-root, .userSettingTabs .MuiTab-root, .EventListPage .MuiTab-root, .CreateEventWrap .MuiTab-wrapped{
+    font-size: 0.875rem;
+}

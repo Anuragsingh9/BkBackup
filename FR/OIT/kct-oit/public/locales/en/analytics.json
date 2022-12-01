@@ -1,0 +1,11 @@
+{
+    "custom":"Custom",
+    "today":"Today",
+    "yesterday":"Yesterday",
+    "last_week":"Last Week",
+    "last_month":"Last Month",
+    "last_7_days":"Last 7 Days",
+    "last_30_days":"Last 30 Days",
+    "no_conversation_in_occurrence": "No Conversation in this recurrence",
+    "no_data_in_occurrence": "No data in this recurrence"
+}

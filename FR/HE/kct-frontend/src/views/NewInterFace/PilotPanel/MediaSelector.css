@@ -1,0 +1,114 @@
+.pannel_media_selector {
+  margin-top: 0;
+}
+.pannel_media_selector .media_selector {
+  width: 126px;
+  height: 78px;
+  border: 1px solid #3b3b3b;
+  padding: 0;
+  border-radius: 6px;
+  display: block;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.pannel_media_selector .dropdown-item.media_selector {
+  width: calc(32% - 4px);
+  height: 78px;
+  border: 1px solid #3b3b3b;
+  padding: 0;
+  border-radius: 6px;
+  display: block;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 4px;
+  /* padding: 11px; */
+}
+.pannel_media_selector .dropdown-toggle::after {
+  display: none;
+}
+.pannel_media_selector .pannelToggleBtn {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  position: absolute;
+  top: -20px;
+}
+.dropdown-item.media_selector {
+  background-position: center;
+  background-size: cover;
+  margin: 4px 0 12px 0;
+  overflow: hidden;
+}
+.pannel_media_selector .dropdown-menu {
+  box-shadow: none;
+  background: none;
+  border: none;
+  width: 474px;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  /* height: 464px; */
+  position: absolute;
+  left: -13px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  /* min-width: 410px; */
+  max-height: 392px;
+  /* background: rgb(255 255 255 / 90%); */
+  background: linear-gradient(
+    90deg,
+    rgba(222, 231, 235, 1) 0%,
+    rgba(236, 242, 249, 1) 51%,
+    rgba(206, 221, 227, 1) 100%
+  );
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  padding-bottom: 22px;
+  /* min-width: 410px; */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: absolute;
+  left: -342px;
+  justify-content: center;
+  align-items: center;
+  bottom: 116px;
+  overflow-y: auto;
+}
+.dropdown.dropup.pannel_media_selector {
+  float: none;
+}
+.hover__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.pannel_media_selector .media_selector:hover .hover__overlay {
+  opacity: 1;
+}
+.triangle__arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+    background: linear-gradient(
+        90deg,
+        rgba(222, 231, 235, 1) 0%,
+        rgba(236, 242, 249, 1) 51%,
+        rgba(206, 221, 227, 1) 100%
+      );;
+  border-top: 20px solid  rgba(222, 231, 235, 1);
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+}
+.selectItem_txt{
+    text-transform: capitalize;
+}

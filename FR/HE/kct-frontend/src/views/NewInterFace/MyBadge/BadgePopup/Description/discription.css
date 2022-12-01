@@ -1,0 +1,66 @@
+.p-0{
+    padding:0px!important;
+}
+.m-0{
+    margin:0px!important;
+}
+.badge2-body .trash-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(30 77 125 / 100%);
+    z-index: 3;
+    padding-left: 15px;
+    position: relative;
+    right: -13px;
+    top: 9px;
+}
+.sm-pr-0{
+    padding-right: 0;
+}
+.wigywig-block4{
+    padding: 0 30px;
+}
+.wigywig-block12{
+    padding:0 0 0 24px;
+}
+.wigywig-block13{
+    padding:0 22px 0 22px;
+}
+.trash-btn-ub {
+    
+    position: relative!important;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 3;
+    padding-left: 15px;
+    position: relative;
+    right: -55px!important;
+    top: -55px!important;
+}
+.modify-badge-marginBottom {
+    margin-bottom: 20px!important;
+    margin-top: 20px!important;
+}
+.YourDisTextArea{
+    
+    /* color: rgba(248, 231, 28, 1) !important;
+    border-color: rgba(248, 231, 28, 1) !important; */
+    border: 2px solid #e7eaee;
+    border-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: none;
+    padding: 9px 10px;
+    color:rgb(30 77 125 / 75%);
+    border: 2px solid rgb(30 77 125 / 75%);
+    padding: 3px 10px;
+    margin-bottom: 12px;
+    background: transparent;
+    max-width: 258px;
+    width: 258px;
+    /* height: 30px; */
+    font-size: 12px;
+}
+.describelabelTxt{
+    color:#000;
+}

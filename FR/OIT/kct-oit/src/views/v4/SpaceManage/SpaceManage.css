@@ -1,0 +1,58 @@
+.addSpacePopupWrap .roundSpace {
+  width: 200px;
+  height: 200px;
+}
+.addSpacePopupWrap .spaceCircle {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.addSpaceActionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addSpaceActionBtn button {
+  margin: 30px 8px 0px 8px;
+  width: 30%;
+}
+
+.addSpacePopupForm .MuiFilledInput-root {
+  max-height: 44px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Adding the one input tag parent class to avoid the background color on error message */
+.addSpacePopupForm  .MuiAutocomplete-root .MuiFormControl-root .MuiFilledInput-root ,.addSpacePopupForm .ThemeInputTag .MuiFilledInput-root {
+    background-color: #ebeaea;
+}
+.addSpacePopupForm .MuiAutocomplete-root .MuiFormControl-root .MuiFilledInput-root:hover,.addSpacePopupForm .ThemeInputTag .MuiFilledInput-root:hover {
+    background-color: #e0e0e0;
+}
+
+.addSpacePopupForm .MuiAutocomplete-root,.addSpacePopupForm .ThemeInputTag{
+    width: 100%;
+    margin: 8px 0;
+}
+.addSpacePopupForm .MuiFilledInput-underline:before, .MuiFilledInput-underline:after {
+    border: none !important;
+}
+.addSpacePopupForm .MuiFilledInput-root.MuiFilledInput-underline{
+    padding: 8px;
+    padding-bottom: 8px!important;
+}
+.addSpacePopupForm .ThemeInputTag>div>input {
+    width: 100%;
+}
+.addSpacePopupForm .checkboxRow {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: #3b3b3b;
+    position: absolute;
+    bottom: 1.1rem;
+}

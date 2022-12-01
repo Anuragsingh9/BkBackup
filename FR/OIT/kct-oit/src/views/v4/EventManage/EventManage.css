@@ -1,0 +1,312 @@
+.EventManageWrap {
+  padding: 0;
+}
+.EventManageWrap .MuiTabs-indicator {
+  transition: none;
+}
+.CustomContainer.EventManageWrap {
+  height: unset;
+}
+.verticleTab__EventManage {
+  padding: 10px 10px 0 0;
+  border-bottom: 1px solid lightgray;
+}
+.EventManageWrap .publishEvent_wrap {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  left: 0;
+  right: 0;
+  top: 2px;
+}
+.EventManageWrap .publishEvent_Tabwrap {
+  position: relative;
+}
+.EventManageWrap .publishEvent_Tabwrap .MuiTabPanel-root {
+  padding: 12px 0;
+}
+.EventManageWrap .verticleTab__EventManage .MuiTabs-flexContainer {
+  left: 300px;
+  position: absolute;
+}
+.publishEvent_Tabwrap .MuiFilledInput-underline:before {
+  border: none !important;
+}
+.publishEvent_Tabwrap .MuiFilledInput-underline:after {
+  border: none !important;
+}
+.publishEvent_Tabwrap .MuiBox-root {
+  padding: 24px 0;
+}
+.flexCenter__row {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  margin: 12px 0;
+}
+.v4_colorTheme div.css-cio0x1-MuiInputBase-root-MuiFilledInput-root {
+  background-color: #ebeaea;
+}
+.v4_colorTheme .MuiFilledInput-root {
+  background-color: #ebeaea;
+}
+.v4_colorTheme div.css-cio0x1-MuiInputBase-root-MuiFilledInput-root:hover {
+  background-color: #e0e0e0;
+}
+.v4_colorTheme .MuiFilledInput-root:hover {
+  background-color: #e0e0e0;
+}
+.EventManageWrap .v4_colorTheme .MuiFilledInput-root {
+  max-height: 44px;
+  border-radius: 4px;
+  width: 100%;
+}
+.EventManageWrap .v4_colorTheme .textAreaV4 .MuiFilledInput-root {
+  max-height: unset;
+}
+.EventManageWrap .v4_colorTheme .MuiFilledInput-inputMarginDense {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.EventManageWrap
+  .v4_colorTheme
+  .css-1xsfzwc-MuiAutocomplete-root
+  .MuiFilledInput-root
+  .MuiFilledInput-input {
+  padding: 4px 4px 12px 4px;
+  margin: 0;
+}
+.EventManageWrap .MuiSelect-filled.MuiSelect-filled {
+  padding-right: 32px;
+  padding: 13px 30px 13px 12px;
+}
+.EventManageWrap .ThemeInputTag:not(span.ThemeInputTag) {
+  width: 100%;
+}
+.EventManageWrap .ThemeInputTag > div > input {
+  width: 100%;
+}
+.EventManageWrap .dateTimeRowLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 4px; */
+}
+.EventManageWrap .dateTimeRowLayout svg.arrowIcon {
+  padding: 0 16px;
+}
+.EventManageWrap .dateCustomElement .MuiFilledInput-adornedEnd {
+  padding-right: 0px;
+}
+.EventManageWrap .dateCustomElement .MuiInputAdornment-root button {
+  padding: 6px 6px;
+}
+.desLayoutRow {
+  align-items: flex-start;
+}
+.css-1xsfzwc-MuiAutocomplete-root
+  .MuiAutocomplete-inputRoot
+  .MuiAutocomplete-input {
+  min-width: 70px !important;
+}
+/* .EventManageWrap .css-viou3o-MuiAutocomplete-root .MuiFilledInput-root {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.EventManageWrap
+  .css-viou3o-MuiAutocomplete-root
+  .MuiFilledInput-root
+  .MuiFilledInput-input {
+  padding: 11px 4px;
+} */
+/* .EventManageWrap .css-16awh2u-MuiAutocomplete-root .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  width: 0;
+  min-width: 80px;
+} */
+.EventManageWrap
+  .dateTimeRowLayout
+  .timeSelectDesign
+  .MuiFilledInput-underline {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+}
+.EventManageWrap
+  .dateTimeRowLayout
+  .css-16awh2u-MuiAutocomplete-root
+  .MuiFilledInput-root
+  input {
+  min-width: 70px;
+}
+.dateTimeRow .dateTimeRowLayout {
+  justify-content: flex-start;
+}
+.dateTimeRow .dateCustomElement > div {
+  width: 100%;
+}
+.dateTimeRow .MuiAutocomplete-hasPopupIcon {
+  max-width: 170px;
+}
+.dateTimeRowLayout > svg + .timeSelectDesign {
+  width: 100%;
+}
+.publishEvent_Tabwrap .autoCompleteInput > div {
+  padding-top: 8px;
+  padding-bottom: 8px !important;
+  padding-left: 8px;
+}
+
+/* slider css for event manage */
+.EventManageWrap .ImgSliderWrap {
+  border: 1px solid #3b3b3b;
+  width: 140px;
+  height: 80px;
+  border-radius: 6px;
+  display: flex;
+  margin: 0px 22px;
+  justify-content: center;
+  align-items: center;
+}
+.EventManageWrap .ImgSliderWrap .scenery_custom_ImgSelector {
+  border: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #3b3b3b15;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.EventManageWrap .ImgSliderWrap .scenery_custom_ImgSelector:focus-visible {
+  outline: none !important;
+}
+.EventManageWrap .img_scenery {
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-width: 150px !important;
+  min-height: 120px !important;
+}
+.EventManageWrap .sceneryPreviewSelect .MuiSelect-select.MuiSelect-outlined {
+  border: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #3b3b3b15;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.EventManageWrap .sceneryPreviewSelect .MuiSelect-nativeInput + svg {
+  position: absolute;
+  right: -15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.EventManageWrap .imgsliderwrap .scenery_custom_ImgSelector:hover {
+  border: none;
+}
+.EventManageWrap .ImgSliderWrap ul.MuiList-root {
+  padding: 0;
+  margin: 6px 0;
+}
+.EventManageWrap .Scenery_li_item {
+  min-width: 140px !important;
+  min-height: 80px !important;
+  margin: 4px 4px 4px 4px;
+  position: relative;
+  padding: 0 !important;
+  border-radius: 6px !important;
+  border: 1px solid #a5a5a5 !important;
+}
+.sceneryRowSelect .sceneryPreviewSelect.MuiFilledInput-root {
+  background-color: #ebeaea00;
+  max-width: 200px;
+  height: auto;
+}
+.sceneryRowSelect .sceneryPreviewSelect.MuiFilledInput-root:hover {
+  background-color: #ebeaea00;
+}
+.sceneryRowSelect .sceneryPreviewSelect.MuiFilledInput-root.Mui-focused {
+  background-color: #ebeaea00;
+}
+.sceneryImgDropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.EventManageWrap .sceneryPreviewSelect .MuiSelect-filled.MuiSelect-filled {
+  padding-right: 32px;
+  padding: 10px;
+}
+.sceneryPreviewSelect .MuiSelect-select:focus {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.PickerLabel-2 {
+  padding-top: 4px;
+}
+.EventManageWrap p.MuiFormHelperText-root.Mui-error {
+  /*position: absolute;*/
+  /*bottom: -44px;*/
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+.EventManageWrap .SliderSpan {
+  width: 100%;
+  margin-right: 20px;
+  font-size: 0.875rem;
+  max-width: 150px;
+}
+.EventManageWrap .MainSlidersPadding {
+  width: 100%;
+  margin-right: 30px;
+  font-size: 0.875rem;
+  max-width: 150px;
+}
+.EventManageWrap .spaceGridRow {
+  position: relative;
+}
+
+.EventManageWrap .spaceGridRow .addSpaceBtn {
+  position: absolute;
+  top: 8px;
+  right: -120px;
+}
+.dateTimeRowLayout .MuiAutocomplete-root.timeSelectDesign.timeSelectDesign {
+  width: 80%;
+}
+
+.broadcastingErrorTag {
+  padding-left: 20px;
+  padding-top: 6px;
+}
+.EventManageWrap
+  .compOpacity
+  .MuiSlider-thumbColorPrimary.MuiSlider-thumbSizeSmall.MuiSlider-thumb {
+  top: 64%;
+}
+.publishEvent_Tabwrap .skeletonFlex {
+  max-height: 70px;
+}
+li.positionStickyTop {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff!important;
+  z-index: 1!important;
+}
+li.positionStickyTop.Mui-selected{
+  background-color: #ebebeb!important;
+}
+li.positionStickyTop:hover{
+  background-color: #ebebeb!important;
+  z-index: 1!important;
+}

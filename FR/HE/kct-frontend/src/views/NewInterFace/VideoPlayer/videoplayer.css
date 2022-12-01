@@ -1,0 +1,23 @@
+.video-react-control-bar {
+    display: none !important;
+}
+
+
+.video-react-video{
+    pointer-events: none!important;
+}
+
+.video-react-big-play-button{
+    display: none !important;
+}
+
+.video-react-video{
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 5px ;
+}
+
+.video-react-controls-enabled{
+    padding: 0 !important;
+}

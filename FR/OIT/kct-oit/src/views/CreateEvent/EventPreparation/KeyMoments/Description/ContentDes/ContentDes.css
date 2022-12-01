@@ -1,0 +1,63 @@
+.contentType-Div{
+    position: relative;
+}
+.confrencetypeDiv>div>.MuiSelect-select,.contentType-Div>div>.MuiSelect-select{
+    padding: 11px 32px 11px 4px;
+    /* min-width: 137px;
+    max-width: 130px; */
+}
+.confrencetypeDiv>div>.MuiSelect-select,.contentType-Div>div>.MuiSelect-select:focus{
+    background-color: unset;
+}
+.contentType-Div .ContentDetailsDropDown>div>.MuiOutlinedInput-root,.contentType-Div .ContentDetailsDropDown>div>.MuiTextField-root{
+    width: 50%;
+}
+.confrencetypeDiv .MuiAutocomplete-root+.MuiAutocomplete-hasClearIcon{
+    width: 325px;
+}
+
+/* >div:nth-child(2){
+    position: relative;
+} */
+/* 
+.contentType-Div input{
+    padding: 2px;
+} */
+.contentType-Div .text-danger{
+    position: absolute;
+    right: 9px;
+    font-size: 14px;
+    bottom: -23px;
+
+}
+.confrencetypeDiv>div:nth-child(2),.confrencetypeDiv>div:nth-child(3),.confrencetypeDiv>div:nth-child(4){
+    position: relative;
+    /* right: 172px; */
+    top: 7px;
+    width: 356px;
+    margin: 6px 0 14px 0;
+}
+.contentType-Div{
+    display: flex;
+}
+.ModeratorLabel{
+    position: absolute;
+    left: -184px;
+}
+.confrencetypeDiv .MuiInputBase-root.MuiOutlinedInput-root.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd.MuiInputBase-marginDense.MuiOutlinedInput-marginDense, .confrencetypeDiv .absoluteLabelDiv{
+    max-width: 349px;
+}
+.contentType-Div .confrencetypeDiv>.MuiSvgIcon-colorError{
+    position: absolute;
+    right: -56px;
+    width: 36px;
+    height: 30px;
+    top: 14px;
+}
+.confrencetypeDiv>div>.MuiOutlinedInput-root{
+    max-width: 348px;
+}
+.ModeratorLabel+.MuiInputBase-root>.MuiSelect-select{
+    min-width: 302px;
+    padding :11px 32px 11px 4px ;
+}

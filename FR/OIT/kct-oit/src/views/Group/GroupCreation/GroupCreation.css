@@ -1,0 +1,99 @@
+.group_creation_wrap_main{
+    padding: 24px;
+    /* border: 1px solid rgba(211, 211, 211, 0.911); */
+    font-size: 0.875rem;
+}
+/* comment */
+.group_creation_wrap_main .SmallSubHeading {
+    font-size: 12px;
+}
+/* .group_creation_wrap{
+    border: 1px solid rgba(211, 211, 211, 0.911);
+    border-radius: 4px;
+    margin: 18px 0;
+    overflow: hidden;
+} */
+.group_creation_wrap {
+    /* border: 1px solid rgba(211, 211, 211, 0.911); */
+    /* border-radius: 6px; */
+    /* margin: 18px 0; */
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.create_group_heading{
+    background-color: #d7d7d7;
+    padding-left: 32px;
+}
+.create_group_heading p{
+    margin: 0;
+    padding: 20px 0;
+}
+.customPara {
+    margin: 8px 0;
+    font-size: .875rem;
+    font-weight: 500;
+}
+.group_creation_wrap_main .SelectEventType>.MuiOutlinedInput-root>div {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.875rem;
+}
+.group_creation_wrap_main form{
+    width: 100%;
+}
+.group_creation_wrap_main .MuiOutlinedInput-inputMarginDense {
+    font-size: 0.875rem;
+}
+.group_creation_wrap_main .FlexRow {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+}
+.group_creation_wrap_main .MuiFormControl-root{
+    width: 100%;
+}
+.group_creation_wrap_main .save_create_group{
+    padding: 20px 0;
+}
+.group_creation_wrap_main .save_create_group button{
+    margin-right: 10px;
+}
+.group_creation_wrap_main .text-danger {
+    /* position: absolute; */
+    width: 100%;
+    display: block;
+    font-size: 0.875rem;
+}
+.group_creation_wrap_main .inline_block{
+    display: block!important;
+}
+.group_creation_wrap_main .inline_block input{
+    width: 100%;
+}
+.group_creation_wrap_main .inline_block>div{
+    justify-content: space-between;
+}
+.text-danger-important{
+    color:#ff0000
+}
+.group_creation_wrap_main .group_des_input {
+    min-width: 364px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    font-size: 15px;
+    border-color: #b9b9b9;
+    border-radius: 4px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.group_des_input:focus-visible{
+    border:2px solid #05809b;
+    outline:none;
+    border-radius: 4px;
+}
+.group_des_input::-webkit-input-placeholder {
+    color: #b7b7b7;
+    }

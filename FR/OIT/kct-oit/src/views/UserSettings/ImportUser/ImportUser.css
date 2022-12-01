@@ -1,0 +1,180 @@
+.importUserDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.importUserDiv>p{
+    padding-right: 24px;
+}
+.importUserDiv>button{
+    background-color: #0589B8;
+}
+.importUserDiv>button:hover{
+    background-color: #0579a3;
+}
+.importUserDiv>.MuiFormControl-root>div>input{
+    padding: 8px;
+    width: 300px;
+}
+.mainImportUserDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+.uploadListBtn{
+    padding: 20px 0 0 102px;
+}
+.uploadListBtn>button{
+    margin: 0 10px;
+    background-color: #0589B8;
+}
+.uploadListBtn>button:hover{
+    margin: 0 10px;
+    background-color: #0579a3;
+}
+.DragDropDivSub  .MuiGrid-grid-xs-6{
+    display: flex;
+    /* justify-content: center; */
+}
+.DropDiv{
+    display: flex;
+    flex-direction: column;
+}
+.DragDiv .matchDragItem {
+    background-color: #fff;
+    border: 1px solid #b1b0b0;
+    border-radius: 4px;
+    padding: 1px 5px;
+    max-width: 150px;
+    min-width: 278px;
+    width: auto;
+    font-size: 14px;
+}
+.DragDiv .HeadingMatchDragItem{
+    background-color: #3b3b3b;
+    color: #fff;
+    border: 1px solid #3b3b3b;
+    border-radius: 4px;
+    padding: 1px 5px;
+    /* max-width: 150px; */
+    min-width: 278px;
+    width: auto;
+    margin: 12px 0;
+    font-size: 14px;
+}
+.SubDropDiv .MuiInput-underline {
+    background-color: #fff;
+    border: 1px solid #b1b0b0;
+    border-radius: 4px;
+    color: #3b3b3b;
+    padding: 1px 5px;
+    /* max-width: 150px; */
+    /* min-width: 110px; */
+    width: auto;
+    height: 25px;
+    font-size: 14px;
+}
+.SubDropDiv .MuiInput-underline::before{
+    display: none;
+}
+.SubDropDiv .MuiGrid-grid-xs-6 {
+    justify-content: left;
+    display: flex;
+}
+.DropDiv .HeadingMatchDropItem{
+    background-color: #3b3b3b;
+    color: #fff;
+    border: 1px solid #3b3b3b;
+    border-radius: 4px;
+    padding: 1px 5px;
+    max-width: 332px;
+    min-width: 278px;
+    width: auto;
+    margin: 12px 0;
+    font-size: 14px;
+}
+.SubDropDiv1{
+    /* min-width: 110px; */
+    width: 25%;
+}
+.SubDropDiv2 .itemDragDropHere{
+    background-color: #c4c3c3;
+    color: #6f6e6e;
+    padding: 2px 10px;
+    margin: 0 2px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.SubDropDiv>.SubDropDiv2>div{
+    width: 220px!important;
+}
+.SubDropDiv2 .AfterDropHere {
+    background-color: #fff;
+    border: 1px solid #b1b0b0;
+    border-radius: 4px;
+    padding: 1px 5px;
+    /* max-width: 150px; */
+    /* min-width: 110px; */
+    width: auto;
+    height: 22px;
+    font-size: 14px;
+}
+.SubDropDiv2 button {
+    font-size: 12px;
+    padding: 0px;
+    width: 30px;
+    margin-left: 5px;
+    height: 25px;
+    background: #fff;
+    border: none;
+    /* border-radius: 50px; */
+}
+.SubDropDiv2 button>svg {
+    width: 80%;
+    height: 100%;
+}
+.mat-stepper-vertical-line::before {
+    border-left-width: 0;
+  }
+
+.verticleTabDiv  .MuiStepConnector-lineHorizontal {
+    display: none;
+}
+.verticleTabDiv .MuiStepper-horizontal{
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 26px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.BtnNxt{
+    /* position: relative;
+    left: 72px;
+    top: 36px; */
+    display: flex;
+    justify-content: center;
+}
+.BtnNxt button{
+    margin: 20px 10px;
+}
+.BottomBtnGroup{
+    display: flex;
+    justify-content: center;
+}
+.BottomBtnGroup button{
+    margin: 10px;
+}
+.TableHeadColor{
+    background-color: #f7f6f7;
+}
+.LastStepBtn{
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+.VerifyDivBackBtn{
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}

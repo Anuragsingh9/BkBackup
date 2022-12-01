@@ -1,0 +1,10 @@
+.schedule_arrow_div{
+    padding: 16px 4px!important;
+}
+.schedule_arrow_div .right_arr{
+    fill: #3b3b3b;
+    width: 15px;
+}
+.common_TimePicker_div .css-mhc70k-MuiGrid-root>.MuiGrid-item{
+    padding: 16px 0!important;
+}

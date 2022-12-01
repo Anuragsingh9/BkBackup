@@ -1,0 +1,33 @@
+{
+    "eventName": "Event name",
+    "eventRecurrence": "Event recurrence",
+    "eventDateTime": "Event date & time",
+    "spaceHost": "Space host",
+    "maxCapacity": "Maximum capacity",
+    "customLink": "Event custom link",
+    "scenery": "Event scenery",
+    "description": "Event description",
+    "dummyUser": "Add dummy users",
+    "copyLink": "Copy URL",
+    "redirectEvent": "Redirect to Event",
+    "addSpace": "Add Space",
+    "modifySpace": "Modify Space",
+    "save": "Save",
+    "discard": "Discard",
+    "ContentType": "Content Type",
+    "Moderator":"Moderator",
+    "modifySpaces":"Modify Spaces",
+    "configureZoomAccount": "Configure Zoom Account to use broadcasting feature",
+
+    "participants_link": "Participant Link",
+    "manual_access": "Rehersal Link",
+    "moderator_links": "Moderator Link",
+    "speaker_links": "Speaker Link",
+
+    "description_placeholder":"Optional description text",
+
+    "way_conversation": "-Way Conversation",
+    "conversation": "Conversation",
+    "dummy_user": "Dummy user",
+    "UserGridSize":"User Grid Max Rows"
+}

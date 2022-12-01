@@ -1,0 +1,138 @@
+<?php
+
+    Route::group(['middleware' => ['web', 'cors'], 'prefix' => 'qualification', 'namespace' => 'Modules\Qualification\Http\Controllers'], function () {
+        //testing routes start
+        Route::get('/expert-mails', 'ReminderController@sendSecDepMails')->middleware('auth');
+        Route::get('/all-reminder-mails/{workshopId}', 'ReminderController@sendAllReminderMails')->middleware('auth');
+        // testing routes end
+        Route::get('/get-userSkill/{id}', 'QualificationController@getUserSkill');
+        //Route for Registraction Step  And field
+        Route::options('/step', function () {
+            return;
+        });
+        Route::options('/field', function () {
+            return;
+        });
+        Route::options('/registration', function () {
+            return;
+        });
+        Route::options('/registration/final', function () {
+            return;
+        });
+        Route::options('/get-skill/{keyword}', function () {
+            return;
+        });
+
+        Route::options('/get-qualification-workshops', function () {
+            return;
+        });
+        Route::options('/candidate-steps/{candidateId}/{isAdmin?}', function () {
+            return;
+        });
+        Route::post('/update-field-drag', 'FieldController@fieldDrag');
+        Route::get('/get-steps', 'StepController@getSteps');
+        Route::get('/get-candidates/{wid}', 'CandidateController@getWorkshopCandidate');
+        Route::get('/get-candidates-counts/{wid}', 'CandidateController@getCount');
+
+
+        Route::get('/candidate-steps/{candidateId}/{isAdmin?}/{status?}', 'StepController@getStepsCandidate');
+        Route::get('check-validation-certification-memo/{id}/{cardCount}', 'StepController@checkValidationOfCertificationOrMemo');
+        Route::get('/fetch-step-fields/{id}/{userId}', 'StepController@getStepFields');
+        Route::get('/admin-fetch-step-fields/{id}', 'StepController@getAdminStepFields');
+        Route::get('/', 'QualificationController@index');
+        Route::get('/get-skill/{keyword}', 'FieldController@getQualificationSkill');
+        Route::get('/get-skill/{id}/{keyword}', 'FieldController@getQualificationSkill');
+        Route::post('/update-step-drag', 'StepController@stepDrag');
+        Route::post('/update-field-drag', 'FieldController@fieldDrag');
+        Route::resource('step', 'StepController');
+        Route::resource('candidate', 'CandidateController');
+        Route::resource('field', 'FieldController');
+        Route::get('registration-process', 'RegistrationController@index');
+
+        Route::post('registration/final', 'RegistrationController@finalStep');
+        Route::get('registration/certification/{id}/{cardCount?}', 'RegistrationController@certification');
+        Route::get('registration/certification/pdf/{id?}/{cardCount?}', 'RegistrationController@pdf');
+
+        Route::resource('registration', 'RegistrationController');
+        //Route for Qualification_Template
+        Route::resource('template', 'QualificationTempController');
+        Route::resource('referrer', 'ReferrerController');
+        Route::get('referrer-link/{id}', 'ReferrerController@link');
+//    Route::get('new-referrer-link/{id}', 'ReferrerController@ReferrerLink');
+        Route::post('fetch-referrer', 'ReferrerController@ReferrerLink');
+        Route::get('thanks-upload', 'ReferrerController@thanksPage')->name('thanks');
+        Route::post('referrer-upload-file', 'ReferrerController@uploadFile');
+
+        //candidate Routes
+        Route::get('/get-candidates/{wid}/{type}', 'CandidateController@getWorkshopCandidate');
+        //all workshop count
+        Route::get('/get-all-candidates/{type}', 'WorkshopCandidateController@getWorkshopCandidate');
+        Route::get('/get-all-candidates-counts', 'WorkshopCandidateController@getCount');
+
+        Route::get('/get-candidate-steps/{userId}/{status}/{cardCount}', 'CandidateController@getCandidateSteps');
+        Route::get('/get-candidate-step-fields/{id}/{userId}/{wid?}/{status}/{cardCount}', 'CandidateController@getCandidateStepFields');
+        Route::post('/step-field-review', 'CandidateController@saveFieldsReview');
+        Route::post('/step-review', 'CandidateController@saveStepsReview');
+        Route::post('/candidate-reg-status-update', 'StepController@saveFinalStep');
+        Route::get('/get-referrer-data/{candidateId}/{fieldId}/{cardCount}', 'ReferrerController@getReferrerData');
+        Route::get('/get-candidates-final-data/{wid}/{candidateId}/{cardCount}', 'CandidateController@getCandidateFinalData');
+        Route::get('/get-candidates-final-image/{wid}/{candidateId}', 'CandidateController@generateImage');
+        //old image generation code
+//        Route::get('certification-image/{wid}/{id}/{cardCount?}', 'CandidateController@generateImage');
+        Route::get('certification-image/{wid}/{id}/{cardCount?}', 'CandidateController@certificationImageGD');
+
+        Route::get('certification-image/pdf/{wid}/{id}/{cardCount?}', 'CandidateController@certificationImage');
+        Route::get('certification-image/gd/{wid}/{id}/{cardCount?}', 'CandidateController@certificationImageGD');
+        //email routes for renewal
+        Route::get('send-renewal/{id}', 'ReminderController@scriptCronMail');
+        Route::get('send-renewal-script/{id}', 'ReminderController@dataUpdateForTesting');
+        Route::get('send-archive-script/{id}', 'ReminderController@updateCardArchive');
+        Route::get('updateStepReviewDates', 'ReminderController@updateStepReviewDates');
+        Route::get('updateStepFieldReviewDates', 'ReminderController@updateStepFieldReviewDates');
+        Route::post('save-qualification-task', 'ReminderController@saveQualificationTask');
+        //For Reminders
+        Route::get('send-reminder/{id}', 'ReminderController@remindersCron');
+        Route::get('send-daily-reminder', 'ReminderController@remindersCronDaily');
+
+        //
+        Route::post('/get-qualification-workshops', 'RegistrationController@getQualificationWorkshops');
+        Route::post('/get-label', 'RegistrationController@getLabel');
+        //
+        Route::post('/save-referrer-response', 'ReferrerController@saveRefrerrerData');
+        Route::post('/get-step-referrer', 'ReferrerController@getStepReferrerList');
+        //For Referrer Working
+        Route::post('get-step-referrer', 'ReferrerController@getStepReferrerList');
+        Route::post('use-referrer-file', 'ReferrerController@useReferrerFile');
+        Route::post('remove-referrer-file', 'ReferrerController@removeReferrerFile');
+        Route::get('get-referrer/{id}', 'ReferrerController@getReferrerFromCandidate');
+        Route::get('get-referrer-file/{id}', 'ReferrerController@getReferrerFile');
+        Route::get('get-referrer-single-file/{canId}/{stepId}/{cardCount}', 'ReferrerController@genBlankAttest');
+
+    });
+    Route::group(['middleware' => ['web'], 'prefix' => '', 'namespace' => 'Modules\Qualification\Http\Controllers'], function () {
+        Route::get('files-download/{wid}/{case}', 'FileController@show');
+    });
+
+    Route::group(['middleware' => ['web', 'cors'], 'prefix' => 'qualification', 'namespace' => 'App\Http\Controllers\ImproveMentFour'], function () {
+
+        Route::resource('user-skills', 'UserSkillController');
+    });
+// route for Vote
+    Route::resource('vote', 'Modules\Qualification\Http\Controllers\VoteController');
+
+//Routes for voteOption
+//show all option list
+    Route::get('vote/option/show', 'Modules\Qualification\Http\Controllers\VoteController@getOption');
+// show option list by vote id
+    Route::get('vote/option/{id}', 'Modules\Qualification\Http\Controllers\VoteController@getVoteOptions');
+// show single option for edit
+    Route::get('vote/option/{id}/edit', 'Modules\Qualification\Http\Controllers\VoteController@editVoteOption');
+// store option
+    Route::post('vote/option', 'Modules\Qualification\Http\Controllers\VoteController@addVoteOption');
+// update option
+    Route::put('vote/option/{id}', 'Modules\Qualification\Http\Controllers\VoteController@updateVoteOption');
+//delet option
+    Route::delete('vote/option/{id}', 'Modules\Qualification\Http\Controllers\VoteController@destroyVoteOption');
+
+    Route::get('copy-step', 'Modules\Qualification\Http\Controllers\StepController@copyStep');
+    Route::get('reset-user-meta/{userId}', 'Modules\Qualification\Http\Controllers\StepController@resetUserMeta');

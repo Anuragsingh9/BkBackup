@@ -1,0 +1,14 @@
+.custom_modal_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px 0 0 0;
+}
+.custom_modal_footer>button{
+    margin-left: 8px;
+}
+ .modal_info_txt{
+    font-weight: 500;
+    color: #0589B8;
+}

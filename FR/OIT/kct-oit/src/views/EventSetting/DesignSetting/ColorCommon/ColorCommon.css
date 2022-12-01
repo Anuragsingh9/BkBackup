@@ -1,0 +1,8 @@
+.ColorPickerComponent{
+    position: relative;
+}
+.ColorPickerComponent>.ExchangeArrow{
+    position: absolute;
+    top: 64px;
+    left: -52px;
+}

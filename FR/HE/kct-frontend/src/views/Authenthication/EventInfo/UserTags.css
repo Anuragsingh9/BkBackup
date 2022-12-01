@@ -1,0 +1,26 @@
+.professional-pop-tags{
+    background-color: rgb(47 104 255 / 75%);
+    color:#fff;
+    padding: 4px 7px;
+    display: inline-block;
+    margin: 2px 5px 2px 0;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.personal-pop-tags{
+    background-color: rgb(47 104 255 / 75%); 
+    color:#fff;
+    padding: 4px 7px;
+    display: inline-block;
+    margin: 2px 5px 2px 0;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.tabe-pane>.badge-bottom-content>.event-tag-list>.no-texture .pop-tags{
+    background-color: #6d35ad;
+    color:#fff;
+}

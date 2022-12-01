@@ -1,0 +1,71 @@
+.spaceViewRow {
+    width: 100%;
+    /* max-width: 356px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebeaea;
+    padding: 10px;
+    border-radius: 4px;
+    max-height: 44px;
+    box-sizing: border-box;
+    margin: 2px 0;
+}
+.spaceViewRow.disabledRow p{
+    cursor: default;
+    color: gray;
+}
+.spaceViewRow.disabledRow{
+    background-color: #e0e0e0;
+}
+.spaceViewRow:hover{
+    background-color: #e0e0e0;
+}
+.spaceViewRow p{
+    /* width: 65%; */
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+}
+.spaceViewRow .iconWrap {
+    display: flex;
+    /* width: 35%; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    /* background: linear-gradient(to right, #e0e0e0, #e0e0e0 50%, #e0e0e0 75%); */
+}
+.spaceViewRow .iconWrap button{
+    visibility: hidden;
+    display: none;
+}
+.spaceViewRow:hover  .iconWrap button{
+    visibility: visible;
+    display: flex;
+}
+.spaceViewRow .iconWrap svg{
+    max-width: 20px;
+    max-height: 20px;
+}
+.spaceViewRow .vipIconWrap {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* padding: 0 8px; */
+}
+.spaceViewRow .vipIconWrap span{
+    margin: 0;
+    padding: 4px 0 0 0;
+    color: #0589b8;
+    font-size: 1rem;
+    font-weight: 500;
+}

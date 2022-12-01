@@ -1,0 +1,47 @@
+.otp-head{
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+}
+.uni-color-btn .otp-pro{
+    background: #3b3b3b;
+    border-radius: 7px;
+    color: #fff;
+}
+.otp-main h4{
+    width: 420px;
+    margin: auto;
+    text-align: center;
+    color: #337ab7;
+}
+.otp-ac .form-control:focus{
+    border: 2px solid #e7eaee;
+    box-shadow: none;
+}
+.otp-pbtn button span span{
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    height: 46px;
+    font-size: 16px !important;
+    background: #4275b7;
+    margin: 0 auto;
+    padding: 12px 35px;
+    line-height: 20px;
+}
+.otp-pbtn button {
+    background-color: transparent !important;
+}
+/* .otp-pbtn .pb-container .pb-button{
+    background: transparent !important;
+    border-color: transparent !important;
+} */
+.otp-pbtn button>span{
+    background: transparent !important; 
+}
+.create-account-link{
+    cursor: pointer;
+}
+.create-account-link:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,102 @@
+.multiRangeDivFlex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.multiRangeDivFlex  .pt-4px{
+    padding-top: 4px;
+}
+
+.PB-20px .ThemeInputTag>div>input {
+    padding: 5px;
+    width: 332px;
+    margin: 5px;
+}
+.KeyMomentDis .DisTextArea {
+    min-width: 343px;
+    max-width:fit-content;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.addKeyMomentBtn{
+    padding:0!important;
+}
+
+.addKeyMomentBtn>.MuiButton-label{
+    /* padding: 2px 8px!important; */
+}
+.IconPair_LeftDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.IconPair_LeftDiv  .Triangle-blue{
+    fill: #0589B8;
+    width: 50px;
+    height: 50px;
+}
+.IconPair_LeftDiv  .Triangle-gray{
+    fill: #3b3b3b;
+    width: 50px;
+    height: 50px;
+}
+.dashContainer{
+    font-family: Roboto, sans-serif;
+    padding: 20px 0;
+}
+.ContentDetailsDropDown>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* align-items: flex-end;
+    justify-content: space-between; */
+}
+.ContentDetailsDropDown {
+    padding-right: 10px;
+}
+.ContentDetailsDropDown .MuiInputBase-root{
+    margin: 10px 0;
+    width: 100%;
+}
+ .ContentDetailsDropDown>div>div>.MuiInputBase-root{
+    margin-top: 10px;
+    /* max-width: 166px; */
+}
+
+.PB-20px{
+    padding: 0 0 20px 0;
+}
+ .KeyMomentsSaveDiv{
+    padding-top: 30px;
+}
+.selectedTimeInput_Focus{
+    outline-color: #3b3b3b;
+}
+.addKeyMomentDiv{
+    display: flex;
+    align-items: center;
+}
+.addkeyMoment_btn .MuiInput-underline::before,.addkeyMoment_btn .MuiInput-underline:hover{
+    border: none!important;
+}
+.addkeyMoment_btn .MuiInput-underline{
+    color: #fff;
+}
+.addkeyMoment_btn .MuiSelect-icon{
+    top: calc(50% - 12px);
+    color: rgb(255 255 255 / 100%);
+    right: 0;
+    /* border-left: 1px solid #fff; */
+    margin-left: 20px;
+    position: absolute;
+    pointer-events: none;
+}
+.selectedHiddenOption{
+    display: none!important;
+    cursor: none;
+    pointer-events: none;
+}

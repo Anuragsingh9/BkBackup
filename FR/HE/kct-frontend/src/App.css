@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@font-face {
+  font-family: 'DINBlack';
+  src: url('fonts/DINBlack.eot');
+  src: url('fonts/DINBlack.eot') format('embedded-opentype'),
+       url('fonts/DINBlack.woff2') format('woff2'),
+       url('fonts/DINBlack.woff') format('woff'),
+       url('fonts/DINBlack.ttf') format('truetype'),
+       url('fonts/DINBlack.svg#DINBlack') format('svg');
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  width: 1240px;
+}
+.px-0{
+  padding: 0;
+}
+.mx-0{
+  margin: 0;
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+.d-inline-block{
+  display: inline-block;
+}
+.position-relative{
+  position: relative;
+}
+.d-flex{
+  display: flex;
+}
+
+.uploadePicCrop {
+    position: relative;
+    display: inline-block;
+}
+
+
+.picUpload_parent {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border-radius: 6%;
+    background-color: #eeeeee !important;
+    border: none;
+    background-position: center !important;
+}
+.picUpload_parent avatar-image.picUpload_div {
+    background-color: transparent !important;
+}

@@ -1,0 +1,16 @@
+
+.convertPlaceholderUppercase ::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: capitalize;
+}
+.convertPlaceholderUppercase :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: capitalize;
+}
+.convertPlaceholderUppercase ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: capitalize;
+}
+.convertPlaceholderUppercase :-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: capitalize;
+}
+.convertPlaceholderUppercase ::placeholder { /* Recent browsers */
+    text-transform: capitalize;
+}

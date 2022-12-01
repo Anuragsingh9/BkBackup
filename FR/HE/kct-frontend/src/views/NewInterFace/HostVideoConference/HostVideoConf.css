@@ -1,0 +1,442 @@
+.first-person{
+    width: 262px;
+    position: relative;
+    float: left;
+}
+.membersVideos{
+    object-fit: cover;
+    object-position: center;
+}
+.first-person-video {
+    height: 147px;
+    width: 261px;
+    object-fit: cover;
+    object-position: center;
+}
+.first-person-thumb{
+    background-color: #000000 !important;
+    border-radius: 10px ;
+    float: left !important;
+}
+.online-circle{
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    top: 55px;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 1;
+    border-color: #497ebe;
+    right: -17px;
+}
+.video-control .video-buttons svg {
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+.video-control .video-buttons.exit-btn svg *{
+    fill: white !important;
+}
+.video-control .control-button{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.video-control .video-buttons{
+    margin-right: 10px;
+    background-color: #ffffff;
+    box-shadow: none;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 0;
+}
+.video-control .video-buttons, .video-control .video-buttons:focus, .video-control .video-buttons:active {
+    outline: none;
+}
+.video-member-group{
+    position: relative;
+    padding-left: 67px;
+}
+.members-group-badge{
+    width: 254px;
+    height: 182px;
+}
+.members-group-badge:not(:last-child) {
+    margin-right: 6px;
+}
+.member-user-thumbs{
+    position: relative;
+    background-color: #000000;
+    border-radius: 6px;
+}
+.h-100{
+    height: 100% !important;
+}
+.video-member-group .online-circle:nth-child(1) {
+    left: -16px;
+}
+.video-member-group .online-circle{
+    left: -20px;
+    top: 52px;
+    width: 34px;
+    height: 34px;
+}
+.video-meeting {
+    padding: 50px 0 0px;
+}
+.video-meeting-top{
+    padding: 0 80px;
+}
+/* svg path, svg circle, svg rect {
+    fill: #105ddc !important;
+} */
+.main-space{
+    background-image: url(../../../images/waiting-bg-21.png);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #fff;
+    border-radius: 12px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto 0;
+    height: 325px;
+    padding: 0px 30px;
+}
+.one-spaces{
+    padding: 5px;
+    margin: 7px;
+    height: 189px;
+    width: 189px;
+    background-repeat: no-repeat;
+    display: flex;
+    cursor: pointer;
+}
+.vip-space-bg{
+    background-image: url(../../../images/vip-space.png);
+}
+.blue-space-bg{
+    background-image: url(../../../images/blue-space.png);
+}
+.white-space-bg{
+    background-image: url(../../../images/white-space.png);
+}
+.two-rings-space-bg{
+    background-image: url(../../../images/two-rings-space.png);
+    height: 310px ;
+    width: 330px ;
+    position: absolute;
+    left: -40px;
+}
+.every-space{
+    text-align: center;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+.every-space h3,.every-space  h4 {
+    font-size: 20px;
+}
+.every-space h6{
+    font-size: 14px;
+    color: #0f59b1;
+    margin: 0;
+}
+.every-space h5{
+    font-size: 16px;
+    margin: 0;
+}
+.every-space h3{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.every-space h4{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.vip-space, .vip-space h4{
+    color: #8e7b40 !important;
+}
+.blue-space, .blue-space h4,.two-rings-space h4,.white-space,.white-space h4{
+    color: #225387;
+}
+.two-rings-space{
+    margin-top: 80px;
+    color: #0f59b1;
+}
+.space-arrows{
+    height: 50px;
+    width: 40px;
+    margin: auto;
+}
+.blue-space-bg ,.white-space-bg, .vip-space-bg,.vip-selected-space-bg{
+    margin-top: 40px;
+}
+.video-slider-right-arrow{
+    width: 80px;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    right: -9px;
+}
+.video-slider-left-arrow{
+    z-index: 999;
+    width: 80px;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: -9px;
+}
+.slick-list {
+    margin: 0 40px !important;
+    padding-top: 20px !important;
+    overflow: inherit !important;
+}
+.two-rings-space .slick-slide{
+    width: 300px !important;
+}
+.slick-track{
+    width: 5500px !important;
+}
+.selected-width{
+    position: relative;
+    height: 320px;
+    width: 275px;
+}
+.grid-section{
+    /* background-image: url(../../../images/grid-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin: auto;
+    height: 500px;
+    width: 1190px; */
+    margin-top: -66px;
+    display: inline-block;
+    padding-top: 60px;
+    min-height: 240px;
+    width: 100%;
+    background-color: rgb(223 232 236 / 70%);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow: 0px 0px 15px rgb(112 124 135 / 42%);
+    background: rgb(222,231,235);
+    background: -moz-linear-gradient(90deg, rgba(222,231,235,0.6951155462184874) 0%, rgba(236,242,249,0.7) 51%, rgba(206,221,227,0.7) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(222,231,235,0.6951155462184874) 0%, rgba(236,242,249,0.7) 51%, rgba(206,221,227,0.7) 100%);
+    background: linear-gradient(90deg, rgba(222,231,235,0.6951155462184874) 0%, rgba(236,242,249,0.7) 51%, rgba(206,221,227,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dee7eb",endColorstr="#cedde3",GradientType=1);
+}
+.grid-padding{
+    padding: 0 40px;
+}
+.user-profile img,.user-toolbar .AltImage{
+    width: 88px !important;
+    height: 88px !important;
+    object-fit: fill;
+    border-radius: 6px;
+}
+.user-profile {
+    margin-right: 0px;
+}
+.user-toolbar{
+    position: absolute;
+    
+    padding: 10px;
+    min-height: 150px;
+    top: -8%;
+    z-index: 20;
+    min-width: 212px;
+    border-radius: 6px;
+    border: 2px solid #467bbc;
+    background: rgb(236,242,249);
+    background: -moz-linear-gradient(180deg, rgba(236,242,249,1) 0%, rgba(236,238,239,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(236,242,249,1) 0%, rgba(236,238,239,1) 100%);
+    background: linear-gradient(180deg, rgba(236,242,249,1) 0%, rgba(236,238,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecf2f9",endColorstr="#eceeef",GradientType=1);
+}
+.user-hover-photo img {
+    width: 88px;
+    height: 88px;
+    object-fit: fill;
+}
+.user-hover-arrow{
+    position: absolute;
+    bottom: -6px !important;
+    font-size: 17px;
+    z-index: 3;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 26px;
+    height: 15px;
+    left: 13%;
+    margin: auto;
+    width: 60px;
+}
+.single-user.col-md-12 span {
+    left: 13px;
+}
+.meeting-enter{
+    position: absolute;
+    width: 42px;
+    height: 43px;
+    top: 0;
+    bottom: 0;
+    right: -43px;
+    margin: auto;
+    background-color: #467abb;
+    padding: 8px;
+    border-radius: 6px;
+}
+.meeting-enter-left {
+    left: -44px;
+    right: auto;
+}
+.meeting-enter svg *{
+    fill: white !important;
+}
+.meeting-enter svg{
+    width: 30px;
+    height: 30px;
+}
+.user-btn{
+    background-color: #467abb;
+    color: white;
+    padding: 7px 0;
+    border-radius: 6px;
+    margin-top: 3px;
+    word-break: break-all;
+    display: none;
+}
+.single-user.col-md-12.user-hover-photo::after{
+    content: none;
+}
+.user-hover-photo::after{
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    top: 31px;
+    width: 29px;
+    height: 29px;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 1;
+    border-color: #497ebe;
+    right: -11px;
+    margin: auto;
+}
+.blank-div{
+    width: 88px;
+    height: 88px;
+    /*cursor: pointer;*/
+    border-radius: 6px;
+}
+.user-hover-no-photo::after{
+    content: '';
+}
+.user-hover-photo:hover .user-btn , .user-hover-no-photo:hover .user-btn{
+    display: block;
+}
+.user-hover-photo.col-md-4 .user-btn , .user-hover-no-photo.col-md-4 .user-btn{
+    width: 300%;
+}
+.user-hover-photo.col-md-3 .user-btn , .user-hover-no-photo.col-md-3 .user-btn{
+    width: 400%;
+}
+.user-hover-photo.col-md-6 .user-btn , .user-hover-no-photo.col-md-6 .user-btn{
+    width: 200%;
+}
+.user-hover-photo .user-btn.first-name-btn button{
+    text-align: left;
+}
+.user-hover-photo.col-md-3 .user-btn.second-name-btn,
+.user-hover-photo.col-md-4 .user-btn.second-name-btn,
+.user-hover-no-photo.col-md-6 .user-btn.second-name-btn {
+    margin-left: -100%;
+}
+.user-hover-photo.col-md-3 .user-btn.third-name-btn,.user-hover-no-photo.col-md-4 .user-btn.third-name-btn {
+    margin-left: -200%;
+}
+.user-hover-no-photo.col-md-3 .user-btn.fourth-name-btn {
+    margin-left: -300%;
+}
+.user-hover-no-photo.col-md-12 .user-btn button{
+    text-align: left;
+}
+.user-hover-no-photo .user-btn button{
+    text-align: right;
+}
+.user-hover-photo.col-md-3 .user-btn.second-name-btn {
+    padding-left: 15px;
+    padding-right: 115px;
+}
+.user-hover-photo.col-md-3 .user-btn.third-name-btn {
+    padding-left: 100px;
+    padding-right: 15px;
+}
+.other-user-badge-popup{
+    position: relative;
+}
+.other-user-badge-popup .badge-popup-video {
+    top: 6px;
+    left: -30px;
+    position: absolute;
+}
+.other-user-badge-popup .badge-popup-video button{
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    z-index: 3;
+}
+.member-user-thumbs video{
+    border-radius: 6px;
+}
+.other-users-badge {
+    height: 138px;
+    margin-left: 8px!important;
+    /* margin-left:10px; */
+} 
+.last-user-photo .connect-dot {
+    display: flex;
+    float: right;
+}
+.last-user-photo .user-btn {
+    display: inline-block !important;
+    width: 100%;
+}
+.last-user-photo .user-btn button{
+    text-align: right !important;
+}
+.host-view-members .online-circle{
+    display: none;
+}
+.host-view-members .other-users-badge{
+    margin-right: 15px;
+}
+.video-control .video-buttons.member-ban-btn svg,.video-control .video-buttons.member-ban-btn svg *{
+    fill: red !important;
+}
+.vip-selected-space-bg {
+    height: 270px;
+    width: 270px;
+    margin-top: 10px;
+}

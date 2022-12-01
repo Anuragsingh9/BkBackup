@@ -1,0 +1,108 @@
+
+  .kct-border2 {
+    border: 5px solid yellow;
+  }
+  
+  .single-user-thumb{
+    width: 220px;
+  }
+
+  .other-user-group {
+    /* height: 175px; */
+    background-color: #fff9f9;
+  }
+
+  .others-user-thumbs {
+    /* width: 33.33%; */
+    height: 100%;
+    float: left;
+  }
+  
+  .video-conversation .main-single-user {
+    position: absolute;
+    right: 100%;
+    top: 66px;
+    z-index: 3;
+  }
+  
+  .host-thumbnail {
+    width: 225px;
+    height: 175px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: -5px;
+  }
+  
+  .host-thumbnail .host-name {
+    position: absolute;
+    bottom: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .conversation-member-group {
+    padding-left: 30px;
+    position: relative;
+  }
+  
+  .kct-squre-logo {
+    display: inline-block;
+  }
+  
+  .kct-squre-logo .squre-box {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007aff;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .kct-squre-logo .squre-box .circle {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .kct-squre-logo .squre-box.kct-squr1 {
+    border-color: #3c005a;
+  }
+  
+  .kct-squre-logo .squre-box.kct-squr1 .circle {
+    border-color: yellow;
+    bottom: -6px;
+    right: -6px;
+  }
+  
+  .kct-squre-logo .squre-box.kct-squr2 {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .kct-squre-logo .squre-box.kct-squr2 .circle {
+    top: -6px;
+    left: -6px;
+    border-color: #007aff;
+  }
+  
+  .kct-sec-line1 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 3px;
+  }
+
+  .other-users-badge {
+    width: 244px;
+    height: 180px;
+    margin-left: 8px!important;
+  } 
+.single-user-thumb .site-loader, .others-user-thumbs .site-loader,
+.single-user-thumb .pg-content-loader, .others-user-thumbs .pg-content-loader {
+  width: 30px !important;
+  height: 30px !important;
+}

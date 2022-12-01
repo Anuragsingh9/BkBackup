@@ -1,0 +1,83 @@
+.backdrop--reusable {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal--reusable {
+  position: fixed;
+  top: 15vh;
+  /* left: calc(50% - 250px); */
+  width: 90%;
+  /* max-width: 500px; */
+  background-color: white;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(16, 16, 16, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+.modalContent--reusable p {
+  padding: 10px 0;
+}
+.modalCross--reusable {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+}
+.modalHeadingPosition--reusable {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+  top: 16px;
+  left: 16px;
+  /* border-bottom: 1px solid rgba(211, 211, 211, 0.50); */
+}
+.modalBody--reusable {
+  padding: 0;
+}
+.modalBody--reusable.fixedBodyHeight {
+  padding: 0;
+  max-height: 82vh;
+  overflow: auto;
+}
+.modalFooter--reusable {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  align-items: center;
+  /* border-top: 1px solid rgba(211, 211, 211, 0.50); */
+}
+.modalFooter--reusable .theme__containbutton__color {
+  background-color: #0589b8;
+}
+.modalFooter--reusable .theme__containbutton__color:hover {
+  background-color: #077aa3;
+}
+.modalFooter--reusable .theme__outlinebutton__color {
+  color: #0589b8;
+}
+.modalFooter--reusable .theme__outlinebutton__color:hover {
+  color: #077aa3;
+}
+@media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

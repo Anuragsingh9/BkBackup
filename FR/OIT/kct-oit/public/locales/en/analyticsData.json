@@ -1,0 +1,23 @@
+{
+  "eventTitle":"Event Name",
+  "eventType":"Event Type",
+  "zoomMeeting":"Zoom Meeting",
+  "zoomWebinar":"Zoom Webinar",
+  "mediaVideo":"Media-Video",
+  "mediaImage":"Media-Image",
+  "totalAttendees":"Total-Attendees",
+  "totalRegistration":"Total-Registration",
+  "totalConv":"Total Conv",
+  "convOf2":"Conv of 2",
+  "convOf3":"Conv of 3",
+  "convOf4":"Conv of 4",
+  "totalDuration":"Total Duration",
+  "SHConv":"SH Conv",
+  "SHConvDuration":"SH Conv Duration",
+  "tOnlineUsers":"Current Online Users",
+  "tAttendee":"Total Attendee Users",
+  "tReg":"Total Registrations",
+  "tVidPlayed":"Total Videos Played",
+  "tImgPlayed":"Total Images Played"
+
+}

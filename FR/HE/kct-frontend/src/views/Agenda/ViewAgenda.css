@@ -1,0 +1,101 @@
+.view_agenda {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+    padding: 54px 62px 27px 62px;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 15px rgb(112 124 135 / 42%); */
+    box-shadow: 0px 1px 8px 3px rgb(0 0 0 / 23%);
+    background: rgb(239,244,250);
+    background: linear-gradient(90deg, #cedde3 30%, #ecf2f9 50%, #cedde3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eff4fa",endColorstr="#ecf1f9",GradientType=1);
+}
+.view_agenda>.col-md-12{
+    width: 100%;
+}
+.view_agenda .agenda_block .number-outer-agenda {
+    box-shadow: 3px 6px 7px -2px rgb(169 169 169/57%);
+    -webkit-box-shadow: 3px 6px 7px -2px rgb(169 169 169/57%);
+    -moz-box-shadow: 3px 6px 7px -2px rgb(169 169 169/57%);
+    display: inline-block;
+    border: 2px solid #dbe8eb;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.number-inner-agenda {
+    box-shadow: inset 1px 1px 7px 0 rgb(192 192 192/75%);
+    -webkit-box-shadow: 1px 1px 7px 0 rgb(192 192 192/75%) inset;
+    -moz-box-shadow: 1px 1px 7px 0 hsla(0,0%,75.3%,.75) inset;
+    border-radius: 6px;
+    padding: 2px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    font-size: 20px!important;
+}
+.agenda_block h3{
+    display: flex;
+    cursor: pointer;
+    color: #0589B8;
+}
+.view_agenda h4{
+    color: #0589B8;
+}
+.agenda_block .more_detail_link{
+    font-size: 0.75rem;
+    color: #3b3b3b;
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.agenda_block{
+    padding: 8px 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+.agenda_block .more_detail_content::before{
+    content: "Description: ";
+}
+/* .view_agenda .count-main p{
+    color: #3b3b3b!important;
+} */
+.view_agenda .blackbox {
+    background: #ffffff;
+    color: #3b3b3b;
+}
+.view_agenda .black-keep h4,.view_agenda .black-keep h4 p,.view_agenda .after-timer .count-main p{
+    color: #3b3b3b;
+}
+.view_agenda .btn_groups{
+    padding: 30px 0 0 0;
+}
+.view_agenda .agenda_timing{
+    padding-left: 40px;
+}
+.view_agenda .btn_groups .btn{
+    background: #fff;
+    border-radius: 4px;
+    padding: 8px 30px;
+    color: #3b3b3b;
+    font-size: 1rem;
+    font-weight: 900;
+}
+body{
+    counter-reset: section;
+}
+.view_agenda .agenda_counter::before{
+    counter-increment: section;                   /* Increment the value of section counter by 1 */
+    content: counter(section);
+}
+.view_agenda .pb-5{
+    padding-bottom: 24px!important;
+}
+.agenda_video{
+    margin-top: 32px;
+    padding: 0;
+}
+.agenda_video h3{
+    margin: 8px 0;
+    
+}
